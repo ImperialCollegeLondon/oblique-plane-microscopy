@@ -39,7 +39,7 @@ Ideally some sample will not be timelapse imaged so you can control for light-do
 ### Import
 Use the yellow icon with the arrow to import .bin files from this repo into NIS-Elements 
 
-<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/pictures/JOBsExplorerImportJOBDefinitions.PNG" width="400" height="100">
+<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/blob/main/Nikon_acquisition_software_guides/pictures/JOBsExplorer_ExportJOBDefinitions.PNG" width="400" height="100">
 
 
 ### Export
