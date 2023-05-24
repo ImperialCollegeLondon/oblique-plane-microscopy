@@ -31,7 +31,7 @@ Ideally the multiwell plate will have a well with beads in 3D
 Ideally some sample will not be timelapse imaged so you can control for light-dose 
 
 
-<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/pictures/JOBsExplorer.PNG" width="400" height="400">
+<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/blob/main/Nikon_acquisition_software_guides/pictures/JOBsExplorer.PNG" width="400" height="400">
 
 
 ## How to import and export .bin files
