@@ -31,7 +31,7 @@ Ideally the multiwell plate will have a well with beads in 3D
 Ideally some sample will not be timelapse imaged so you can control for light-dose 
 
 
-<img src="https://github.com/FLIMinator/dOPM_Shared_NIS_binaries/blob/v3/pictures/JOBsExplorer.PNG" width="400" height="400">
+<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/pictures/JOBsExplorer.PNG" width="400" height="400">
 
 
 ## How to import and export .bin files
@@ -39,13 +39,13 @@ Ideally some sample will not be timelapse imaged so you can control for light-do
 ### Import
 Use the yellow icon with the arrow to import .bin files from this repo into NIS-Elements 
 
-<img src="https://github.com/FLIMinator/dOPM_Shared_NIS_binaries/blob/v3/pictures/JOBsExplorerImportJOBDefinitions.PNG" width="400" height="100">
+<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/pictures/JOBsExplorerImportJOBDefinitions.PNG" width="400" height="100">
 
 
 ### Export
 Right click on the JOBS scripts explorer window space to export .bin files from NIS0-Elements
 
-<img src="https://github.com/FLIMinator/dOPM_Shared_NIS_binaries/blob/v3/pictures/JOBsExplorer_ExportJOBDefinitions.PNG" width="400" height="400">
+<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/pictures/JOBsExplorer_ExportJOBDefinitions.PNG" width="400" height="400">
 
 
 ## Guides to using the scripts in this repo:
