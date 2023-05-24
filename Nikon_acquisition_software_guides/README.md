@@ -50,20 +50,20 @@ Right click on the JOBS scripts explorer window space to export .bin files from 
 
 ## Guides to using the scripts in this repo:
 
-* [Get Plate Z Profile](https://github.com/FLIMinator/dOPM_Shared_NIS_binaries/blob/v3/GetPlateZProfile.pdf)
+* [Get Plate Z Profile](https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/GetPlateZProfile.pdf)
 : uses GetPlateZProfile.bin
 
-* [Generate point list from prefind acquisition - tile scan, zstacks of wells of interest](https://github.com/FLIMinator/dOPM_Shared_NIS_binaries/blob/v3/Prefind_JOBS_script.pdf)
+* [Generate point list from prefind acquisition - tile scan, zstacks of wells of interest](https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/Prefind_JOBS_script.pdf)
 : uses PrefindPoints.bin
 
-* [Collect brightfield images of regions of interest from point list](https://github.com/FLIMinator/dOPM_Shared_NIS_binaries/blob/v3/Brightfield.pdf)
+* [Collect brightfield images of regions of interest from point list](https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/Brightfield.pdf)
 : uses Brightfield.bin
 
-* [Acquire beads for dOPM view registration - beads](https://github.com/FLIMinator/dOPM_Shared_NIS_binaries/blob/v3/Acquisition_beads_JOBS_script.pdf)
+* [Acquire beads for dOPM view registration - beads](https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/Acquisition_beads_JOBS_script.pdf)
 : uses dOPM_acquisition.bin
 
-* [Acquire data, multipoint, dOPM, multicolor timelapse acquisition - data](https://github.com/FLIMinator/dOPM_Shared_NIS_binaries/blob/v3/Acquisition_JOBS_script.pdf)
+* [Acquire data, multipoint, dOPM, multicolor timelapse acquisition - data](https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/Acquisition_JOBS_script.pdf)
 : uses dOPM_acquisition.bin
 
-* [Adjust focus on points - refine point list for dOPM](https://github.com/FLIMinator/dOPM_Shared_NIS_binaries/blob/v3/Adjust_focus_on_points_guide.pdf)
+* [Adjust focus on points - refine point list for dOPM](https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/Adjust_focus_on_points_guide.pdf)
 : uses AdjustFocusOnPoints.bin
