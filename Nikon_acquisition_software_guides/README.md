@@ -39,13 +39,12 @@ Ideally some sample will not be timelapse imaged so you can control for light-do
 ### Import
 Use the yellow icon with the arrow to import .bin files from this repo into NIS-Elements 
 
-<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/blob/main/Nikon_acquisition_software_guides/pictures/JOBsExplorer_ExportJOBDefinitions.PNG" width="400" height="100">
-
+<img src="" width="400" height="100">
 
 ### Export
 Right click on the JOBS scripts explorer window space to export .bin files from NIS0-Elements
 
-<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/pictures/JOBsExplorer_ExportJOBDefinitions.PNG" width="400" height="400">
+<img src="https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/blob/main/Nikon_acquisition_software_guides/pictures/JOBsExplorer_ExportJOBDefinitions.PNG" width="400" height="400">
 
 
 ## Guides to using the scripts in this repo:
