@@ -7,6 +7,5 @@ The following document provides links to relevant software, demo data and gives 
 
 ## Reslicing and exporting fused and single view data
 
-* [Get Plate Z Profile](https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/tree/main/Nikon_acquisition_software_guides/GetPlateZProfile.pdf)
-: uses GetPlateZProfile.bin
+* [Get Plate Z Profile](https://github.com/ImperialCollegeLondon/oblique-plane-microscopy/blob/main/ImageJ_MultiViewReconstruction_Reslice_dOPM/Reslice_dOPM_data_ImageJ_MVR_plugin.pdf)
 
