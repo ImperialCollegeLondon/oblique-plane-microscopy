@@ -1,7 +1,4 @@
-# dOPM_Shared_NIS_binaries #
+# dOPM data, reslicing, fusing and deconvolving#
 
-Use the pdfs hyperlinked below as guides while running NIS-elements and having imported the binaries.
+We use ImageJ to reslice and export single view or fused data.
 
-This readme needs directions on how to organise a JOBS database. 
-
-worth noting that this is all Nikon NIS-Elements functionality so can be looked up in NIS-Elements help documentation.
