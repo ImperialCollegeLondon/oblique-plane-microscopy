@@ -1,6 +1,6 @@
 # dOPM data, reslicing, fusing and deconvolving
 
-We use ImageJ and the MultiView Reconstruction plugin to reslice and export single view or fused data </br>
+We use ImageJ and the MultiView Reconstruction plugin to reslice and export single view or fused data: </br>
 https://imagej.net/ </br>
 https://imagej.net/plugins/multiview-reconstruction
 
