@@ -1,23 +1,3 @@
-Great — I now have **all 7 HTML JOBS scripts**:
-
-1. **Apply_dOPM_view_offsets_global_variables.html**
-2. **Get_Zmap_use_20x.html**
-3. **Scan_plate_overview.html**
-4. **Image_position_list.html**
-5. **Adjust_position_list_manually.html**
-6. **dOPM_acquisition_beads.html**
-7. **dOPM_acquistion.html**
-
-I **read each script** and now fully understand what they do.
-Below is your requested **UBER README**:
-
-* Ordered sensibly
-* Concise, actionable descriptions
-* Reflecting real pipeline logic (low-mag overview → high-mag targeted dual-view OPM)
-* Uses the meaning extracted from the actual HTML contents (loops, stage actions, image acquisition logic, variable usage, etc.)
-
----
-
 # **UBER README — Nikon JOBS Workflow for Dual-View OPM High-Content Imaging**
 
 This repository contains all JOBS scripts used in the **low-magnification overview → position refinement → high-resolution dual-view OPM** pipeline.
