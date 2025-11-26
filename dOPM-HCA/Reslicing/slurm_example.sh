@@ -15,14 +15,14 @@ CONFIG=$1
 MANUAL_WELL=$2
 
 if [ -z "$CONFIG" ]; then
-    echo "❌ Error: No config file provided."
+    echo " Error: No config file provided."
     echo "Usage: sbatch [--array=0-N] $0 configs/my_config.yaml [WELL]"
     exit 1
 fi
 
 PYTHON=/nemo/lab/frenchp/data/CALM/dOPM/conda_envs/dopm_processing/bin/python
 if [ ! -x "$PYTHON" ]; then
-    echo "❌ Error: Python not found at $PYTHON"
+    echo " Error: Python not found at $PYTHON"
     exit 1
 fi
 
@@ -30,29 +30,29 @@ INPUT_PATH=$(grep "input_path:" "$CONFIG" | sed -E 's/.*input_path:[[:space:]]*"
 echo "[DEBUG] INPUT_PATH='$INPUT_PATH'"
 
 if [ ! -d "$INPUT_PATH" ]; then
-    echo "❌ Error: input_path $INPUT_PATH not found."
+    echo " Error: input_path $INPUT_PATH not found."
     exit 1
 fi
 
 WELLS=($(ls ${INPUT_PATH}/*Well*.nd2 2>/dev/null | sed -E 's/.*Well([A-Z0-9]+).*/\1/' | sort -u))
 if [ ${#WELLS[@]} -eq 0 ]; then
-    echo "❌ No ND2 files found in $INPUT_PATH"
+    echo " No ND2 files found in $INPUT_PATH"
     exit 1
 fi
 
 # --- Determine well ---
 if [ -n "$MANUAL_WELL" ]; then
     WELL=$MANUAL_WELL
-    echo "🔹 Running single well manually: ${WELL}"
+    echo " Running single well manually: ${WELL}"
 elif [ -n "$SLURM_ARRAY_TASK_ID" ]; then
     if [ ${SLURM_ARRAY_TASK_ID} -ge ${#WELLS[@]} ]; then
         echo "Array index ${SLURM_ARRAY_TASK_ID} out of range (only ${#WELLS[@]} wells)."
         exit 0
     fi
     WELL=${WELLS[$SLURM_ARRAY_TASK_ID]}
-    echo "🔹 Running array well: ${WELL}"
+    echo " Running array well: ${WELL}"
 else
-    echo "❌ No WELL specified and no SLURM_ARRAY_TASK_ID found."
+    echo " No WELL specified and no SLURM_ARRAY_TASK_ID found."
     echo "Use: sbatch $0 config.yaml <WELL>"
     exit 1
 fi
