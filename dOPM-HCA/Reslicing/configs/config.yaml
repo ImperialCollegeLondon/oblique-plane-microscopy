@@ -1,0 +1,23 @@
+# --- GLOBAL SETTINGS ---
+fiji_executable_path: "/nemo/lab/frenchp/data/CALM/dOPM/projects/software/dopm_processing/fiji-2.9.0-linux64/Fiji.app/ImageJ-linux64"
+
+# --- PIPELINE SETTINGS ---
+pipeline_settings:
+  workflow: "batch_fuse_plate"
+  registered_bead_xml_path: "/nemo/lab/frenchp/data/CALM/dOPM/working/ES_AL_lungslice_20250929_run_1_monday/beads/20250929_214519_738/dataset_WellD5.xml"
+
+
+# --- SAMPLE DATA CONFIG ---
+data:
+  type: "remote_scanning"
+  hardcoded_vars:
+    pix_x: 0.35
+    pix_y: 0.35
+    mirror_tilt: 17.5
+  input_path: "/nemo/lab/frenchp/data/CALM/dOPM/archive/ES_AL_lungslice_20250929_run_1_monday/new_Projects/Project/step_2_dOPM_timelapse/20250929_220046_511"
+  output_path: "/nemo/lab/frenchp/data/CALM/dOPM/working/ES_AL_lungslice_20250929_run_1_monday/deskewed"
+
+# --- FUSION SETTINGS ---
+fusion_settings:
+  binning: 2
+  blending_method: "Linear Blending"

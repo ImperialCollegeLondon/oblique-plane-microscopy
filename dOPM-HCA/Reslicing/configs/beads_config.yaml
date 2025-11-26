@@ -1,0 +1,53 @@
+# --- GLOBAL SETTINGS ---
+# Add the full path to your version-locked Fiji executable here.
+fiji_executable_path: "C:/Users/User/Documents/GitHub/dopm_processing/fiji-2.9.0-win64/Fiji.app/ImageJ-win64.exe"
+
+# --- PIPELINE SETTINGS ---
+pipeline_settings:
+  # This is the main switch to control the pipeline's behavior.
+  # Options:
+  #   'process_single_well': Runs the full bead-to-sample pipeline for one specific well.
+  #   'batch_process_plate': Processes all sample wells using a pre-registered bead file.
+  # workflow: 'process_single_well'
+  workflow: 'batch_process_plate'
+  # --- Settings for the 'process_single_well' workflow ---
+  # The specific well ID to use for a single, end-to-end run.
+  well_id: "D6"
+  
+  # --- Settings for the 'batch_process_plate' workflow ---
+  # The path to the single, validated bead XML for the whole experiment.
+  # registered_bead_xml_path: "D:/temp/data/beads_test/dataset_WellA6.xml"
+  registered_bead_xml_path: ""
+
+# -------------------
+# SAMPLE DATA CONFIG
+# -------------------
+data:
+  type: "remote_scanning"
+  hardcoded_vars:
+    pix_x: 0.35
+    pix_y: 0.35
+    mirror_tilt: 17.5
+  input_path: ""
+  output_path: ""
+  # input_path: "D:/test/"
+  # output_path: "D:/temp/test/"
+
+# -----------------
+# BEAD DATA CONFIG
+# -----------------
+bead_data:
+  type: "remote_scanning"
+  hardcoded_vars:
+    pix_x: 0.35
+    pix_y: 0.35
+    mirror_tilt: 17.5
+  input_path: ""
+  output_path: ""
+
+# -----------------
+# FUSION SETTINGS
+# -----------------
+fusion_settings:
+  binning: 2
+  blending_method: "Linear Blending"
