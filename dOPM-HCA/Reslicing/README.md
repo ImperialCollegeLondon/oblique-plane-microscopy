@@ -101,8 +101,8 @@ Accurate dual-view geometry is essential for correct sample deskewing and fusion
 
 * `scripts/batch_process_plate.py`
 * `scripts/run_pipeline.py`
-* `src/dopm/data_converter.py`
-* `src/dopm/fusion.py` (deskew logic)
+* `src/dopm/data_converter.py` (deskew logic uses npy2bdv to generate hdf5 + xml dataset)
+* `src/dopm/fusion.py` (uses BigStitcher expects xml dataset)
 * `src/dopm/metadata.py`
 * `configs/config.yaml`
 
