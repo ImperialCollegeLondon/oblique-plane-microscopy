@@ -1,4 +1,4 @@
-# **UBER README — Nikon JOBS Workflow for Dual-View OPM High-Content Imaging**
+# **README — Nikon JOBS Workflow for Dual-View OPM High-Content Imaging**
 
 This repository contains all JOBS scripts used in the **low-magnification overview → position refinement → high-resolution dual-view OPM** pipeline.
 Below is a clear explanation of each script, what it does, and the recommended order in which to run them.
