@@ -66,7 +66,7 @@ class FusionProcessor:
         Generates a single ImageJ macro string that contains a for-loop
         to process a specific list of tiles individually.
         """
-        # ✅ Explicitly quote each tile index for ImageJ newArray()
+        #  Explicitly quote each tile index for ImageJ newArray()
         tile_array_str = ", ".join(f'"{t}"' for t in tile_list)
 
         options_template = (
@@ -130,7 +130,7 @@ class FusionProcessor:
         print(f"--- Launching Fiji fusion for {well_id} tile {tile_id}, timepoints {tp_start}-{tp_end} ---")
         print(macro_code)
         self.bridge.run_macro(macro_code)
-        print(f"✅ Fusion complete for {well_id} tile {tile_id} ({tp_start}-{tp_end})")
+        print(f" Fusion complete for {well_id} tile {tile_id} ({tp_start}-{tp_end})")
 
     def _generate_fuse_macro_for_tile_and_timepoints(
         self, xml_path: str, output_path: str, well_id: str,
