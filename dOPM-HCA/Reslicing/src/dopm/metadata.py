@@ -30,7 +30,7 @@ class Metadata:
         if zstackloop:
             return zstackloop.parameters.stepUm
         
-        print("⚠️ WARNING: ZStackLoop event not found. Calculating Z-step from frame positions.")
+        print(" WARNING: ZStackLoop event not found. Calculating Z-step from frame positions.")
         if self.attributes.sequenceCount > 1:
             return abs(self._experiment_loop[1].z - self._experiment_loop[0].z)
         
@@ -90,6 +90,6 @@ class Metadata:
                 wells.add(match.group(1))
         
         if not wells:
-            print(f"⚠️ WARNING: No wells discovered in directory: {directory}")
+            print(f" WARNING: No wells discovered in directory: {directory}")
         
         return sorted(list(wells))
