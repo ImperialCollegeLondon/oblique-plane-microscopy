@@ -20,7 +20,7 @@ Initializes *all* dOPM-specific global variables and view offsets used by every 
 
 ### **Why it runs first:**
 
-Every subsequent script (overview, Z-map, acquisition, etc.) depends on these global offsets being correct.
+Every dOPM acquisition depends on these global offsets being correct.
 This step establishes the geometry of the dual-view OPM.
 
 ---
@@ -43,7 +43,7 @@ Builds a **coarse Z-map** of the plate or region using a medium-magnification ob
 
 ### **Why it’s essential:**
 
-dOPM has a shallow depth of field — a good Z-map ensures the high-mag OPM stack starts at the right place.
+dOPM has a <300um working distance — a good Z-map ensures the high-mag OPM does not touch bottom of sample.
 
 ---
 
@@ -118,7 +118,7 @@ Calibration acquisition using fluorescent beads, *not biological specimens*.
 
 ### **What it does:**
 
-* Uses the same OPM acquisition pipeline as real imaging
+* Uses the same OPM acquisition pipeline as sample imaging
 * But scans calibration beads instead
 * Helps determine:
 
@@ -126,7 +126,7 @@ Calibration acquisition using fluorescent beads, *not biological specimens*.
   * View1↔View2 alignment
   * Mirror angle offsets
   * Z-step consistency
-* Produces a high-accuracy geometric calibration dataset
+
 
 ### **Role:**
 
