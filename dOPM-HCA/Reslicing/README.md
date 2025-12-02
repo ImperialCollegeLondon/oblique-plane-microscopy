@@ -53,6 +53,7 @@ Citations (required):
 * Hörl et al., *BigStitcher: reconstructing high-resolution image datasets of cleared and expanded samples.*, **Nat Methods (2019)**.
 * Preibisch et al., *Software for bead-based registration of SPIM data.*, **Nat Methods (2010)**.
 * Preibisch et al., *Efficient Bayesian-based Multiview Deconvolution.*, **Nat Methods (2014)**.
+* Talley Lambert - nd2 python https://github.com/tlambert03/nd2
 
 ---
 
