@@ -287,7 +287,7 @@ This repository implements a complete, modular, HPC-ready pipeline for:
 2. **Deskewing and reslicing** into BigDataViewer format
 3. **High-quality dual-view fusion** using Fiji BigStitcher
 
-It correctly acknowledges and integrates:
+This code relied on these other code bases:
 
 * **npy2bdv** (DOI: 10.5281/zenodo.6148906)
 * **BigStitcher / Multiview Reconstruction**
