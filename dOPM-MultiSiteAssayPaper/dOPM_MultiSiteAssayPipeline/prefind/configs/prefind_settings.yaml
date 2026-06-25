@@ -1,0 +1,55 @@
+# dOPM NIS-Elements prefind settings
+#
+# Default workflow:
+#   1. NIS-Elements acquires a wide-field 3D prefind ND2 stack.
+#   2. NIS-Elements writes "1" to sync.file_path.
+#   3. Python finds the newest ND2, runs the original prefind method, and writes positions.
+#   4. Python writes "0" to sync.file_path so the NIS job can continue.
+
+# File paths
+directories:
+  save_folder: "D:/test_outproc"
+  output_folder: "D:/test_outproc"
+  default_file_path: "D:/test_outproc/points.txt"
+  nd2_files_directory: "D:/path/to/nis/prefind/nd2/folder"
+
+# Text-file handshaking with Nikon NIS-Elements jobs
+sync:
+  file_path: "D:/test_outproc/sync.txt"
+  trigger_value: "1"       # value written by NIS-Elements to request processing
+  complete_value: "0"      # value written by Python when finished
+  error_value: "E"         # value written by Python if the child prefind process fails
+  poll_seconds: 1.0
+  stable_file_seconds: 2.0 # wait until newest ND2 has stopped changing
+
+# Original wide-field prefind image processing settings
+image_processing:
+  camera_offset: 110
+  binning: 4
+  uniform_window_size: 1000
+  min_radius: 10       # µm; original 2D area-equivalent radius lower bound
+  max_radius: 50       # µm; original 2D area-equivalent radius upper bound
+  focus_method: "sum"  # retained for config compatibility; original code uses mean profile
+  use_intensity_weighted: false
+
+# Original filtering settings
+filtering:
+  border_margin_um: 100
+  min_distance: 100    # µm; original 3D physical-distance separation threshold
+  n_largest: 20
+  enforce_border: true
+
+# Montage
+montages:
+  crop_size: [200, 200]
+  rows: 2
+  cols: 10
+  pad_value: 0
+  show_plots: false
+
+# Stage orientation settings
+stage_orientation: "flip"
+
+# Logging
+logging:
+  level: "INFO"

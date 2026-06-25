@@ -1,0 +1,35 @@
+# Example raw processing config (no absolute paths)
+pipeline_settings:
+  workflow: process_single_well
+  well_id: A01
+
+processing:
+  # mode: "maxproj" (max Z-projection only)
+  #       "deskew" (geometric deskewing with default transforms)
+  #       "deskew_with_beads" (geometric + bead-derived corrections)
+  mode: "maxproj"
+
+bead_data:
+  input_path: path/to/bead/raw
+  output_path: path/to/bead/processed
+
+data:
+  input_path: path/to/sample/raw
+  output_path: path/to/sample/processed
+  pattern: ''
+  allow_wellless_filenames: false
+
+# Optional: deskewing parameters (required if processing.mode is "deskew" or "deskew_with_beads")
+deskewing:
+  scan_type: "stage_scanning"  # or "remote_scanning"
+  hardcoded_vars:
+    pix_x: 0.65  # pixel size in microns
+    mirror_tilt: 25.0  # mirror tilt angle in degrees
+
+# Optional: bead registration info (used only if processing.mode is "deskew_with_beads")
+# This should point to the bead BDV XML created by register_beads_pipeline.py.
+registration:
+  auto_register: true
+  registered_bead_xml_path: path/to/bead/processed/dataset_WellA01.xml
+
+fiji_executable_path: path/to/Fiji.app

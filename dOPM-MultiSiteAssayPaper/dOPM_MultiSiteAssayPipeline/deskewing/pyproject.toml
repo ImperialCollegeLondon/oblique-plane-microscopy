@@ -1,0 +1,22 @@
+[project]
+name = "dopm_processing"
+version = "0.1.0"
+description = "Minimal publication-ready dOPM deskewing pipeline."
+dependencies = [
+    "numpy",
+    "pyyaml",
+    "h5py",
+    "scikit-image",
+    "nd2",
+    "tqdm"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

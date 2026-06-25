@@ -1,0 +1,6 @@
+numpy
+pyyaml
+h5py
+scikit-image
+nd2
+tqdm

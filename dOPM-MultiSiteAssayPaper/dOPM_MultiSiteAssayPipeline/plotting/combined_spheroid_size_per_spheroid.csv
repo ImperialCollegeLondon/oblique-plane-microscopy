@@ -1,0 +1,935 @@
+Well_ID,tile,Condition,value,Site,Metric
+B5,0,DMSO,167,1,spheroid_size
+B5,1,DMSO,104,1,spheroid_size
+B5,2,DMSO,184,1,spheroid_size
+B5,3,DMSO,111,1,spheroid_size
+B5,4,DMSO,19,1,spheroid_size
+B5,5,DMSO,87,1,spheroid_size
+B5,6,DMSO,257,1,spheroid_size
+B5,7,DMSO,38,1,spheroid_size
+B5,8,DMSO,85,1,spheroid_size
+B5,9,DMSO,58,1,spheroid_size
+B6,0,DMSO,147,1,spheroid_size
+B6,1,DMSO,84,1,spheroid_size
+B6,2,DMSO,149,1,spheroid_size
+B6,3,DMSO,124,1,spheroid_size
+B6,4,DMSO,79,1,spheroid_size
+B6,5,DMSO,75,1,spheroid_size
+B6,6,DMSO,76,1,spheroid_size
+B6,7,DMSO,141,1,spheroid_size
+B6,8,DMSO,42,1,spheroid_size
+B6,9,DMSO,135,1,spheroid_size
+B7,0,DMSO,114,1,spheroid_size
+B7,1,DMSO,68,1,spheroid_size
+B7,2,DMSO,57,1,spheroid_size
+B7,3,DMSO,130,1,spheroid_size
+B7,4,DMSO,107,1,spheroid_size
+B7,5,DMSO,93,1,spheroid_size
+B7,6,DMSO,129,1,spheroid_size
+B7,7,DMSO,86,1,spheroid_size
+B7,8,DMSO,18,1,spheroid_size
+B7,9,DMSO,94,1,spheroid_size
+B8,0,DMSO,66,1,spheroid_size
+B8,1,DMSO,30,1,spheroid_size
+B8,2,DMSO,69,1,spheroid_size
+B8,3,DMSO,32,1,spheroid_size
+B8,4,DMSO,62,1,spheroid_size
+B8,5,DMSO,162,1,spheroid_size
+B8,6,DMSO,64,1,spheroid_size
+B8,7,DMSO,56,1,spheroid_size
+B8,8,DMSO,154,1,spheroid_size
+B8,9,DMSO,72,1,spheroid_size
+C5,0,100 nM TPA,110,1,spheroid_size
+C5,1,100 nM TPA,41,1,spheroid_size
+C5,2,100 nM TPA,84,1,spheroid_size
+C5,3,100 nM TPA,86,1,spheroid_size
+C5,4,100 nM TPA,37,1,spheroid_size
+C5,5,100 nM TPA,123,1,spheroid_size
+C5,6,100 nM TPA,124,1,spheroid_size
+C5,7,100 nM TPA,34,1,spheroid_size
+C5,8,100 nM TPA,88,1,spheroid_size
+C5,9,100 nM TPA,45,1,spheroid_size
+C6,0,100 nM TPA,126,1,spheroid_size
+C6,1,100 nM TPA,43,1,spheroid_size
+C6,2,100 nM TPA,18,1,spheroid_size
+C6,3,100 nM TPA,81,1,spheroid_size
+C6,4,100 nM TPA,43,1,spheroid_size
+C6,5,100 nM TPA,28,1,spheroid_size
+C6,6,100 nM TPA,111,1,spheroid_size
+C6,7,100 nM TPA,66,1,spheroid_size
+C6,8,100 nM TPA,60,1,spheroid_size
+C6,9,100 nM TPA,55,1,spheroid_size
+C7,0,100 nM TPA,185,1,spheroid_size
+C7,1,100 nM TPA,139,1,spheroid_size
+C7,2,100 nM TPA,61,1,spheroid_size
+C7,3,100 nM TPA,78,1,spheroid_size
+C7,4,100 nM TPA,42,1,spheroid_size
+C7,5,100 nM TPA,110,1,spheroid_size
+C7,6,100 nM TPA,40,1,spheroid_size
+C7,7,100 nM TPA,133,1,spheroid_size
+C7,8,100 nM TPA,85,1,spheroid_size
+C7,9,100 nM TPA,58,1,spheroid_size
+C8,0,100 nM TPA,178,1,spheroid_size
+C8,1,100 nM TPA,88,1,spheroid_size
+C8,2,100 nM TPA,94,1,spheroid_size
+C8,3,100 nM TPA,142,1,spheroid_size
+C8,4,100 nM TPA,51,1,spheroid_size
+C8,5,100 nM TPA,70,1,spheroid_size
+C8,6,100 nM TPA,86,1,spheroid_size
+C8,7,100 nM TPA,88,1,spheroid_size
+C8,8,100 nM TPA,219,1,spheroid_size
+C8,9,100 nM TPA,178,1,spheroid_size
+D5,0,20 nM Binimetinib,43,1,spheroid_size
+D5,1,20 nM Binimetinib,180,1,spheroid_size
+D5,2,20 nM Binimetinib,49,1,spheroid_size
+D5,3,20 nM Binimetinib,164,1,spheroid_size
+D5,4,20 nM Binimetinib,92,1,spheroid_size
+D5,5,20 nM Binimetinib,80,1,spheroid_size
+D5,6,20 nM Binimetinib,92,1,spheroid_size
+D5,7,20 nM Binimetinib,49,1,spheroid_size
+D5,8,20 nM Binimetinib,87,1,spheroid_size
+D5,9,20 nM Binimetinib,32,1,spheroid_size
+D6,0,20 nM Binimetinib,93,1,spheroid_size
+D6,1,20 nM Binimetinib,67,1,spheroid_size
+D6,2,20 nM Binimetinib,119,1,spheroid_size
+D6,3,20 nM Binimetinib,99,1,spheroid_size
+D6,4,20 nM Binimetinib,57,1,spheroid_size
+D6,5,20 nM Binimetinib,95,1,spheroid_size
+D6,6,20 nM Binimetinib,123,1,spheroid_size
+D6,7,20 nM Binimetinib,90,1,spheroid_size
+D6,9,20 nM Binimetinib,72,1,spheroid_size
+D7,2,20 nM Binimetinib,66,1,spheroid_size
+D7,4,20 nM Binimetinib,84,1,spheroid_size
+D7,7,20 nM Binimetinib,58,1,spheroid_size
+D7,9,20 nM Binimetinib,58,1,spheroid_size
+D8,1,20 nM Binimetinib,59,1,spheroid_size
+D8,3,20 nM Binimetinib,79,1,spheroid_size
+D8,6,20 nM Binimetinib,40,1,spheroid_size
+D8,9,20 nM Binimetinib,183,1,spheroid_size
+E5,0,60 nM Binimetinib,151,1,spheroid_size
+E5,1,60 nM Binimetinib,68,1,spheroid_size
+E5,3,60 nM Binimetinib,68,1,spheroid_size
+E5,4,60 nM Binimetinib,66,1,spheroid_size
+E5,5,60 nM Binimetinib,71,1,spheroid_size
+E5,7,60 nM Binimetinib,97,1,spheroid_size
+E5,9,60 nM Binimetinib,63,1,spheroid_size
+E6,0,60 nM Binimetinib,195,1,spheroid_size
+E6,2,60 nM Binimetinib,47,1,spheroid_size
+E6,3,60 nM Binimetinib,35,1,spheroid_size
+E6,4,60 nM Binimetinib,57,1,spheroid_size
+E6,5,60 nM Binimetinib,34,1,spheroid_size
+E6,6,60 nM Binimetinib,40,1,spheroid_size
+E6,7,60 nM Binimetinib,60,1,spheroid_size
+E6,8,60 nM Binimetinib,29,1,spheroid_size
+E6,9,60 nM Binimetinib,55,1,spheroid_size
+E7,0,60 nM Binimetinib,186,1,spheroid_size
+E7,1,60 nM Binimetinib,144,1,spheroid_size
+E7,2,60 nM Binimetinib,64,1,spheroid_size
+E7,3,60 nM Binimetinib,110,1,spheroid_size
+E7,4,60 nM Binimetinib,67,1,spheroid_size
+E7,5,60 nM Binimetinib,154,1,spheroid_size
+E7,6,60 nM Binimetinib,128,1,spheroid_size
+E7,7,60 nM Binimetinib,87,1,spheroid_size
+E7,8,60 nM Binimetinib,82,1,spheroid_size
+E7,9,60 nM Binimetinib,78,1,spheroid_size
+E8,0,60 nM Binimetinib,143,1,spheroid_size
+E8,1,60 nM Binimetinib,67,1,spheroid_size
+E8,2,60 nM Binimetinib,116,1,spheroid_size
+E8,3,60 nM Binimetinib,59,1,spheroid_size
+E8,4,60 nM Binimetinib,116,1,spheroid_size
+E8,5,60 nM Binimetinib,137,1,spheroid_size
+E8,6,60 nM Binimetinib,60,1,spheroid_size
+E8,7,60 nM Binimetinib,19,1,spheroid_size
+E8,8,60 nM Binimetinib,105,1,spheroid_size
+E8,9,60 nM Binimetinib,86,1,spheroid_size
+F5,0,200 nM Binimetinib,176,1,spheroid_size
+F5,1,200 nM Binimetinib,65,1,spheroid_size
+F5,2,200 nM Binimetinib,68,1,spheroid_size
+F5,3,200 nM Binimetinib,67,1,spheroid_size
+F5,4,200 nM Binimetinib,78,1,spheroid_size
+F5,5,200 nM Binimetinib,61,1,spheroid_size
+F5,6,200 nM Binimetinib,103,1,spheroid_size
+F5,7,200 nM Binimetinib,102,1,spheroid_size
+F5,8,200 nM Binimetinib,103,1,spheroid_size
+F5,9,200 nM Binimetinib,40,1,spheroid_size
+F6,0,200 nM Binimetinib,42,1,spheroid_size
+F6,1,200 nM Binimetinib,110,1,spheroid_size
+F6,2,200 nM Binimetinib,80,1,spheroid_size
+F6,3,200 nM Binimetinib,174,1,spheroid_size
+F6,4,200 nM Binimetinib,82,1,spheroid_size
+F6,5,200 nM Binimetinib,75,1,spheroid_size
+F6,6,200 nM Binimetinib,88,1,spheroid_size
+F6,7,200 nM Binimetinib,114,1,spheroid_size
+F6,8,200 nM Binimetinib,30,1,spheroid_size
+F6,9,200 nM Binimetinib,32,1,spheroid_size
+F7,0,200 nM Binimetinib,122,1,spheroid_size
+F7,1,200 nM Binimetinib,90,1,spheroid_size
+F7,2,200 nM Binimetinib,115,1,spheroid_size
+F7,3,200 nM Binimetinib,112,1,spheroid_size
+F7,4,200 nM Binimetinib,143,1,spheroid_size
+F7,5,200 nM Binimetinib,48,1,spheroid_size
+F7,6,200 nM Binimetinib,187,1,spheroid_size
+F7,7,200 nM Binimetinib,54,1,spheroid_size
+F7,8,200 nM Binimetinib,42,1,spheroid_size
+F7,9,200 nM Binimetinib,31,1,spheroid_size
+F8,0,200 nM Binimetinib,143,1,spheroid_size
+F8,1,200 nM Binimetinib,31,1,spheroid_size
+F8,2,200 nM Binimetinib,115,1,spheroid_size
+F8,3,200 nM Binimetinib,144,1,spheroid_size
+F8,4,200 nM Binimetinib,90,1,spheroid_size
+F8,5,200 nM Binimetinib,47,1,spheroid_size
+F8,6,200 nM Binimetinib,71,1,spheroid_size
+F8,7,200 nM Binimetinib,70,1,spheroid_size
+F8,8,200 nM Binimetinib,91,1,spheroid_size
+F8,9,200 nM Binimetinib,78,1,spheroid_size
+G5,0,3.5 µM Binimetinib,101,1,spheroid_size
+G5,1,3.5 µM Binimetinib,157,1,spheroid_size
+G5,2,3.5 µM Binimetinib,112,1,spheroid_size
+G5,3,3.5 µM Binimetinib,63,1,spheroid_size
+G5,4,3.5 µM Binimetinib,76,1,spheroid_size
+G5,5,3.5 µM Binimetinib,173,1,spheroid_size
+G5,6,3.5 µM Binimetinib,125,1,spheroid_size
+G5,7,3.5 µM Binimetinib,64,1,spheroid_size
+G5,8,3.5 µM Binimetinib,74,1,spheroid_size
+G5,9,3.5 µM Binimetinib,41,1,spheroid_size
+G6,0,3.5 µM Binimetinib,208,1,spheroid_size
+G6,1,3.5 µM Binimetinib,108,1,spheroid_size
+G6,2,3.5 µM Binimetinib,123,1,spheroid_size
+G6,3,3.5 µM Binimetinib,166,1,spheroid_size
+G6,4,3.5 µM Binimetinib,173,1,spheroid_size
+G6,5,3.5 µM Binimetinib,109,1,spheroid_size
+G6,6,3.5 µM Binimetinib,127,1,spheroid_size
+G6,7,3.5 µM Binimetinib,73,1,spheroid_size
+G6,8,3.5 µM Binimetinib,48,1,spheroid_size
+G6,9,3.5 µM Binimetinib,38,1,spheroid_size
+G7,0,3.5 µM Binimetinib,178,1,spheroid_size
+G7,1,3.5 µM Binimetinib,81,1,spheroid_size
+G7,2,3.5 µM Binimetinib,26,1,spheroid_size
+G7,3,3.5 µM Binimetinib,69,1,spheroid_size
+G7,4,3.5 µM Binimetinib,45,1,spheroid_size
+G7,5,3.5 µM Binimetinib,63,1,spheroid_size
+G7,6,3.5 µM Binimetinib,46,1,spheroid_size
+G7,7,3.5 µM Binimetinib,94,1,spheroid_size
+G7,8,3.5 µM Binimetinib,107,1,spheroid_size
+G7,9,3.5 µM Binimetinib,74,1,spheroid_size
+G8,0,3.5 µM Binimetinib,159,1,spheroid_size
+G8,1,3.5 µM Binimetinib,68,1,spheroid_size
+G8,2,3.5 µM Binimetinib,98,1,spheroid_size
+G8,3,3.5 µM Binimetinib,95,1,spheroid_size
+G8,4,3.5 µM Binimetinib,70,1,spheroid_size
+G8,5,3.5 µM Binimetinib,89,1,spheroid_size
+G8,6,3.5 µM Binimetinib,61,1,spheroid_size
+G8,7,3.5 µM Binimetinib,64,1,spheroid_size
+G8,8,3.5 µM Binimetinib,96,1,spheroid_size
+G8,9,3.5 µM Binimetinib,195,1,spheroid_size
+B5,0,DMSO,86,2,spheroid_size
+B5,1,DMSO,43,2,spheroid_size
+B5,2,DMSO,56,2,spheroid_size
+B5,3,DMSO,35,2,spheroid_size
+B5,4,DMSO,12,2,spheroid_size
+B5,5,DMSO,19,2,spheroid_size
+B5,6,DMSO,24,2,spheroid_size
+B5,7,DMSO,36,2,spheroid_size
+B5,8,DMSO,48,2,spheroid_size
+B5,9,DMSO,40,2,spheroid_size
+B6,0,DMSO,115,2,spheroid_size
+B6,1,DMSO,43,2,spheroid_size
+B6,2,DMSO,27,2,spheroid_size
+B6,3,DMSO,63,2,spheroid_size
+B6,4,DMSO,28,2,spheroid_size
+B6,5,DMSO,11,2,spheroid_size
+B6,6,DMSO,31,2,spheroid_size
+B6,7,DMSO,50,2,spheroid_size
+B6,8,DMSO,10,2,spheroid_size
+B6,9,DMSO,21,2,spheroid_size
+B7,0,DMSO,79,2,spheroid_size
+B7,1,DMSO,37,2,spheroid_size
+B7,2,DMSO,49,2,spheroid_size
+B7,3,DMSO,44,2,spheroid_size
+B7,4,DMSO,108,2,spheroid_size
+B7,5,DMSO,82,2,spheroid_size
+B7,6,DMSO,80,2,spheroid_size
+B7,7,DMSO,96,2,spheroid_size
+B7,8,DMSO,51,2,spheroid_size
+B7,9,DMSO,132,2,spheroid_size
+B8,0,DMSO,70,2,spheroid_size
+B8,1,DMSO,18,2,spheroid_size
+B8,2,DMSO,69,2,spheroid_size
+B8,3,DMSO,113,2,spheroid_size
+B8,4,DMSO,24,2,spheroid_size
+B8,5,DMSO,28,2,spheroid_size
+B8,6,DMSO,136,2,spheroid_size
+B8,7,DMSO,15,2,spheroid_size
+B8,8,DMSO,34,2,spheroid_size
+B8,9,DMSO,84,2,spheroid_size
+C5,0,3.5 µM Binimetinib,65,2,spheroid_size
+C5,1,3.5 µM Binimetinib,17,2,spheroid_size
+C5,2,3.5 µM Binimetinib,160,2,spheroid_size
+C5,3,3.5 µM Binimetinib,52,2,spheroid_size
+C5,4,3.5 µM Binimetinib,99,2,spheroid_size
+C5,5,3.5 µM Binimetinib,23,2,spheroid_size
+C5,6,3.5 µM Binimetinib,69,2,spheroid_size
+C5,7,3.5 µM Binimetinib,35,2,spheroid_size
+C5,8,3.5 µM Binimetinib,57,2,spheroid_size
+C5,9,3.5 µM Binimetinib,93,2,spheroid_size
+C6,0,3.5 µM Binimetinib,68,2,spheroid_size
+C6,1,3.5 µM Binimetinib,32,2,spheroid_size
+C6,2,3.5 µM Binimetinib,18,2,spheroid_size
+C6,3,3.5 µM Binimetinib,11,2,spheroid_size
+C6,4,3.5 µM Binimetinib,42,2,spheroid_size
+C6,5,3.5 µM Binimetinib,43,2,spheroid_size
+C6,6,3.5 µM Binimetinib,7,2,spheroid_size
+C6,7,3.5 µM Binimetinib,23,2,spheroid_size
+C6,8,3.5 µM Binimetinib,29,2,spheroid_size
+C6,9,3.5 µM Binimetinib,24,2,spheroid_size
+C7,0,3.5 µM Binimetinib,62,2,spheroid_size
+C7,1,3.5 µM Binimetinib,6,2,spheroid_size
+C7,2,3.5 µM Binimetinib,54,2,spheroid_size
+C7,3,3.5 µM Binimetinib,15,2,spheroid_size
+C7,4,3.5 µM Binimetinib,47,2,spheroid_size
+C7,5,3.5 µM Binimetinib,26,2,spheroid_size
+C7,6,3.5 µM Binimetinib,70,2,spheroid_size
+C7,7,3.5 µM Binimetinib,68,2,spheroid_size
+C7,8,3.5 µM Binimetinib,31,2,spheroid_size
+C7,9,3.5 µM Binimetinib,42,2,spheroid_size
+C8,0,3.5 µM Binimetinib,120,2,spheroid_size
+C8,1,3.5 µM Binimetinib,78,2,spheroid_size
+C8,2,3.5 µM Binimetinib,30,2,spheroid_size
+C8,3,3.5 µM Binimetinib,100,2,spheroid_size
+C8,4,3.5 µM Binimetinib,22,2,spheroid_size
+C8,5,3.5 µM Binimetinib,13,2,spheroid_size
+C8,6,3.5 µM Binimetinib,26,2,spheroid_size
+C8,7,3.5 µM Binimetinib,27,2,spheroid_size
+C8,8,3.5 µM Binimetinib,54,2,spheroid_size
+C8,9,3.5 µM Binimetinib,41,2,spheroid_size
+D5,0,200 nM Binimetinib,44,2,spheroid_size
+D5,1,200 nM Binimetinib,57,2,spheroid_size
+D5,2,200 nM Binimetinib,39,2,spheroid_size
+D5,3,200 nM Binimetinib,13,2,spheroid_size
+D5,4,200 nM Binimetinib,8,2,spheroid_size
+D5,5,200 nM Binimetinib,20,2,spheroid_size
+D5,6,200 nM Binimetinib,16,2,spheroid_size
+D5,7,200 nM Binimetinib,22,2,spheroid_size
+D5,8,200 nM Binimetinib,14,2,spheroid_size
+D5,9,200 nM Binimetinib,101,2,spheroid_size
+D6,0,200 nM Binimetinib,41,2,spheroid_size
+D6,1,200 nM Binimetinib,3,2,spheroid_size
+D6,2,200 nM Binimetinib,24,2,spheroid_size
+D6,3,200 nM Binimetinib,26,2,spheroid_size
+D6,4,200 nM Binimetinib,8,2,spheroid_size
+D6,5,200 nM Binimetinib,13,2,spheroid_size
+D6,6,200 nM Binimetinib,19,2,spheroid_size
+D6,7,200 nM Binimetinib,27,2,spheroid_size
+D6,8,200 nM Binimetinib,30,2,spheroid_size
+D6,9,200 nM Binimetinib,29,2,spheroid_size
+D7,0,200 nM Binimetinib,93,2,spheroid_size
+D7,1,200 nM Binimetinib,28,2,spheroid_size
+D7,2,200 nM Binimetinib,46,2,spheroid_size
+D7,3,200 nM Binimetinib,28,2,spheroid_size
+D7,4,200 nM Binimetinib,32,2,spheroid_size
+D7,5,200 nM Binimetinib,82,2,spheroid_size
+D7,6,200 nM Binimetinib,68,2,spheroid_size
+D7,7,200 nM Binimetinib,20,2,spheroid_size
+D7,8,200 nM Binimetinib,30,2,spheroid_size
+D7,9,200 nM Binimetinib,7,2,spheroid_size
+D8,0,200 nM Binimetinib,43,2,spheroid_size
+D8,1,200 nM Binimetinib,10,2,spheroid_size
+D8,2,200 nM Binimetinib,16,2,spheroid_size
+D8,3,200 nM Binimetinib,44,2,spheroid_size
+D8,4,200 nM Binimetinib,100,2,spheroid_size
+D8,5,200 nM Binimetinib,27,2,spheroid_size
+D8,6,200 nM Binimetinib,49,2,spheroid_size
+D8,7,200 nM Binimetinib,40,2,spheroid_size
+D8,8,200 nM Binimetinib,46,2,spheroid_size
+D8,9,200 nM Binimetinib,41,2,spheroid_size
+E5,0,60 nM Binimetinib,98,2,spheroid_size
+E5,1,60 nM Binimetinib,39,2,spheroid_size
+E5,2,60 nM Binimetinib,53,2,spheroid_size
+E5,3,60 nM Binimetinib,10,2,spheroid_size
+E5,4,60 nM Binimetinib,41,2,spheroid_size
+E5,5,60 nM Binimetinib,98,2,spheroid_size
+E5,6,60 nM Binimetinib,15,2,spheroid_size
+E5,7,60 nM Binimetinib,13,2,spheroid_size
+E5,8,60 nM Binimetinib,9,2,spheroid_size
+E5,9,60 nM Binimetinib,43,2,spheroid_size
+E6,0,60 nM Binimetinib,73,2,spheroid_size
+E6,1,60 nM Binimetinib,23,2,spheroid_size
+E6,2,60 nM Binimetinib,30,2,spheroid_size
+E6,3,60 nM Binimetinib,13,2,spheroid_size
+E6,4,60 nM Binimetinib,41,2,spheroid_size
+E6,5,60 nM Binimetinib,36,2,spheroid_size
+E6,6,60 nM Binimetinib,10,2,spheroid_size
+E6,7,60 nM Binimetinib,31,2,spheroid_size
+E6,8,60 nM Binimetinib,17,2,spheroid_size
+E6,9,60 nM Binimetinib,12,2,spheroid_size
+E7,0,60 nM Binimetinib,182,2,spheroid_size
+E7,1,60 nM Binimetinib,7,2,spheroid_size
+E7,2,60 nM Binimetinib,32,2,spheroid_size
+E7,3,60 nM Binimetinib,11,2,spheroid_size
+E7,4,60 nM Binimetinib,31,2,spheroid_size
+E7,5,60 nM Binimetinib,15,2,spheroid_size
+E7,6,60 nM Binimetinib,19,2,spheroid_size
+E7,7,60 nM Binimetinib,30,2,spheroid_size
+E7,8,60 nM Binimetinib,80,2,spheroid_size
+E7,9,60 nM Binimetinib,28,2,spheroid_size
+E8,0,60 nM Binimetinib,28,2,spheroid_size
+E8,1,60 nM Binimetinib,41,2,spheroid_size
+E8,2,60 nM Binimetinib,41,2,spheroid_size
+E8,3,60 nM Binimetinib,16,2,spheroid_size
+E8,4,60 nM Binimetinib,19,2,spheroid_size
+E8,5,60 nM Binimetinib,38,2,spheroid_size
+E8,6,60 nM Binimetinib,26,2,spheroid_size
+E8,7,60 nM Binimetinib,21,2,spheroid_size
+E8,8,60 nM Binimetinib,10,2,spheroid_size
+E8,9,60 nM Binimetinib,20,2,spheroid_size
+F5,0,20 nM Binimetinib,25,2,spheroid_size
+F5,1,20 nM Binimetinib,25,2,spheroid_size
+F5,2,20 nM Binimetinib,18,2,spheroid_size
+F5,3,20 nM Binimetinib,17,2,spheroid_size
+F5,4,20 nM Binimetinib,16,2,spheroid_size
+F5,5,20 nM Binimetinib,13,2,spheroid_size
+F5,6,20 nM Binimetinib,15,2,spheroid_size
+F5,7,20 nM Binimetinib,9,2,spheroid_size
+F5,8,20 nM Binimetinib,9,2,spheroid_size
+F5,9,20 nM Binimetinib,7,2,spheroid_size
+F6,0,20 nM Binimetinib,60,2,spheroid_size
+F6,1,20 nM Binimetinib,17,2,spheroid_size
+F6,2,20 nM Binimetinib,52,2,spheroid_size
+F6,3,20 nM Binimetinib,37,2,spheroid_size
+F6,4,20 nM Binimetinib,29,2,spheroid_size
+F6,5,20 nM Binimetinib,13,2,spheroid_size
+F6,6,20 nM Binimetinib,19,2,spheroid_size
+F6,7,20 nM Binimetinib,23,2,spheroid_size
+F6,8,20 nM Binimetinib,22,2,spheroid_size
+F6,9,20 nM Binimetinib,72,2,spheroid_size
+F7,0,20 nM Binimetinib,111,2,spheroid_size
+F7,1,20 nM Binimetinib,37,2,spheroid_size
+F7,2,20 nM Binimetinib,17,2,spheroid_size
+F7,3,20 nM Binimetinib,17,2,spheroid_size
+F7,4,20 nM Binimetinib,71,2,spheroid_size
+F7,5,20 nM Binimetinib,85,2,spheroid_size
+F7,6,20 nM Binimetinib,37,2,spheroid_size
+F7,7,20 nM Binimetinib,34,2,spheroid_size
+F7,8,20 nM Binimetinib,22,2,spheroid_size
+F7,9,20 nM Binimetinib,80,2,spheroid_size
+F8,0,20 nM Binimetinib,61,2,spheroid_size
+F8,1,20 nM Binimetinib,32,2,spheroid_size
+F8,2,20 nM Binimetinib,54,2,spheroid_size
+F8,3,20 nM Binimetinib,18,2,spheroid_size
+F8,4,20 nM Binimetinib,40,2,spheroid_size
+F8,5,20 nM Binimetinib,29,2,spheroid_size
+F8,6,20 nM Binimetinib,66,2,spheroid_size
+F8,7,20 nM Binimetinib,11,2,spheroid_size
+F8,8,20 nM Binimetinib,35,2,spheroid_size
+F8,9,20 nM Binimetinib,11,2,spheroid_size
+G5,0,100 nM TPA,63,2,spheroid_size
+G5,1,100 nM TPA,32,2,spheroid_size
+G5,2,100 nM TPA,57,2,spheroid_size
+G5,3,100 nM TPA,30,2,spheroid_size
+G5,4,100 nM TPA,27,2,spheroid_size
+G5,5,100 nM TPA,117,2,spheroid_size
+G5,6,100 nM TPA,20,2,spheroid_size
+G5,7,100 nM TPA,20,2,spheroid_size
+G5,8,100 nM TPA,22,2,spheroid_size
+G5,9,100 nM TPA,37,2,spheroid_size
+G6,0,100 nM TPA,126,2,spheroid_size
+G6,1,100 nM TPA,26,2,spheroid_size
+G6,2,100 nM TPA,30,2,spheroid_size
+G6,3,100 nM TPA,31,2,spheroid_size
+G6,4,100 nM TPA,23,2,spheroid_size
+G6,5,100 nM TPA,23,2,spheroid_size
+G6,6,100 nM TPA,30,2,spheroid_size
+G6,7,100 nM TPA,106,2,spheroid_size
+G6,8,100 nM TPA,9,2,spheroid_size
+G6,9,100 nM TPA,41,2,spheroid_size
+G7,0,100 nM TPA,190,2,spheroid_size
+G7,1,100 nM TPA,103,2,spheroid_size
+G7,2,100 nM TPA,5,2,spheroid_size
+G7,3,100 nM TPA,11,2,spheroid_size
+G7,4,100 nM TPA,36,2,spheroid_size
+G7,5,100 nM TPA,17,2,spheroid_size
+G7,6,100 nM TPA,9,2,spheroid_size
+G7,7,100 nM TPA,41,2,spheroid_size
+G7,8,100 nM TPA,12,2,spheroid_size
+G7,9,100 nM TPA,20,2,spheroid_size
+G8,0,100 nM TPA,43,2,spheroid_size
+G8,1,100 nM TPA,22,2,spheroid_size
+G8,2,100 nM TPA,4,2,spheroid_size
+G8,3,100 nM TPA,13,2,spheroid_size
+G8,4,100 nM TPA,5,2,spheroid_size
+G8,5,100 nM TPA,45,2,spheroid_size
+G8,6,100 nM TPA,49,2,spheroid_size
+G8,7,100 nM TPA,60,2,spheroid_size
+G8,8,100 nM TPA,32,2,spheroid_size
+G8,9,100 nM TPA,25,2,spheroid_size
+B5,0,DMSO,40,3,spheroid_size
+B5,1,DMSO,14,3,spheroid_size
+B5,2,DMSO,19,3,spheroid_size
+B5,3,DMSO,30,3,spheroid_size
+B5,4,DMSO,14,3,spheroid_size
+B5,5,DMSO,44,3,spheroid_size
+B5,6,DMSO,42,3,spheroid_size
+B5,7,DMSO,44,3,spheroid_size
+B5,8,DMSO,47,3,spheroid_size
+B5,9,DMSO,36,3,spheroid_size
+B6,0,DMSO,37,3,spheroid_size
+B6,1,DMSO,22,3,spheroid_size
+B6,2,DMSO,20,3,spheroid_size
+B6,3,DMSO,20,3,spheroid_size
+B6,4,DMSO,43,3,spheroid_size
+B6,5,DMSO,46,3,spheroid_size
+B6,6,DMSO,56,3,spheroid_size
+B6,7,DMSO,15,3,spheroid_size
+B6,8,DMSO,42,3,spheroid_size
+B6,9,DMSO,6,3,spheroid_size
+B7,0,DMSO,42,3,spheroid_size
+B7,1,DMSO,36,3,spheroid_size
+B7,2,DMSO,37,3,spheroid_size
+B7,3,DMSO,16,3,spheroid_size
+B7,4,DMSO,53,3,spheroid_size
+B7,5,DMSO,28,3,spheroid_size
+B7,6,DMSO,19,3,spheroid_size
+B7,7,DMSO,25,3,spheroid_size
+B7,8,DMSO,51,3,spheroid_size
+B7,9,DMSO,17,3,spheroid_size
+B8,0,DMSO,26,3,spheroid_size
+B8,1,DMSO,36,3,spheroid_size
+B8,2,DMSO,25,3,spheroid_size
+B8,3,DMSO,23,3,spheroid_size
+B8,4,DMSO,32,3,spheroid_size
+B8,5,DMSO,29,3,spheroid_size
+B8,6,DMSO,28,3,spheroid_size
+B8,7,DMSO,21,3,spheroid_size
+B8,8,DMSO,14,3,spheroid_size
+B8,9,DMSO,26,3,spheroid_size
+C5,0,100 nM TPA,131,3,spheroid_size
+C5,1,100 nM TPA,35,3,spheroid_size
+C5,2,100 nM TPA,37,3,spheroid_size
+C5,3,100 nM TPA,42,3,spheroid_size
+C5,4,100 nM TPA,32,3,spheroid_size
+C5,5,100 nM TPA,34,3,spheroid_size
+C5,6,100 nM TPA,53,3,spheroid_size
+C5,7,100 nM TPA,32,3,spheroid_size
+C5,8,100 nM TPA,31,3,spheroid_size
+C5,9,100 nM TPA,32,3,spheroid_size
+C6,0,100 nM TPA,38,3,spheroid_size
+C6,1,100 nM TPA,14,3,spheroid_size
+C6,2,100 nM TPA,30,3,spheroid_size
+C6,3,100 nM TPA,26,3,spheroid_size
+C6,4,100 nM TPA,52,3,spheroid_size
+C6,5,100 nM TPA,42,3,spheroid_size
+C6,6,100 nM TPA,32,3,spheroid_size
+C6,7,100 nM TPA,32,3,spheroid_size
+C6,8,100 nM TPA,29,3,spheroid_size
+C6,9,100 nM TPA,45,3,spheroid_size
+C7,0,100 nM TPA,47,3,spheroid_size
+C7,1,100 nM TPA,32,3,spheroid_size
+C7,2,100 nM TPA,25,3,spheroid_size
+C7,3,100 nM TPA,24,3,spheroid_size
+C7,4,100 nM TPA,35,3,spheroid_size
+C7,5,100 nM TPA,44,3,spheroid_size
+C7,6,100 nM TPA,18,3,spheroid_size
+C7,7,100 nM TPA,32,3,spheroid_size
+C7,8,100 nM TPA,33,3,spheroid_size
+C7,9,100 nM TPA,26,3,spheroid_size
+C8,0,100 nM TPA,50,3,spheroid_size
+C8,1,100 nM TPA,83,3,spheroid_size
+C8,2,100 nM TPA,30,3,spheroid_size
+C8,3,100 nM TPA,48,3,spheroid_size
+C8,4,100 nM TPA,31,3,spheroid_size
+C8,5,100 nM TPA,32,3,spheroid_size
+C8,6,100 nM TPA,33,3,spheroid_size
+C8,7,100 nM TPA,43,3,spheroid_size
+C8,8,100 nM TPA,22,3,spheroid_size
+C8,9,100 nM TPA,12,3,spheroid_size
+D5,0,20 nM Binimetinib,55,3,spheroid_size
+D5,1,20 nM Binimetinib,40,3,spheroid_size
+D5,2,20 nM Binimetinib,28,3,spheroid_size
+D5,3,20 nM Binimetinib,41,3,spheroid_size
+D5,4,20 nM Binimetinib,36,3,spheroid_size
+D5,5,20 nM Binimetinib,26,3,spheroid_size
+D5,6,20 nM Binimetinib,44,3,spheroid_size
+D5,7,20 nM Binimetinib,62,3,spheroid_size
+D5,8,20 nM Binimetinib,24,3,spheroid_size
+D5,9,20 nM Binimetinib,26,3,spheroid_size
+D6,0,20 nM Binimetinib,30,3,spheroid_size
+D6,1,20 nM Binimetinib,31,3,spheroid_size
+D6,2,20 nM Binimetinib,32,3,spheroid_size
+D6,3,20 nM Binimetinib,32,3,spheroid_size
+D6,4,20 nM Binimetinib,51,3,spheroid_size
+D6,5,20 nM Binimetinib,39,3,spheroid_size
+D6,6,20 nM Binimetinib,16,3,spheroid_size
+D6,7,20 nM Binimetinib,29,3,spheroid_size
+D6,8,20 nM Binimetinib,46,3,spheroid_size
+D6,9,20 nM Binimetinib,33,3,spheroid_size
+D7,0,20 nM Binimetinib,20,3,spheroid_size
+D7,1,20 nM Binimetinib,50,3,spheroid_size
+D7,2,20 nM Binimetinib,35,3,spheroid_size
+D7,3,20 nM Binimetinib,24,3,spheroid_size
+D7,4,20 nM Binimetinib,44,3,spheroid_size
+D7,5,20 nM Binimetinib,39,3,spheroid_size
+D7,6,20 nM Binimetinib,38,3,spheroid_size
+D7,7,20 nM Binimetinib,49,3,spheroid_size
+D7,8,20 nM Binimetinib,25,3,spheroid_size
+D7,9,20 nM Binimetinib,34,3,spheroid_size
+D8,0,20 nM Binimetinib,40,3,spheroid_size
+D8,1,20 nM Binimetinib,35,3,spheroid_size
+D8,2,20 nM Binimetinib,36,3,spheroid_size
+D8,3,20 nM Binimetinib,31,3,spheroid_size
+D8,4,20 nM Binimetinib,34,3,spheroid_size
+D8,5,20 nM Binimetinib,27,3,spheroid_size
+D8,6,20 nM Binimetinib,72,3,spheroid_size
+D8,7,20 nM Binimetinib,41,3,spheroid_size
+D8,8,20 nM Binimetinib,14,3,spheroid_size
+D8,9,20 nM Binimetinib,43,3,spheroid_size
+E5,0,60 nM Binimetinib,52,3,spheroid_size
+E5,1,60 nM Binimetinib,18,3,spheroid_size
+E5,2,60 nM Binimetinib,13,3,spheroid_size
+E5,3,60 nM Binimetinib,32,3,spheroid_size
+E5,4,60 nM Binimetinib,31,3,spheroid_size
+E5,5,60 nM Binimetinib,27,3,spheroid_size
+E5,6,60 nM Binimetinib,20,3,spheroid_size
+E5,7,60 nM Binimetinib,41,3,spheroid_size
+E5,8,60 nM Binimetinib,32,3,spheroid_size
+E5,9,60 nM Binimetinib,34,3,spheroid_size
+E6,0,60 nM Binimetinib,33,3,spheroid_size
+E6,1,60 nM Binimetinib,26,3,spheroid_size
+E6,2,60 nM Binimetinib,31,3,spheroid_size
+E6,3,60 nM Binimetinib,34,3,spheroid_size
+E6,4,60 nM Binimetinib,30,3,spheroid_size
+E6,5,60 nM Binimetinib,21,3,spheroid_size
+E6,6,60 nM Binimetinib,26,3,spheroid_size
+E6,7,60 nM Binimetinib,60,3,spheroid_size
+E6,8,60 nM Binimetinib,42,3,spheroid_size
+E6,9,60 nM Binimetinib,18,3,spheroid_size
+E7,0,60 nM Binimetinib,37,3,spheroid_size
+E7,1,60 nM Binimetinib,36,3,spheroid_size
+E7,2,60 nM Binimetinib,18,3,spheroid_size
+E7,3,60 nM Binimetinib,21,3,spheroid_size
+E7,4,60 nM Binimetinib,21,3,spheroid_size
+E7,5,60 nM Binimetinib,66,3,spheroid_size
+E7,6,60 nM Binimetinib,17,3,spheroid_size
+E7,7,60 nM Binimetinib,29,3,spheroid_size
+E7,8,60 nM Binimetinib,18,3,spheroid_size
+E7,9,60 nM Binimetinib,31,3,spheroid_size
+E8,0,60 nM Binimetinib,26,3,spheroid_size
+E8,1,60 nM Binimetinib,21,3,spheroid_size
+E8,2,60 nM Binimetinib,15,3,spheroid_size
+E8,3,60 nM Binimetinib,29,3,spheroid_size
+E8,4,60 nM Binimetinib,37,3,spheroid_size
+E8,5,60 nM Binimetinib,23,3,spheroid_size
+E8,6,60 nM Binimetinib,38,3,spheroid_size
+E8,7,60 nM Binimetinib,8,3,spheroid_size
+E8,8,60 nM Binimetinib,23,3,spheroid_size
+E8,9,60 nM Binimetinib,23,3,spheroid_size
+F5,0,200 nM Binimetinib,39,3,spheroid_size
+F5,1,200 nM Binimetinib,22,3,spheroid_size
+F5,2,200 nM Binimetinib,29,3,spheroid_size
+F5,3,200 nM Binimetinib,29,3,spheroid_size
+F5,4,200 nM Binimetinib,38,3,spheroid_size
+F5,5,200 nM Binimetinib,12,3,spheroid_size
+F5,6,200 nM Binimetinib,14,3,spheroid_size
+F5,7,200 nM Binimetinib,26,3,spheroid_size
+F5,8,200 nM Binimetinib,7,3,spheroid_size
+F5,9,200 nM Binimetinib,20,3,spheroid_size
+F6,0,200 nM Binimetinib,38,3,spheroid_size
+F6,1,200 nM Binimetinib,38,3,spheroid_size
+F6,2,200 nM Binimetinib,53,3,spheroid_size
+F6,3,200 nM Binimetinib,40,3,spheroid_size
+F6,4,200 nM Binimetinib,48,3,spheroid_size
+F6,5,200 nM Binimetinib,24,3,spheroid_size
+F6,6,200 nM Binimetinib,32,3,spheroid_size
+F6,7,200 nM Binimetinib,25,3,spheroid_size
+F6,8,200 nM Binimetinib,27,3,spheroid_size
+F6,9,200 nM Binimetinib,15,3,spheroid_size
+F7,0,200 nM Binimetinib,33,3,spheroid_size
+F7,1,200 nM Binimetinib,67,3,spheroid_size
+F7,2,200 nM Binimetinib,20,3,spheroid_size
+F7,3,200 nM Binimetinib,42,3,spheroid_size
+F7,4,200 nM Binimetinib,62,3,spheroid_size
+F7,5,200 nM Binimetinib,35,3,spheroid_size
+F7,6,200 nM Binimetinib,29,3,spheroid_size
+F7,7,200 nM Binimetinib,26,3,spheroid_size
+F7,8,200 nM Binimetinib,24,3,spheroid_size
+F7,9,200 nM Binimetinib,34,3,spheroid_size
+F8,0,200 nM Binimetinib,31,3,spheroid_size
+F8,1,200 nM Binimetinib,16,3,spheroid_size
+F8,2,200 nM Binimetinib,28,3,spheroid_size
+F8,3,200 nM Binimetinib,38,3,spheroid_size
+F8,4,200 nM Binimetinib,19,3,spheroid_size
+F8,5,200 nM Binimetinib,27,3,spheroid_size
+F8,6,200 nM Binimetinib,35,3,spheroid_size
+F8,7,200 nM Binimetinib,23,3,spheroid_size
+F8,8,200 nM Binimetinib,38,3,spheroid_size
+F8,9,200 nM Binimetinib,35,3,spheroid_size
+G5,0,3.5 µM Binimetinib,37,3,spheroid_size
+G5,1,3.5 µM Binimetinib,40,3,spheroid_size
+G5,2,3.5 µM Binimetinib,27,3,spheroid_size
+G5,3,3.5 µM Binimetinib,19,3,spheroid_size
+G5,4,3.5 µM Binimetinib,41,3,spheroid_size
+G5,5,3.5 µM Binimetinib,33,3,spheroid_size
+G5,6,3.5 µM Binimetinib,25,3,spheroid_size
+G5,7,3.5 µM Binimetinib,58,3,spheroid_size
+G5,8,3.5 µM Binimetinib,34,3,spheroid_size
+G5,9,3.5 µM Binimetinib,30,3,spheroid_size
+G6,0,3.5 µM Binimetinib,40,3,spheroid_size
+G6,1,3.5 µM Binimetinib,28,3,spheroid_size
+G6,2,3.5 µM Binimetinib,35,3,spheroid_size
+G6,3,3.5 µM Binimetinib,54,3,spheroid_size
+G6,4,3.5 µM Binimetinib,34,3,spheroid_size
+G6,5,3.5 µM Binimetinib,18,3,spheroid_size
+G6,6,3.5 µM Binimetinib,29,3,spheroid_size
+G6,7,3.5 µM Binimetinib,21,3,spheroid_size
+G6,8,3.5 µM Binimetinib,55,3,spheroid_size
+G6,9,3.5 µM Binimetinib,25,3,spheroid_size
+G7,0,3.5 µM Binimetinib,26,3,spheroid_size
+G7,1,3.5 µM Binimetinib,19,3,spheroid_size
+G7,2,3.5 µM Binimetinib,44,3,spheroid_size
+G7,3,3.5 µM Binimetinib,22,3,spheroid_size
+G7,4,3.5 µM Binimetinib,9,3,spheroid_size
+G7,5,3.5 µM Binimetinib,25,3,spheroid_size
+G7,6,3.5 µM Binimetinib,46,3,spheroid_size
+G7,7,3.5 µM Binimetinib,30,3,spheroid_size
+G7,8,3.5 µM Binimetinib,34,3,spheroid_size
+G7,9,3.5 µM Binimetinib,24,3,spheroid_size
+G8,0,3.5 µM Binimetinib,50,3,spheroid_size
+G8,1,3.5 µM Binimetinib,38,3,spheroid_size
+G8,2,3.5 µM Binimetinib,35,3,spheroid_size
+G8,3,3.5 µM Binimetinib,53,3,spheroid_size
+G8,4,3.5 µM Binimetinib,22,3,spheroid_size
+G8,5,3.5 µM Binimetinib,29,3,spheroid_size
+G8,6,3.5 µM Binimetinib,52,3,spheroid_size
+G8,7,3.5 µM Binimetinib,35,3,spheroid_size
+G8,8,3.5 µM Binimetinib,14,3,spheroid_size
+G8,9,3.5 µM Binimetinib,34,3,spheroid_size
+B5,0,DMSO,80,4,spheroid_size
+B5,1,DMSO,44,4,spheroid_size
+B5,2,DMSO,18,4,spheroid_size
+B5,3,DMSO,31,4,spheroid_size
+B5,4,DMSO,27,4,spheroid_size
+B5,5,DMSO,40,4,spheroid_size
+B5,6,DMSO,9,4,spheroid_size
+B5,7,DMSO,24,4,spheroid_size
+B5,8,DMSO,40,4,spheroid_size
+B5,9,DMSO,12,4,spheroid_size
+B6,0,DMSO,82,4,spheroid_size
+B6,1,DMSO,22,4,spheroid_size
+B6,2,DMSO,36,4,spheroid_size
+B6,3,DMSO,75,4,spheroid_size
+B6,4,DMSO,24,4,spheroid_size
+B6,5,DMSO,43,4,spheroid_size
+B6,6,DMSO,30,4,spheroid_size
+B6,7,DMSO,51,4,spheroid_size
+B6,8,DMSO,27,4,spheroid_size
+B6,9,DMSO,49,4,spheroid_size
+B7,0,DMSO,57,4,spheroid_size
+B7,1,DMSO,39,4,spheroid_size
+B7,2,DMSO,35,4,spheroid_size
+B7,3,DMSO,46,4,spheroid_size
+B7,4,DMSO,39,4,spheroid_size
+B7,5,DMSO,42,4,spheroid_size
+B7,6,DMSO,31,4,spheroid_size
+B7,7,DMSO,36,4,spheroid_size
+B7,8,DMSO,79,4,spheroid_size
+B7,9,DMSO,27,4,spheroid_size
+B8,0,DMSO,41,4,spheroid_size
+B8,1,DMSO,53,4,spheroid_size
+B8,3,DMSO,160,4,spheroid_size
+B8,4,DMSO,44,4,spheroid_size
+B8,5,DMSO,46,4,spheroid_size
+B8,6,DMSO,30,4,spheroid_size
+B8,7,DMSO,50,4,spheroid_size
+B8,8,DMSO,102,4,spheroid_size
+B8,9,DMSO,40,4,spheroid_size
+C5,0,100 nM TPA,63,4,spheroid_size
+C5,1,100 nM TPA,14,4,spheroid_size
+C5,2,100 nM TPA,61,4,spheroid_size
+C5,3,100 nM TPA,16,4,spheroid_size
+C5,4,100 nM TPA,44,4,spheroid_size
+C5,5,100 nM TPA,31,4,spheroid_size
+C5,6,100 nM TPA,28,4,spheroid_size
+C5,7,100 nM TPA,20,4,spheroid_size
+C5,8,100 nM TPA,40,4,spheroid_size
+C5,9,100 nM TPA,20,4,spheroid_size
+C6,0,100 nM TPA,63,4,spheroid_size
+C6,1,100 nM TPA,35,4,spheroid_size
+C6,2,100 nM TPA,32,4,spheroid_size
+C6,3,100 nM TPA,44,4,spheroid_size
+C6,4,100 nM TPA,19,4,spheroid_size
+C6,5,100 nM TPA,39,4,spheroid_size
+C6,6,100 nM TPA,24,4,spheroid_size
+C6,7,100 nM TPA,46,4,spheroid_size
+C6,8,100 nM TPA,35,4,spheroid_size
+C6,9,100 nM TPA,21,4,spheroid_size
+C7,0,100 nM TPA,155,4,spheroid_size
+C7,1,100 nM TPA,26,4,spheroid_size
+C7,2,100 nM TPA,82,4,spheroid_size
+C7,3,100 nM TPA,71,4,spheroid_size
+C7,4,100 nM TPA,52,4,spheroid_size
+C7,5,100 nM TPA,25,4,spheroid_size
+C7,6,100 nM TPA,36,4,spheroid_size
+C7,7,100 nM TPA,47,4,spheroid_size
+C7,8,100 nM TPA,56,4,spheroid_size
+C8,0,100 nM TPA,89,4,spheroid_size
+C8,1,100 nM TPA,103,4,spheroid_size
+C8,2,100 nM TPA,55,4,spheroid_size
+C8,4,100 nM TPA,93,4,spheroid_size
+C8,5,100 nM TPA,108,4,spheroid_size
+C8,6,100 nM TPA,174,4,spheroid_size
+C8,7,100 nM TPA,26,4,spheroid_size
+C8,8,100 nM TPA,18,4,spheroid_size
+C8,9,100 nM TPA,83,4,spheroid_size
+D5,0,20 nM Binimetinib,29,4,spheroid_size
+D5,1,20 nM Binimetinib,66,4,spheroid_size
+D5,2,20 nM Binimetinib,17,4,spheroid_size
+D5,3,20 nM Binimetinib,44,4,spheroid_size
+D5,4,20 nM Binimetinib,9,4,spheroid_size
+D5,5,20 nM Binimetinib,36,4,spheroid_size
+D5,6,20 nM Binimetinib,22,4,spheroid_size
+D5,7,20 nM Binimetinib,33,4,spheroid_size
+D5,8,20 nM Binimetinib,17,4,spheroid_size
+D5,9,20 nM Binimetinib,25,4,spheroid_size
+D6,0,20 nM Binimetinib,44,4,spheroid_size
+D6,1,20 nM Binimetinib,48,4,spheroid_size
+D6,2,20 nM Binimetinib,57,4,spheroid_size
+D6,3,20 nM Binimetinib,106,4,spheroid_size
+D6,4,20 nM Binimetinib,27,4,spheroid_size
+D6,5,20 nM Binimetinib,30,4,spheroid_size
+D6,6,20 nM Binimetinib,16,4,spheroid_size
+D6,7,20 nM Binimetinib,71,4,spheroid_size
+D6,9,20 nM Binimetinib,105,4,spheroid_size
+D7,0,20 nM Binimetinib,23,4,spheroid_size
+D7,1,20 nM Binimetinib,23,4,spheroid_size
+D7,2,20 nM Binimetinib,35,4,spheroid_size
+D7,3,20 nM Binimetinib,116,4,spheroid_size
+D7,4,20 nM Binimetinib,45,4,spheroid_size
+D7,5,20 nM Binimetinib,13,4,spheroid_size
+D7,6,20 nM Binimetinib,44,4,spheroid_size
+D7,7,20 nM Binimetinib,90,4,spheroid_size
+D7,8,20 nM Binimetinib,29,4,spheroid_size
+D7,9,20 nM Binimetinib,107,4,spheroid_size
+D8,0,20 nM Binimetinib,135,4,spheroid_size
+D8,1,20 nM Binimetinib,34,4,spheroid_size
+D8,2,20 nM Binimetinib,48,4,spheroid_size
+D8,3,20 nM Binimetinib,123,4,spheroid_size
+D8,4,20 nM Binimetinib,58,4,spheroid_size
+D8,5,20 nM Binimetinib,41,4,spheroid_size
+D8,6,20 nM Binimetinib,64,4,spheroid_size
+D8,7,20 nM Binimetinib,30,4,spheroid_size
+D8,8,20 nM Binimetinib,13,4,spheroid_size
+D8,9,20 nM Binimetinib,33,4,spheroid_size
+E5,1,60 nM Binimetinib,21,4,spheroid_size
+E5,2,60 nM Binimetinib,28,4,spheroid_size
+E5,3,60 nM Binimetinib,35,4,spheroid_size
+E5,4,60 nM Binimetinib,71,4,spheroid_size
+E5,5,60 nM Binimetinib,43,4,spheroid_size
+E5,6,60 nM Binimetinib,32,4,spheroid_size
+E5,7,60 nM Binimetinib,26,4,spheroid_size
+E5,8,60 nM Binimetinib,17,4,spheroid_size
+E5,9,60 nM Binimetinib,25,4,spheroid_size
+E6,0,60 nM Binimetinib,43,4,spheroid_size
+E6,1,60 nM Binimetinib,50,4,spheroid_size
+E6,2,60 nM Binimetinib,19,4,spheroid_size
+E6,3,60 nM Binimetinib,73,4,spheroid_size
+E6,5,60 nM Binimetinib,23,4,spheroid_size
+E6,6,60 nM Binimetinib,71,4,spheroid_size
+E6,7,60 nM Binimetinib,75,4,spheroid_size
+E6,8,60 nM Binimetinib,12,4,spheroid_size
+E6,9,60 nM Binimetinib,92,4,spheroid_size
+E7,0,60 nM Binimetinib,76,4,spheroid_size
+E7,1,60 nM Binimetinib,10,4,spheroid_size
+E7,2,60 nM Binimetinib,32,4,spheroid_size
+E7,3,60 nM Binimetinib,37,4,spheroid_size
+E7,4,60 nM Binimetinib,24,4,spheroid_size
+E7,6,60 nM Binimetinib,103,4,spheroid_size
+E7,7,60 nM Binimetinib,27,4,spheroid_size
+E7,8,60 nM Binimetinib,66,4,spheroid_size
+E7,9,60 nM Binimetinib,39,4,spheroid_size
+E8,0,60 nM Binimetinib,48,4,spheroid_size
+E8,1,60 nM Binimetinib,21,4,spheroid_size
+E8,2,60 nM Binimetinib,114,4,spheroid_size
+E8,3,60 nM Binimetinib,24,4,spheroid_size
+E8,4,60 nM Binimetinib,88,4,spheroid_size
+E8,5,60 nM Binimetinib,26,4,spheroid_size
+E8,6,60 nM Binimetinib,39,4,spheroid_size
+E8,7,60 nM Binimetinib,21,4,spheroid_size
+E8,8,60 nM Binimetinib,37,4,spheroid_size
+E8,9,60 nM Binimetinib,77,4,spheroid_size
+F5,0,200 nM Binimetinib,80,4,spheroid_size
+F5,1,200 nM Binimetinib,26,4,spheroid_size
+F5,2,200 nM Binimetinib,49,4,spheroid_size
+F5,3,200 nM Binimetinib,86,4,spheroid_size
+F5,4,200 nM Binimetinib,63,4,spheroid_size
+F5,5,200 nM Binimetinib,22,4,spheroid_size
+F5,6,200 nM Binimetinib,23,4,spheroid_size
+F5,7,200 nM Binimetinib,27,4,spheroid_size
+F5,8,200 nM Binimetinib,33,4,spheroid_size
+F5,9,200 nM Binimetinib,36,4,spheroid_size
+F6,0,200 nM Binimetinib,41,4,spheroid_size
+F6,1,200 nM Binimetinib,22,4,spheroid_size
+F6,2,200 nM Binimetinib,43,4,spheroid_size
+F6,3,200 nM Binimetinib,14,4,spheroid_size
+F6,4,200 nM Binimetinib,11,4,spheroid_size
+F6,5,200 nM Binimetinib,12,4,spheroid_size
+F6,6,200 nM Binimetinib,31,4,spheroid_size
+F6,7,200 nM Binimetinib,25,4,spheroid_size
+F6,8,200 nM Binimetinib,30,4,spheroid_size
+F6,9,200 nM Binimetinib,17,4,spheroid_size
+F7,0,200 nM Binimetinib,82,4,spheroid_size
+F7,1,200 nM Binimetinib,26,4,spheroid_size
+F7,2,200 nM Binimetinib,42,4,spheroid_size
+F7,3,200 nM Binimetinib,91,4,spheroid_size
+F7,4,200 nM Binimetinib,38,4,spheroid_size
+F7,5,200 nM Binimetinib,26,4,spheroid_size
+F7,6,200 nM Binimetinib,34,4,spheroid_size
+F7,7,200 nM Binimetinib,84,4,spheroid_size
+F7,8,200 nM Binimetinib,142,4,spheroid_size
+F7,9,200 nM Binimetinib,60,4,spheroid_size
+F8,0,200 nM Binimetinib,29,4,spheroid_size
+F8,1,200 nM Binimetinib,49,4,spheroid_size
+F8,2,200 nM Binimetinib,36,4,spheroid_size
+F8,3,200 nM Binimetinib,20,4,spheroid_size
+F8,4,200 nM Binimetinib,45,4,spheroid_size
+F8,5,200 nM Binimetinib,23,4,spheroid_size
+F8,6,200 nM Binimetinib,62,4,spheroid_size
+F8,8,200 nM Binimetinib,39,4,spheroid_size
+F8,9,200 nM Binimetinib,50,4,spheroid_size
+G5,0,3.5 µM Binimetinib,35,4,spheroid_size
+G5,1,3.5 µM Binimetinib,19,4,spheroid_size
+G5,2,3.5 µM Binimetinib,39,4,spheroid_size
+G5,3,3.5 µM Binimetinib,64,4,spheroid_size
+G5,4,3.5 µM Binimetinib,38,4,spheroid_size
+G5,5,3.5 µM Binimetinib,46,4,spheroid_size
+G5,6,3.5 µM Binimetinib,16,4,spheroid_size
+G5,7,3.5 µM Binimetinib,39,4,spheroid_size
+G5,8,3.5 µM Binimetinib,14,4,spheroid_size
+G5,9,3.5 µM Binimetinib,77,4,spheroid_size
+G6,0,3.5 µM Binimetinib,31,4,spheroid_size
+G6,1,3.5 µM Binimetinib,51,4,spheroid_size
+G6,2,3.5 µM Binimetinib,32,4,spheroid_size
+G6,3,3.5 µM Binimetinib,49,4,spheroid_size
+G6,4,3.5 µM Binimetinib,66,4,spheroid_size
+G6,5,3.5 µM Binimetinib,6,4,spheroid_size
+G6,6,3.5 µM Binimetinib,61,4,spheroid_size
+G6,7,3.5 µM Binimetinib,16,4,spheroid_size
+G6,8,3.5 µM Binimetinib,73,4,spheroid_size
+G6,9,3.5 µM Binimetinib,50,4,spheroid_size
+G7,0,3.5 µM Binimetinib,89,4,spheroid_size
+G7,1,3.5 µM Binimetinib,52,4,spheroid_size
+G7,2,3.5 µM Binimetinib,40,4,spheroid_size
+G7,3,3.5 µM Binimetinib,21,4,spheroid_size
+G7,4,3.5 µM Binimetinib,26,4,spheroid_size
+G7,5,3.5 µM Binimetinib,95,4,spheroid_size
+G7,6,3.5 µM Binimetinib,24,4,spheroid_size
+G7,7,3.5 µM Binimetinib,51,4,spheroid_size
+G7,8,3.5 µM Binimetinib,39,4,spheroid_size
+G7,9,3.5 µM Binimetinib,17,4,spheroid_size
+G8,0,3.5 µM Binimetinib,71,4,spheroid_size
+G8,1,3.5 µM Binimetinib,90,4,spheroid_size
+G8,2,3.5 µM Binimetinib,66,4,spheroid_size
+G8,3,3.5 µM Binimetinib,36,4,spheroid_size
+G8,4,3.5 µM Binimetinib,40,4,spheroid_size
+G8,5,3.5 µM Binimetinib,38,4,spheroid_size
+G8,6,3.5 µM Binimetinib,22,4,spheroid_size
+G8,7,3.5 µM Binimetinib,38,4,spheroid_size
+G8,8,3.5 µM Binimetinib,47,4,spheroid_size

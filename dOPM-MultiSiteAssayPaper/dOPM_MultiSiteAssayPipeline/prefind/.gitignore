@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+*.nd2
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.xml
+*.txt
+!README.md
+!docs/*.md

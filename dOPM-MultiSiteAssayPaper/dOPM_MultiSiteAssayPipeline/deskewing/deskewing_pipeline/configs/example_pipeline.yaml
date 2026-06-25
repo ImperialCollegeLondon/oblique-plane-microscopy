@@ -1,0 +1,65 @@
+# Example full pipeline config
+# Use this config for deskewing, optional bead registration, and fusion.
+# - register_beads_pipeline.py reads `bead_data`, `deskewing`, `registration`, and `fiji_executable_path`
+# - process_plate.py reads `processing`, `data`, `deskewing`, and `registration`
+# - fuse_plate.py reads `fusion` and `fiji_executable_path`
+
+pipeline_settings:
+  workflow: process_single_well
+  # Logical sample well label. This is used for output filenames even when the
+  # sample filenames do not contain a WellXX suffix.
+  well_id: A01
+  # Optional separate bead well label. Use this when bead data comes from a
+  # different well, or when well-less bead filenames need a logical output label.
+  bead_well_id: C2
+
+processing:
+  # mode: "maxproj" for raw projection only
+  # mode: "deskew" for geometry-only deskewing
+  # mode: "deskew_with_beads" for geometry + bead registration
+  mode: "deskew_with_beads"
+
+bead_data:
+  # Prefer explicit bead conversion settings, because these define the
+  # calibration/geometric transform written into the bead BDV XML.
+  type: "remote_scanning"
+  input_path: path/to/bead/raw
+  output_path: path/to/bead/processed
+  # Set true only for bead folders whose filenames have no _WellXX/__WellXX tag.
+  # The folder is then treated as one logical bead well named by bead_well_id.
+  allow_wellless_filenames: false
+  hardcoded_vars:
+    pix_x: 0.35
+    mirror_tilt: 17.5
+
+data:
+  input_path: path/to/sample/raw
+  output_path: path/to/sample/processed
+  pattern: ''
+  # Set true only for a single-well sample folder whose filenames have no
+  # _WellXX/__WellXX tag. The folder is processed as logical well_id.
+  allow_wellless_filenames: false
+
+# Deskew parameters used for sample ND2 -> BDV conversion.
+# bead_data.hardcoded_vars are preferred for bead XML creation because they
+# define the bead XML calibration/geometric transform.
+deskewing:
+  scan_type: "remote_scanning"  # or "stage_scanning"
+  hardcoded_vars:
+    pix_x: 0.35
+    mirror_tilt: 17.5
+
+# Bead registration info for deskew_with_beads mode.
+# This must point to the bead BDV XML created/updated by register_beads_pipeline.py,
+# not to the older lightweight registered_beads.xml manifest.
+registration:
+  auto_register: true
+  registered_bead_xml_path: path/to/bead/processed/dataset_WellC2.xml
+
+# Fusion settings for the downstream Fiji fusion step
+fusion:
+  bdv_dataset_xml: path/to/sample/processed/dataset_WellA01_registered.xml
+  binning: 2
+
+# Point this at your local Fiji executable
+fiji_executable_path: path/to/Fiji.app/ImageJ-win64.exe

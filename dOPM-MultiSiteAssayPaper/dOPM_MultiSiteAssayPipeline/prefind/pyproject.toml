@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dopm-nis-prefind"
+version = "0.1.1"
+description = "NIS-Elements-synchronised spheroid prefind pipeline for dOPM high-content imaging"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Hugh Sparks"}]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "PyYAML>=6.0",
+    "nd2>=0.10",
+    "scipy>=1.10",
+    "scikit-image>=0.21",
+    "matplotlib>=3.7",
+    "opencv-python>=4.8",
+]
+
+[project.scripts]
+dopm-prefind = "dopm_nis_prefind.pipeline:main"
+dopm-prefind-watch = "dopm_nis_prefind.sync_watch:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

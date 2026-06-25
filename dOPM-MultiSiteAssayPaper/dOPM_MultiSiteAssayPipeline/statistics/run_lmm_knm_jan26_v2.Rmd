@@ -1,0 +1,265 @@
+---
+title: "3D fluorescence microscopy – reproducibility analysis using mixed-effects
+  models"
+author: "Kanad Mandke, BABS STP"
+date: "2026-01-06"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+team: Hugh Sparks, Christopher Dunsby (Imperial)
+---
+
+The goal is to assess reproducibility of the experimental and analysis pipeline across four sites.
+
+My assumptions are - 
+
+- The underlying biological process is identical across sites.
+- Each site ran one 24-well plate (6 conditions × 4 technical replicates).
+- Reagents were independently purchased from the same supplier.
+- No systematic batch effects are assumed a priori.
+- 10 spheroids randomly selected per well, image them in 3D, segment cells, and quantify fluorescence per cell.
+- Cells within spheroids are subject to segmentation noise. Note that cells within spheroids are more similar to each other than between spheroids. 
+- Therefore, inference is performed at the spheroid level, not at the cell level.
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load libraries
+```{r}
+
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(dplyr)
+library(readr)
+library(writexl)
+library(ggeffects)
+library(ggplot2)
+library(ggrain)
+library(emmeans)
+library(broom.mixed)
+library(tibble)
+library(performance)
+
+```
+
+# Load data
+```{r}
+# Import data and perform some data checks
+df <- read_csv("/nemo/stp/babs/working/mandkek/projects/dunsbycw/sparks.hugh/data/master_cross_partner.csv")
+glimpse(df)
+
+# data checks
+df %>% count(Site)
+df %>% count(Site, Condition)
+df %>% count(Site, well)
+
+```
+
+# Aggregate at spheroid level - DV: cyt_nuc_ratio_sensor
+```{r} 
+
+df_spheroid <- df %>% group_by(Site, Condition, Spheroid, well) %>%
+  summarise(mean_cnr = mean(cyt_nuc_ratio_sensor, na.rm = TRUE), 
+            n_cells = n(),
+            .groups = "drop")
+
+glimpse(df_spheroid)
+
+
+# Explicitly order Condition factor, intercept/reference = DMSO
+df_spheroid <- df_spheroid %>%
+  mutate(Condition = factor(Condition,
+        levels = c(
+        "DMSO",
+        "20 nM Binimetinib",
+        "60 nM Binimetinib",
+        "200 nM Binimetinib",
+        "100 nM TPA +ve control",
+        "3.5 µM Binimetinib -ve control")))
+
+# Sanity check
+levels(df_spheroid$Condition)
+
+
+```
+
+# Data vis - ratio (raincloud plots)
+```{r}
+
+ggplot(df_spheroid, aes(x = Condition, y = mean_cnr, fill = Condition)) +
+  geom_rain(alpha = 0.6) + facet_wrap(~ Site) + theme_classic() +
+  theme(axis.text.x = element_text(angle = 35, hjust = 1, vjust = 1), # change angle values for readability 
+        legend.position = "none") +
+  labs(x = "Condition",y = "Mean cyt:nuc ratio")
+
+
+```
+
+# Hierarchical mixed-effects model 
+DV: cytoplasm to nucleus ratio
+Fixed effects: Condition
+Random effects: Site
+              : Well nested within site (technical replicates)
+```{r}
+
+m_mixed <- lmer(mean_cnr ~ Condition + (1 | Site) + (1 | Site:well),
+                data = df_spheroid,REML = FALSE) # REML = FALSE forces maximum likelihood
+
+summary(m_mixed)
+icc(m_mixed) # what proportion of variance is due to random groupings (of site)
+
+# QQ plot - diagnostic 
+qqnorm(resid(m_mixed)) 
+qqline(resid(m_mixed), col = "red")
+
+```
+
+# Data vis - mixed effects model
+```{r}
+
+# Create a simple plot of marginal means from mixed model
+emm_mixed <- ggpredict(m_mixed, terms = "Condition")
+
+ggplot() + geom_jitter(data = df_spheroid,
+        aes(x = Condition, y = mean_cnr), width = 0.15, alpha = 0.5, colour = "grey40") +
+  geom_point(data = emm_mixed,
+        aes(x = x, y = predicted), size = 3,colour = "black") +
+  geom_errorbar(data = emm_mixed, aes(x = x, ymin = conf.low, ymax = conf.high), width = 0.2) +
+  theme_classic() +  theme(axis.text.x = element_text(angle = 35, hjust = 1)) +
+  labs(x = "Condition", y = "Mean cyt:nuc ratio",
+    title = "Mixed-effects model: marginal means (±95% CI)")
+
+```
+
+
+# Site as fixed effects - this is for contrasts
+```{r}
+
+# Reference site is Crick - alphabetical 
+m_fixed <- lmer(mean_cnr ~ Condition + Site + (1 | Site:well),
+                data = df_spheroid,REML = FALSE)
+
+summary(m_fixed)
+icc(m_fixed)
+
+# Extract site contrasts
+tidy(m_fixed, effects = "fixed") %>% filter(str_detect(term, "Site"))
+
+qqnorm(resid(m_fixed))
+qqline(resid(m_fixed), col = "red")
+
+
+```
+
+
+# Data vis - site as fixed effects
+```{r}
+
+emm_fixed <- ggpredict(m_fixed, terms = c("Condition", "Site"))
+
+# Reference site is Crick - alphabetical 
+ggplot(emm_fixed, aes(x = x, y = predicted, colour = group)) +
+  geom_point(position = position_dodge(width = 0.3), size = 2) +
+  geom_errorbar(aes(ymin = conf.low, ymax = conf.high), width = 0.2,position = position_dodge(width = 0.3)) +
+  theme_classic() + theme(axis.text.x = element_text(angle = 35, hjust = 1)) +
+  labs(x = "Condition", y = "Mean cyt:nuc ratio", colour = "Site",
+    title = "Fixed-effects model: condition effects by site")
+
+
+
+```
+
+# Run a full model
+```{r}
+
+# Now that we have established that there are site specific differences we run a full model
+m_full <- lmer(mean_cnr ~ Condition * Site + (1 | Site:well),
+     data = df_spheroid, REML = TRUE)
+
+summary(m_full)
+print(m_full, correlation=TRUE) # print correlations
+
+qqnorm(resid(m_full))
+qqline(resid(m_full), col = "red")
+
+```
+
+# Data vis - full model
+```{r}
+
+emm <- emmeans(m_full, ~ Condition | Site)
+
+emm_df <- as.data.frame(emm)
+
+ggplot(emm_df, aes(x = Condition, y = emmean, color = Site, group = Site)) +
+  geom_point(position = position_dodge(width = 0.3), size = 3) +
+  geom_line(position = position_dodge(width = 0.3)) +
+  geom_errorbar(aes(ymin = emmean - SE, ymax = emmean + SE),width = 0.15,position = position_dodge(width = 0.3)) +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 35, hjust = 1)) +
+  labs(
+    y = "Model-estimated mean cyt:nuc ratio",
+    x = "Condition",
+    title = "Condition × Site effects from mixed-effects model",
+    subtitle = "Points and intervals represent model-adjusted estimates")
+
+# Variability is quite small (this is good!)
+```
+
+# Save model outputs
+```{r}
+
+# All fixed effects
+fixed_effects <- function(model, model_name) 
+  {tidy(model, effects = "fixed") %>%
+    mutate(model = model_name)}
+
+fixed_effects_tbl <- bind_rows(fixed_effects(m_mixed, "m_mixed"),
+fixed_effects(m_fixed, "m_fixed"), fixed_effects(m_full,  "m_full"))
+
+# --------------------------------------------- #
+# All random effects
+random_effects <- function(model, model_name) 
+  {tidy(model, effects = "ran_pars") %>%
+    mutate(model = model_name)}
+
+random_effects_tbl <- bind_rows(random_effects(m_mixed, "m_mixed"),
+random_effects(m_fixed, "m_fixed"),random_effects(m_full,  "m_full"))
+
+# --------------------------------------------- #
+# Model fit stats
+model_stats <- function(model, model_name)
+  {glance(model) %>%
+  mutate(model = model_name)}
+
+fit_stats_tbl <- bind_rows(model_stats(m_mixed, "m_mixed"),
+model_stats(m_fixed, "m_fixed"),model_stats(m_full,  "m_full"))
+
+# ---------------------------------------------- #
+# Fixed effects correlations
+fixed_effect_correlations <- function(model, model_name) 
+{cor_mat <- cov2cor(as.matrix(vcov(model)))
+as.data.frame(cor_mat) %>%
+rownames_to_column("term_1") %>%
+pivot_longer(-term_1,names_to = "term_2",values_to = "correlation") %>%
+mutate(model = model_name)}
+
+correlations_tbl <- bind_rows(fixed_effect_correlations(m_mixed, "m_mixed"),
+fixed_effect_correlations(m_fixed, "m_fixed"),fixed_effect_correlations(m_full,  "m_full"))
+
+# ----------------------------------------- #
+# Write excel
+write_xlsx(
+  list(
+    "Fixed effects"        = fixed_effects_tbl,
+    "Random effects"       = random_effects_tbl,
+    "Model fit statistics" = fit_stats_tbl,
+    "Fixed-effect correlations" = correlations_tbl),
+  path = "results/lmer_model_outputs.xlsx") # Set path
+
+```

@@ -1,0 +1,935 @@
+Well_ID,tile,Condition,value,Site,Metric
+B5,0,DMSO,0.45039,1,cyt_nuc_ratio_sensor
+B5,1,DMSO,0.466705,1,cyt_nuc_ratio_sensor
+B5,2,DMSO,0.43693000000000004,1,cyt_nuc_ratio_sensor
+B5,3,DMSO,0.4513,1,cyt_nuc_ratio_sensor
+B5,4,DMSO,0.45353,1,cyt_nuc_ratio_sensor
+B5,5,DMSO,0.45504,1,cyt_nuc_ratio_sensor
+B5,6,DMSO,0.44357,1,cyt_nuc_ratio_sensor
+B5,7,DMSO,0.437,1,cyt_nuc_ratio_sensor
+B5,8,DMSO,0.44828,1,cyt_nuc_ratio_sensor
+B5,9,DMSO,0.47229,1,cyt_nuc_ratio_sensor
+B6,0,DMSO,0.45729,1,cyt_nuc_ratio_sensor
+B6,1,DMSO,0.4469,1,cyt_nuc_ratio_sensor
+B6,2,DMSO,0.44448,1,cyt_nuc_ratio_sensor
+B6,3,DMSO,0.45843999999999996,1,cyt_nuc_ratio_sensor
+B6,4,DMSO,0.44416,1,cyt_nuc_ratio_sensor
+B6,5,DMSO,0.40904,1,cyt_nuc_ratio_sensor
+B6,6,DMSO,0.44649000000000005,1,cyt_nuc_ratio_sensor
+B6,7,DMSO,0.46762,1,cyt_nuc_ratio_sensor
+B6,8,DMSO,0.456045,1,cyt_nuc_ratio_sensor
+B6,9,DMSO,0.46294,1,cyt_nuc_ratio_sensor
+B7,0,DMSO,0.466335,1,cyt_nuc_ratio_sensor
+B7,1,DMSO,0.465645,1,cyt_nuc_ratio_sensor
+B7,2,DMSO,0.47758,1,cyt_nuc_ratio_sensor
+B7,3,DMSO,0.46209,1,cyt_nuc_ratio_sensor
+B7,4,DMSO,0.48532,1,cyt_nuc_ratio_sensor
+B7,5,DMSO,0.46681,1,cyt_nuc_ratio_sensor
+B7,6,DMSO,0.46015,1,cyt_nuc_ratio_sensor
+B7,7,DMSO,0.376245,1,cyt_nuc_ratio_sensor
+B7,8,DMSO,0.41513,1,cyt_nuc_ratio_sensor
+B7,9,DMSO,0.41628,1,cyt_nuc_ratio_sensor
+B8,0,DMSO,0.463805,1,cyt_nuc_ratio_sensor
+B8,1,DMSO,0.44789,1,cyt_nuc_ratio_sensor
+B8,2,DMSO,0.43492,1,cyt_nuc_ratio_sensor
+B8,3,DMSO,0.43250500000000003,1,cyt_nuc_ratio_sensor
+B8,4,DMSO,0.447265,1,cyt_nuc_ratio_sensor
+B8,5,DMSO,0.437465,1,cyt_nuc_ratio_sensor
+B8,6,DMSO,0.484185,1,cyt_nuc_ratio_sensor
+B8,7,DMSO,0.464855,1,cyt_nuc_ratio_sensor
+B8,8,DMSO,0.42488000000000004,1,cyt_nuc_ratio_sensor
+B8,9,DMSO,0.43267,1,cyt_nuc_ratio_sensor
+C5,0,100 nM TPA,0.528745,1,cyt_nuc_ratio_sensor
+C5,1,100 nM TPA,0.53988,1,cyt_nuc_ratio_sensor
+C5,2,100 nM TPA,0.52605,1,cyt_nuc_ratio_sensor
+C5,3,100 nM TPA,0.46307,1,cyt_nuc_ratio_sensor
+C5,4,100 nM TPA,0.512,1,cyt_nuc_ratio_sensor
+C5,5,100 nM TPA,0.48584,1,cyt_nuc_ratio_sensor
+C5,6,100 nM TPA,0.5130699999999999,1,cyt_nuc_ratio_sensor
+C5,7,100 nM TPA,0.500085,1,cyt_nuc_ratio_sensor
+C5,8,100 nM TPA,0.5024,1,cyt_nuc_ratio_sensor
+C5,9,100 nM TPA,0.43186,1,cyt_nuc_ratio_sensor
+C6,0,100 nM TPA,0.5280050000000001,1,cyt_nuc_ratio_sensor
+C6,1,100 nM TPA,0.48003,1,cyt_nuc_ratio_sensor
+C6,2,100 nM TPA,0.49174,1,cyt_nuc_ratio_sensor
+C6,3,100 nM TPA,0.53539,1,cyt_nuc_ratio_sensor
+C6,4,100 nM TPA,0.53086,1,cyt_nuc_ratio_sensor
+C6,5,100 nM TPA,0.51945,1,cyt_nuc_ratio_sensor
+C6,6,100 nM TPA,0.5305,1,cyt_nuc_ratio_sensor
+C6,7,100 nM TPA,0.477395,1,cyt_nuc_ratio_sensor
+C6,8,100 nM TPA,0.469315,1,cyt_nuc_ratio_sensor
+C6,9,100 nM TPA,0.52262,1,cyt_nuc_ratio_sensor
+C7,0,100 nM TPA,0.4999,1,cyt_nuc_ratio_sensor
+C7,1,100 nM TPA,0.51522,1,cyt_nuc_ratio_sensor
+C7,2,100 nM TPA,0.50478,1,cyt_nuc_ratio_sensor
+C7,3,100 nM TPA,0.53271,1,cyt_nuc_ratio_sensor
+C7,4,100 nM TPA,0.477655,1,cyt_nuc_ratio_sensor
+C7,5,100 nM TPA,0.47438,1,cyt_nuc_ratio_sensor
+C7,6,100 nM TPA,0.517255,1,cyt_nuc_ratio_sensor
+C7,7,100 nM TPA,0.51795,1,cyt_nuc_ratio_sensor
+C7,8,100 nM TPA,0.52203,1,cyt_nuc_ratio_sensor
+C7,9,100 nM TPA,0.516795,1,cyt_nuc_ratio_sensor
+C8,0,100 nM TPA,0.509315,1,cyt_nuc_ratio_sensor
+C8,1,100 nM TPA,0.48066,1,cyt_nuc_ratio_sensor
+C8,2,100 nM TPA,0.503815,1,cyt_nuc_ratio_sensor
+C8,3,100 nM TPA,0.476205,1,cyt_nuc_ratio_sensor
+C8,4,100 nM TPA,0.49163,1,cyt_nuc_ratio_sensor
+C8,5,100 nM TPA,0.49654,1,cyt_nuc_ratio_sensor
+C8,6,100 nM TPA,0.480745,1,cyt_nuc_ratio_sensor
+C8,7,100 nM TPA,0.529175,1,cyt_nuc_ratio_sensor
+C8,8,100 nM TPA,0.50021,1,cyt_nuc_ratio_sensor
+C8,9,100 nM TPA,0.511665,1,cyt_nuc_ratio_sensor
+D5,0,20 nM Binimetinib,0.43008,1,cyt_nuc_ratio_sensor
+D5,1,20 nM Binimetinib,0.390805,1,cyt_nuc_ratio_sensor
+D5,2,20 nM Binimetinib,0.38886,1,cyt_nuc_ratio_sensor
+D5,3,20 nM Binimetinib,0.427285,1,cyt_nuc_ratio_sensor
+D5,4,20 nM Binimetinib,0.41195,1,cyt_nuc_ratio_sensor
+D5,5,20 nM Binimetinib,0.422975,1,cyt_nuc_ratio_sensor
+D5,6,20 nM Binimetinib,0.42266000000000004,1,cyt_nuc_ratio_sensor
+D5,7,20 nM Binimetinib,0.39671,1,cyt_nuc_ratio_sensor
+D5,8,20 nM Binimetinib,0.42556,1,cyt_nuc_ratio_sensor
+D5,9,20 nM Binimetinib,0.42967,1,cyt_nuc_ratio_sensor
+D6,0,20 nM Binimetinib,0.42929,1,cyt_nuc_ratio_sensor
+D6,1,20 nM Binimetinib,0.41695,1,cyt_nuc_ratio_sensor
+D6,2,20 nM Binimetinib,0.42726,1,cyt_nuc_ratio_sensor
+D6,3,20 nM Binimetinib,0.41714,1,cyt_nuc_ratio_sensor
+D6,4,20 nM Binimetinib,0.39582,1,cyt_nuc_ratio_sensor
+D6,5,20 nM Binimetinib,0.368,1,cyt_nuc_ratio_sensor
+D6,6,20 nM Binimetinib,0.41351,1,cyt_nuc_ratio_sensor
+D6,7,20 nM Binimetinib,0.42739499999999997,1,cyt_nuc_ratio_sensor
+D6,9,20 nM Binimetinib,0.41508,1,cyt_nuc_ratio_sensor
+D7,2,20 nM Binimetinib,0.39528,1,cyt_nuc_ratio_sensor
+D7,4,20 nM Binimetinib,0.41424,1,cyt_nuc_ratio_sensor
+D7,7,20 nM Binimetinib,0.4026,1,cyt_nuc_ratio_sensor
+D7,9,20 nM Binimetinib,0.41895,1,cyt_nuc_ratio_sensor
+D8,1,20 nM Binimetinib,0.39201,1,cyt_nuc_ratio_sensor
+D8,3,20 nM Binimetinib,0.39108,1,cyt_nuc_ratio_sensor
+D8,6,20 nM Binimetinib,0.371645,1,cyt_nuc_ratio_sensor
+D8,9,20 nM Binimetinib,0.45557,1,cyt_nuc_ratio_sensor
+E5,0,60 nM Binimetinib,0.39666,1,cyt_nuc_ratio_sensor
+E5,1,60 nM Binimetinib,0.389035,1,cyt_nuc_ratio_sensor
+E5,3,60 nM Binimetinib,0.40097499999999997,1,cyt_nuc_ratio_sensor
+E5,4,60 nM Binimetinib,0.413575,1,cyt_nuc_ratio_sensor
+E5,5,60 nM Binimetinib,0.43617,1,cyt_nuc_ratio_sensor
+E5,7,60 nM Binimetinib,0.41796,1,cyt_nuc_ratio_sensor
+E5,9,60 nM Binimetinib,0.41649,1,cyt_nuc_ratio_sensor
+E6,0,60 nM Binimetinib,0.4233,1,cyt_nuc_ratio_sensor
+E6,2,60 nM Binimetinib,0.38626,1,cyt_nuc_ratio_sensor
+E6,3,60 nM Binimetinib,0.38467,1,cyt_nuc_ratio_sensor
+E6,4,60 nM Binimetinib,0.41777,1,cyt_nuc_ratio_sensor
+E6,5,60 nM Binimetinib,0.355905,1,cyt_nuc_ratio_sensor
+E6,6,60 nM Binimetinib,0.38904,1,cyt_nuc_ratio_sensor
+E6,7,60 nM Binimetinib,0.37446,1,cyt_nuc_ratio_sensor
+E6,8,60 nM Binimetinib,0.36122,1,cyt_nuc_ratio_sensor
+E6,9,60 nM Binimetinib,0.43159,1,cyt_nuc_ratio_sensor
+E7,0,60 nM Binimetinib,0.422295,1,cyt_nuc_ratio_sensor
+E7,1,60 nM Binimetinib,0.436905,1,cyt_nuc_ratio_sensor
+E7,2,60 nM Binimetinib,0.38988,1,cyt_nuc_ratio_sensor
+E7,3,60 nM Binimetinib,0.435415,1,cyt_nuc_ratio_sensor
+E7,4,60 nM Binimetinib,0.41428,1,cyt_nuc_ratio_sensor
+E7,5,60 nM Binimetinib,0.4116,1,cyt_nuc_ratio_sensor
+E7,6,60 nM Binimetinib,0.415385,1,cyt_nuc_ratio_sensor
+E7,7,60 nM Binimetinib,0.41656,1,cyt_nuc_ratio_sensor
+E7,8,60 nM Binimetinib,0.39981500000000003,1,cyt_nuc_ratio_sensor
+E7,9,60 nM Binimetinib,0.41758,1,cyt_nuc_ratio_sensor
+E8,0,60 nM Binimetinib,0.4113,1,cyt_nuc_ratio_sensor
+E8,1,60 nM Binimetinib,0.42139,1,cyt_nuc_ratio_sensor
+E8,2,60 nM Binimetinib,0.39906,1,cyt_nuc_ratio_sensor
+E8,3,60 nM Binimetinib,0.3949,1,cyt_nuc_ratio_sensor
+E8,4,60 nM Binimetinib,0.360655,1,cyt_nuc_ratio_sensor
+E8,5,60 nM Binimetinib,0.40881,1,cyt_nuc_ratio_sensor
+E8,6,60 nM Binimetinib,0.42083,1,cyt_nuc_ratio_sensor
+E8,7,60 nM Binimetinib,0.40582,1,cyt_nuc_ratio_sensor
+E8,8,60 nM Binimetinib,0.42507,1,cyt_nuc_ratio_sensor
+E8,9,60 nM Binimetinib,0.38266500000000003,1,cyt_nuc_ratio_sensor
+F5,0,200 nM Binimetinib,0.42089,1,cyt_nuc_ratio_sensor
+F5,1,200 nM Binimetinib,0.38578,1,cyt_nuc_ratio_sensor
+F5,2,200 nM Binimetinib,0.365065,1,cyt_nuc_ratio_sensor
+F5,3,200 nM Binimetinib,0.40197,1,cyt_nuc_ratio_sensor
+F5,4,200 nM Binimetinib,0.40571999999999997,1,cyt_nuc_ratio_sensor
+F5,5,200 nM Binimetinib,0.41611,1,cyt_nuc_ratio_sensor
+F5,6,200 nM Binimetinib,0.35879,1,cyt_nuc_ratio_sensor
+F5,7,200 nM Binimetinib,0.393695,1,cyt_nuc_ratio_sensor
+F5,8,200 nM Binimetinib,0.42688,1,cyt_nuc_ratio_sensor
+F5,9,200 nM Binimetinib,0.348815,1,cyt_nuc_ratio_sensor
+F6,0,200 nM Binimetinib,0.37966500000000003,1,cyt_nuc_ratio_sensor
+F6,1,200 nM Binimetinib,0.39178,1,cyt_nuc_ratio_sensor
+F6,2,200 nM Binimetinib,0.365615,1,cyt_nuc_ratio_sensor
+F6,3,200 nM Binimetinib,0.409795,1,cyt_nuc_ratio_sensor
+F6,4,200 nM Binimetinib,0.397385,1,cyt_nuc_ratio_sensor
+F6,5,200 nM Binimetinib,0.37343,1,cyt_nuc_ratio_sensor
+F6,6,200 nM Binimetinib,0.423155,1,cyt_nuc_ratio_sensor
+F6,7,200 nM Binimetinib,0.379155,1,cyt_nuc_ratio_sensor
+F6,8,200 nM Binimetinib,0.34295,1,cyt_nuc_ratio_sensor
+F6,9,200 nM Binimetinib,0.36619,1,cyt_nuc_ratio_sensor
+F7,0,200 nM Binimetinib,0.39988999999999997,1,cyt_nuc_ratio_sensor
+F7,1,200 nM Binimetinib,0.41923,1,cyt_nuc_ratio_sensor
+F7,2,200 nM Binimetinib,0.41875,1,cyt_nuc_ratio_sensor
+F7,3,200 nM Binimetinib,0.40419,1,cyt_nuc_ratio_sensor
+F7,4,200 nM Binimetinib,0.39978,1,cyt_nuc_ratio_sensor
+F7,5,200 nM Binimetinib,0.38138,1,cyt_nuc_ratio_sensor
+F7,6,200 nM Binimetinib,0.39931,1,cyt_nuc_ratio_sensor
+F7,7,200 nM Binimetinib,0.38242,1,cyt_nuc_ratio_sensor
+F7,8,200 nM Binimetinib,0.3997,1,cyt_nuc_ratio_sensor
+F7,9,200 nM Binimetinib,0.33294,1,cyt_nuc_ratio_sensor
+F8,0,200 nM Binimetinib,0.40338,1,cyt_nuc_ratio_sensor
+F8,1,200 nM Binimetinib,0.35911,1,cyt_nuc_ratio_sensor
+F8,2,200 nM Binimetinib,0.39295,1,cyt_nuc_ratio_sensor
+F8,3,200 nM Binimetinib,0.41793,1,cyt_nuc_ratio_sensor
+F8,4,200 nM Binimetinib,0.384015,1,cyt_nuc_ratio_sensor
+F8,5,200 nM Binimetinib,0.42073,1,cyt_nuc_ratio_sensor
+F8,6,200 nM Binimetinib,0.37146,1,cyt_nuc_ratio_sensor
+F8,7,200 nM Binimetinib,0.4174,1,cyt_nuc_ratio_sensor
+F8,8,200 nM Binimetinib,0.39297,1,cyt_nuc_ratio_sensor
+F8,9,200 nM Binimetinib,0.39583,1,cyt_nuc_ratio_sensor
+G5,0,3.5 µM Binimetinib,0.37279,1,cyt_nuc_ratio_sensor
+G5,1,3.5 µM Binimetinib,0.39501,1,cyt_nuc_ratio_sensor
+G5,2,3.5 µM Binimetinib,0.38941000000000003,1,cyt_nuc_ratio_sensor
+G5,3,3.5 µM Binimetinib,0.36308,1,cyt_nuc_ratio_sensor
+G5,4,3.5 µM Binimetinib,0.39273,1,cyt_nuc_ratio_sensor
+G5,5,3.5 µM Binimetinib,0.36364,1,cyt_nuc_ratio_sensor
+G5,6,3.5 µM Binimetinib,0.41124,1,cyt_nuc_ratio_sensor
+G5,7,3.5 µM Binimetinib,0.410845,1,cyt_nuc_ratio_sensor
+G5,8,3.5 µM Binimetinib,0.37300500000000003,1,cyt_nuc_ratio_sensor
+G5,9,3.5 µM Binimetinib,0.38324,1,cyt_nuc_ratio_sensor
+G6,0,3.5 µM Binimetinib,0.43993,1,cyt_nuc_ratio_sensor
+G6,1,3.5 µM Binimetinib,0.42522,1,cyt_nuc_ratio_sensor
+G6,2,3.5 µM Binimetinib,0.39445,1,cyt_nuc_ratio_sensor
+G6,3,3.5 µM Binimetinib,0.42127000000000003,1,cyt_nuc_ratio_sensor
+G6,4,3.5 µM Binimetinib,0.42632,1,cyt_nuc_ratio_sensor
+G6,5,3.5 µM Binimetinib,0.38587,1,cyt_nuc_ratio_sensor
+G6,6,3.5 µM Binimetinib,0.39627,1,cyt_nuc_ratio_sensor
+G6,7,3.5 µM Binimetinib,0.3883,1,cyt_nuc_ratio_sensor
+G6,8,3.5 µM Binimetinib,0.379585,1,cyt_nuc_ratio_sensor
+G6,9,3.5 µM Binimetinib,0.37485999999999997,1,cyt_nuc_ratio_sensor
+G7,0,3.5 µM Binimetinib,0.38372,1,cyt_nuc_ratio_sensor
+G7,1,3.5 µM Binimetinib,0.37786,1,cyt_nuc_ratio_sensor
+G7,2,3.5 µM Binimetinib,0.37407999999999997,1,cyt_nuc_ratio_sensor
+G7,3,3.5 µM Binimetinib,0.38957,1,cyt_nuc_ratio_sensor
+G7,4,3.5 µM Binimetinib,0.40987,1,cyt_nuc_ratio_sensor
+G7,5,3.5 µM Binimetinib,0.40255,1,cyt_nuc_ratio_sensor
+G7,6,3.5 µM Binimetinib,0.36728,1,cyt_nuc_ratio_sensor
+G7,7,3.5 µM Binimetinib,0.39744999999999997,1,cyt_nuc_ratio_sensor
+G7,8,3.5 µM Binimetinib,0.4266,1,cyt_nuc_ratio_sensor
+G7,9,3.5 µM Binimetinib,0.39641000000000004,1,cyt_nuc_ratio_sensor
+G8,0,3.5 µM Binimetinib,0.39705,1,cyt_nuc_ratio_sensor
+G8,1,3.5 µM Binimetinib,0.38565,1,cyt_nuc_ratio_sensor
+G8,2,3.5 µM Binimetinib,0.39235,1,cyt_nuc_ratio_sensor
+G8,3,3.5 µM Binimetinib,0.41976,1,cyt_nuc_ratio_sensor
+G8,4,3.5 µM Binimetinib,0.38893999999999995,1,cyt_nuc_ratio_sensor
+G8,5,3.5 µM Binimetinib,0.40641,1,cyt_nuc_ratio_sensor
+G8,6,3.5 µM Binimetinib,0.4044,1,cyt_nuc_ratio_sensor
+G8,7,3.5 µM Binimetinib,0.37906,1,cyt_nuc_ratio_sensor
+G8,8,3.5 µM Binimetinib,0.38588999999999996,1,cyt_nuc_ratio_sensor
+G8,9,3.5 µM Binimetinib,0.40588,1,cyt_nuc_ratio_sensor
+B5,0,DMSO,0.435295,2,cyt_nuc_ratio_sensor
+B5,1,DMSO,0.48758,2,cyt_nuc_ratio_sensor
+B5,2,DMSO,0.356655,2,cyt_nuc_ratio_sensor
+B5,3,DMSO,0.50729,2,cyt_nuc_ratio_sensor
+B5,4,DMSO,0.48089499999999996,2,cyt_nuc_ratio_sensor
+B5,5,DMSO,0.4651,2,cyt_nuc_ratio_sensor
+B5,6,DMSO,0.484865,2,cyt_nuc_ratio_sensor
+B5,7,DMSO,0.5052350000000001,2,cyt_nuc_ratio_sensor
+B5,8,DMSO,0.48057,2,cyt_nuc_ratio_sensor
+B5,9,DMSO,0.52247,2,cyt_nuc_ratio_sensor
+B6,0,DMSO,0.51082,2,cyt_nuc_ratio_sensor
+B6,1,DMSO,0.479125,2,cyt_nuc_ratio_sensor
+B6,2,DMSO,0.52828,2,cyt_nuc_ratio_sensor
+B6,3,DMSO,0.4924,2,cyt_nuc_ratio_sensor
+B6,4,DMSO,0.42179,2,cyt_nuc_ratio_sensor
+B6,5,DMSO,0.46882,2,cyt_nuc_ratio_sensor
+B6,6,DMSO,0.52048,2,cyt_nuc_ratio_sensor
+B6,7,DMSO,0.47857,2,cyt_nuc_ratio_sensor
+B6,8,DMSO,0.46053,2,cyt_nuc_ratio_sensor
+B6,9,DMSO,0.52251,2,cyt_nuc_ratio_sensor
+B7,0,DMSO,0.4939,2,cyt_nuc_ratio_sensor
+B7,1,DMSO,0.42889,2,cyt_nuc_ratio_sensor
+B7,2,DMSO,0.51543,2,cyt_nuc_ratio_sensor
+B7,3,DMSO,0.49861500000000003,2,cyt_nuc_ratio_sensor
+B7,4,DMSO,0.52342,2,cyt_nuc_ratio_sensor
+B7,5,DMSO,0.47496499999999997,2,cyt_nuc_ratio_sensor
+B7,6,DMSO,0.49214,2,cyt_nuc_ratio_sensor
+B7,7,DMSO,0.49299000000000004,2,cyt_nuc_ratio_sensor
+B7,8,DMSO,0.5069,2,cyt_nuc_ratio_sensor
+B7,9,DMSO,0.49824,2,cyt_nuc_ratio_sensor
+B8,0,DMSO,0.48102500000000004,2,cyt_nuc_ratio_sensor
+B8,1,DMSO,0.500845,2,cyt_nuc_ratio_sensor
+B8,2,DMSO,0.4912,2,cyt_nuc_ratio_sensor
+B8,3,DMSO,0.47641,2,cyt_nuc_ratio_sensor
+B8,4,DMSO,0.5036499999999999,2,cyt_nuc_ratio_sensor
+B8,5,DMSO,0.426545,2,cyt_nuc_ratio_sensor
+B8,6,DMSO,0.477475,2,cyt_nuc_ratio_sensor
+B8,7,DMSO,0.47415,2,cyt_nuc_ratio_sensor
+B8,8,DMSO,0.433975,2,cyt_nuc_ratio_sensor
+B8,9,DMSO,0.49998,2,cyt_nuc_ratio_sensor
+C5,0,3.5 µM Binimetinib,0.39317,2,cyt_nuc_ratio_sensor
+C5,1,3.5 µM Binimetinib,0.3672,2,cyt_nuc_ratio_sensor
+C5,2,3.5 µM Binimetinib,0.42523,2,cyt_nuc_ratio_sensor
+C5,3,3.5 µM Binimetinib,0.41588,2,cyt_nuc_ratio_sensor
+C5,4,3.5 µM Binimetinib,0.40393,2,cyt_nuc_ratio_sensor
+C5,5,3.5 µM Binimetinib,0.39708,2,cyt_nuc_ratio_sensor
+C5,6,3.5 µM Binimetinib,0.40956,2,cyt_nuc_ratio_sensor
+C5,7,3.5 µM Binimetinib,0.40159,2,cyt_nuc_ratio_sensor
+C5,8,3.5 µM Binimetinib,0.39478,2,cyt_nuc_ratio_sensor
+C5,9,3.5 µM Binimetinib,0.363045,2,cyt_nuc_ratio_sensor
+C6,0,3.5 µM Binimetinib,0.42356499999999997,2,cyt_nuc_ratio_sensor
+C6,1,3.5 µM Binimetinib,0.39796,2,cyt_nuc_ratio_sensor
+C6,2,3.5 µM Binimetinib,0.41393,2,cyt_nuc_ratio_sensor
+C6,3,3.5 µM Binimetinib,0.35732,2,cyt_nuc_ratio_sensor
+C6,4,3.5 µM Binimetinib,0.40815,2,cyt_nuc_ratio_sensor
+C6,5,3.5 µM Binimetinib,0.40929,2,cyt_nuc_ratio_sensor
+C6,6,3.5 µM Binimetinib,0.32348,2,cyt_nuc_ratio_sensor
+C6,7,3.5 µM Binimetinib,0.35089,2,cyt_nuc_ratio_sensor
+C6,8,3.5 µM Binimetinib,0.36825,2,cyt_nuc_ratio_sensor
+C6,9,3.5 µM Binimetinib,0.374815,2,cyt_nuc_ratio_sensor
+C7,0,3.5 µM Binimetinib,0.412055,2,cyt_nuc_ratio_sensor
+C7,1,3.5 µM Binimetinib,0.40164,2,cyt_nuc_ratio_sensor
+C7,2,3.5 µM Binimetinib,0.41903999999999997,2,cyt_nuc_ratio_sensor
+C7,3,3.5 µM Binimetinib,0.39563,2,cyt_nuc_ratio_sensor
+C7,4,3.5 µM Binimetinib,0.38943,2,cyt_nuc_ratio_sensor
+C7,5,3.5 µM Binimetinib,0.4065,2,cyt_nuc_ratio_sensor
+C7,6,3.5 µM Binimetinib,0.38673,2,cyt_nuc_ratio_sensor
+C7,7,3.5 µM Binimetinib,0.372535,2,cyt_nuc_ratio_sensor
+C7,8,3.5 µM Binimetinib,0.39201,2,cyt_nuc_ratio_sensor
+C7,9,3.5 µM Binimetinib,0.350345,2,cyt_nuc_ratio_sensor
+C8,0,3.5 µM Binimetinib,0.397005,2,cyt_nuc_ratio_sensor
+C8,1,3.5 µM Binimetinib,0.379915,2,cyt_nuc_ratio_sensor
+C8,2,3.5 µM Binimetinib,0.37012500000000004,2,cyt_nuc_ratio_sensor
+C8,3,3.5 µM Binimetinib,0.36805,2,cyt_nuc_ratio_sensor
+C8,4,3.5 µM Binimetinib,0.37197,2,cyt_nuc_ratio_sensor
+C8,5,3.5 µM Binimetinib,0.41531,2,cyt_nuc_ratio_sensor
+C8,6,3.5 µM Binimetinib,0.361565,2,cyt_nuc_ratio_sensor
+C8,7,3.5 µM Binimetinib,0.35472,2,cyt_nuc_ratio_sensor
+C8,8,3.5 µM Binimetinib,0.40585,2,cyt_nuc_ratio_sensor
+C8,9,3.5 µM Binimetinib,0.37588,2,cyt_nuc_ratio_sensor
+D5,0,200 nM Binimetinib,0.40714,2,cyt_nuc_ratio_sensor
+D5,1,200 nM Binimetinib,0.4164,2,cyt_nuc_ratio_sensor
+D5,2,200 nM Binimetinib,0.41147,2,cyt_nuc_ratio_sensor
+D5,3,200 nM Binimetinib,0.36042,2,cyt_nuc_ratio_sensor
+D5,4,200 nM Binimetinib,0.38785000000000003,2,cyt_nuc_ratio_sensor
+D5,5,200 nM Binimetinib,0.39527999999999996,2,cyt_nuc_ratio_sensor
+D5,6,200 nM Binimetinib,0.40391,2,cyt_nuc_ratio_sensor
+D5,7,200 nM Binimetinib,0.375025,2,cyt_nuc_ratio_sensor
+D5,8,200 nM Binimetinib,0.376405,2,cyt_nuc_ratio_sensor
+D5,9,200 nM Binimetinib,0.42021,2,cyt_nuc_ratio_sensor
+D6,0,200 nM Binimetinib,0.41815,2,cyt_nuc_ratio_sensor
+D6,1,200 nM Binimetinib,0.29014,2,cyt_nuc_ratio_sensor
+D6,2,200 nM Binimetinib,0.40396,2,cyt_nuc_ratio_sensor
+D6,3,200 nM Binimetinib,0.38937,2,cyt_nuc_ratio_sensor
+D6,4,200 nM Binimetinib,0.38666,2,cyt_nuc_ratio_sensor
+D6,5,200 nM Binimetinib,0.40062,2,cyt_nuc_ratio_sensor
+D6,6,200 nM Binimetinib,0.42814,2,cyt_nuc_ratio_sensor
+D6,7,200 nM Binimetinib,0.40981,2,cyt_nuc_ratio_sensor
+D6,8,200 nM Binimetinib,0.46599999999999997,2,cyt_nuc_ratio_sensor
+D6,9,200 nM Binimetinib,0.38736,2,cyt_nuc_ratio_sensor
+D7,0,200 nM Binimetinib,0.44637,2,cyt_nuc_ratio_sensor
+D7,1,200 nM Binimetinib,0.39175499999999996,2,cyt_nuc_ratio_sensor
+D7,2,200 nM Binimetinib,0.42149000000000003,2,cyt_nuc_ratio_sensor
+D7,3,200 nM Binimetinib,0.38678,2,cyt_nuc_ratio_sensor
+D7,4,200 nM Binimetinib,0.434255,2,cyt_nuc_ratio_sensor
+D7,5,200 nM Binimetinib,0.42009,2,cyt_nuc_ratio_sensor
+D7,6,200 nM Binimetinib,0.423555,2,cyt_nuc_ratio_sensor
+D7,7,200 nM Binimetinib,0.40697,2,cyt_nuc_ratio_sensor
+D7,8,200 nM Binimetinib,0.39554500000000004,2,cyt_nuc_ratio_sensor
+D7,9,200 nM Binimetinib,0.37365,2,cyt_nuc_ratio_sensor
+D8,0,200 nM Binimetinib,0.41237,2,cyt_nuc_ratio_sensor
+D8,1,200 nM Binimetinib,0.29653,2,cyt_nuc_ratio_sensor
+D8,2,200 nM Binimetinib,0.37232,2,cyt_nuc_ratio_sensor
+D8,3,200 nM Binimetinib,0.41891,2,cyt_nuc_ratio_sensor
+D8,4,200 nM Binimetinib,0.42728,2,cyt_nuc_ratio_sensor
+D8,5,200 nM Binimetinib,0.46989,2,cyt_nuc_ratio_sensor
+D8,6,200 nM Binimetinib,0.40847,2,cyt_nuc_ratio_sensor
+D8,7,200 nM Binimetinib,0.408055,2,cyt_nuc_ratio_sensor
+D8,8,200 nM Binimetinib,0.41241,2,cyt_nuc_ratio_sensor
+D8,9,200 nM Binimetinib,0.36792,2,cyt_nuc_ratio_sensor
+E5,0,60 nM Binimetinib,0.451235,2,cyt_nuc_ratio_sensor
+E5,1,60 nM Binimetinib,0.43001,2,cyt_nuc_ratio_sensor
+E5,2,60 nM Binimetinib,0.41933,2,cyt_nuc_ratio_sensor
+E5,3,60 nM Binimetinib,0.40518,2,cyt_nuc_ratio_sensor
+E5,4,60 nM Binimetinib,0.40328,2,cyt_nuc_ratio_sensor
+E5,5,60 nM Binimetinib,0.44994,2,cyt_nuc_ratio_sensor
+E5,6,60 nM Binimetinib,0.40506,2,cyt_nuc_ratio_sensor
+E5,7,60 nM Binimetinib,0.43927,2,cyt_nuc_ratio_sensor
+E5,8,60 nM Binimetinib,0.39603,2,cyt_nuc_ratio_sensor
+E5,9,60 nM Binimetinib,0.45206,2,cyt_nuc_ratio_sensor
+E6,0,60 nM Binimetinib,0.43178,2,cyt_nuc_ratio_sensor
+E6,1,60 nM Binimetinib,0.41016,2,cyt_nuc_ratio_sensor
+E6,2,60 nM Binimetinib,0.41835,2,cyt_nuc_ratio_sensor
+E6,3,60 nM Binimetinib,0.41658,2,cyt_nuc_ratio_sensor
+E6,4,60 nM Binimetinib,0.41169,2,cyt_nuc_ratio_sensor
+E6,5,60 nM Binimetinib,0.442515,2,cyt_nuc_ratio_sensor
+E6,6,60 nM Binimetinib,0.43122,2,cyt_nuc_ratio_sensor
+E6,7,60 nM Binimetinib,0.42498,2,cyt_nuc_ratio_sensor
+E6,8,60 nM Binimetinib,0.42494,2,cyt_nuc_ratio_sensor
+E6,9,60 nM Binimetinib,0.404265,2,cyt_nuc_ratio_sensor
+E7,0,60 nM Binimetinib,0.453355,2,cyt_nuc_ratio_sensor
+E7,1,60 nM Binimetinib,0.43884,2,cyt_nuc_ratio_sensor
+E7,2,60 nM Binimetinib,0.40437999999999996,2,cyt_nuc_ratio_sensor
+E7,3,60 nM Binimetinib,0.41064,2,cyt_nuc_ratio_sensor
+E7,4,60 nM Binimetinib,0.45732,2,cyt_nuc_ratio_sensor
+E7,5,60 nM Binimetinib,0.41618,2,cyt_nuc_ratio_sensor
+E7,6,60 nM Binimetinib,0.39716,2,cyt_nuc_ratio_sensor
+E7,7,60 nM Binimetinib,0.43847,2,cyt_nuc_ratio_sensor
+E7,8,60 nM Binimetinib,0.46677,2,cyt_nuc_ratio_sensor
+E7,9,60 nM Binimetinib,0.46509500000000004,2,cyt_nuc_ratio_sensor
+E8,0,60 nM Binimetinib,0.417775,2,cyt_nuc_ratio_sensor
+E8,1,60 nM Binimetinib,0.42474,2,cyt_nuc_ratio_sensor
+E8,2,60 nM Binimetinib,0.43242,2,cyt_nuc_ratio_sensor
+E8,3,60 nM Binimetinib,0.42657500000000004,2,cyt_nuc_ratio_sensor
+E8,4,60 nM Binimetinib,0.42209,2,cyt_nuc_ratio_sensor
+E8,5,60 nM Binimetinib,0.40890000000000004,2,cyt_nuc_ratio_sensor
+E8,6,60 nM Binimetinib,0.46053999999999995,2,cyt_nuc_ratio_sensor
+E8,7,60 nM Binimetinib,0.42907,2,cyt_nuc_ratio_sensor
+E8,8,60 nM Binimetinib,0.506095,2,cyt_nuc_ratio_sensor
+E8,9,60 nM Binimetinib,0.400065,2,cyt_nuc_ratio_sensor
+F5,0,20 nM Binimetinib,0.39766,2,cyt_nuc_ratio_sensor
+F5,1,20 nM Binimetinib,0.4571,2,cyt_nuc_ratio_sensor
+F5,2,20 nM Binimetinib,0.441925,2,cyt_nuc_ratio_sensor
+F5,3,20 nM Binimetinib,0.4594,2,cyt_nuc_ratio_sensor
+F5,4,20 nM Binimetinib,0.44723,2,cyt_nuc_ratio_sensor
+F5,5,20 nM Binimetinib,0.41855,2,cyt_nuc_ratio_sensor
+F5,6,20 nM Binimetinib,0.48801,2,cyt_nuc_ratio_sensor
+F5,7,20 nM Binimetinib,0.3221,2,cyt_nuc_ratio_sensor
+F5,8,20 nM Binimetinib,0.37462,2,cyt_nuc_ratio_sensor
+F5,9,20 nM Binimetinib,0.41951,2,cyt_nuc_ratio_sensor
+F6,0,20 nM Binimetinib,0.46951,2,cyt_nuc_ratio_sensor
+F6,1,20 nM Binimetinib,0.43497,2,cyt_nuc_ratio_sensor
+F6,2,20 nM Binimetinib,0.45177,2,cyt_nuc_ratio_sensor
+F6,3,20 nM Binimetinib,0.43779,2,cyt_nuc_ratio_sensor
+F6,4,20 nM Binimetinib,0.4751,2,cyt_nuc_ratio_sensor
+F6,5,20 nM Binimetinib,0.47667,2,cyt_nuc_ratio_sensor
+F6,6,20 nM Binimetinib,0.44271,2,cyt_nuc_ratio_sensor
+F6,7,20 nM Binimetinib,0.45037,2,cyt_nuc_ratio_sensor
+F6,8,20 nM Binimetinib,0.436475,2,cyt_nuc_ratio_sensor
+F6,9,20 nM Binimetinib,0.47531500000000004,2,cyt_nuc_ratio_sensor
+F7,0,20 nM Binimetinib,0.47199,2,cyt_nuc_ratio_sensor
+F7,1,20 nM Binimetinib,0.48124,2,cyt_nuc_ratio_sensor
+F7,2,20 nM Binimetinib,0.52488,2,cyt_nuc_ratio_sensor
+F7,3,20 nM Binimetinib,0.44671,2,cyt_nuc_ratio_sensor
+F7,4,20 nM Binimetinib,0.45789,2,cyt_nuc_ratio_sensor
+F7,5,20 nM Binimetinib,0.49053,2,cyt_nuc_ratio_sensor
+F7,6,20 nM Binimetinib,0.46716,2,cyt_nuc_ratio_sensor
+F7,7,20 nM Binimetinib,0.44191,2,cyt_nuc_ratio_sensor
+F7,8,20 nM Binimetinib,0.42244499999999996,2,cyt_nuc_ratio_sensor
+F7,9,20 nM Binimetinib,0.47909999999999997,2,cyt_nuc_ratio_sensor
+F8,0,20 nM Binimetinib,0.4689,2,cyt_nuc_ratio_sensor
+F8,1,20 nM Binimetinib,0.47225,2,cyt_nuc_ratio_sensor
+F8,2,20 nM Binimetinib,0.44197,2,cyt_nuc_ratio_sensor
+F8,3,20 nM Binimetinib,0.40908,2,cyt_nuc_ratio_sensor
+F8,4,20 nM Binimetinib,0.461615,2,cyt_nuc_ratio_sensor
+F8,5,20 nM Binimetinib,0.45811,2,cyt_nuc_ratio_sensor
+F8,6,20 nM Binimetinib,0.489825,2,cyt_nuc_ratio_sensor
+F8,7,20 nM Binimetinib,0.4354,2,cyt_nuc_ratio_sensor
+F8,8,20 nM Binimetinib,0.46624,2,cyt_nuc_ratio_sensor
+F8,9,20 nM Binimetinib,0.43702,2,cyt_nuc_ratio_sensor
+G5,0,100 nM TPA,0.52927,2,cyt_nuc_ratio_sensor
+G5,1,100 nM TPA,0.5254449999999999,2,cyt_nuc_ratio_sensor
+G5,2,100 nM TPA,0.53537,2,cyt_nuc_ratio_sensor
+G5,3,100 nM TPA,0.50941,2,cyt_nuc_ratio_sensor
+G5,4,100 nM TPA,0.54027,2,cyt_nuc_ratio_sensor
+G5,5,100 nM TPA,0.50916,2,cyt_nuc_ratio_sensor
+G5,6,100 nM TPA,0.535465,2,cyt_nuc_ratio_sensor
+G5,7,100 nM TPA,0.55064,2,cyt_nuc_ratio_sensor
+G5,8,100 nM TPA,0.539895,2,cyt_nuc_ratio_sensor
+G5,9,100 nM TPA,0.49572,2,cyt_nuc_ratio_sensor
+G6,0,100 nM TPA,0.56098,2,cyt_nuc_ratio_sensor
+G6,1,100 nM TPA,0.569115,2,cyt_nuc_ratio_sensor
+G6,2,100 nM TPA,0.5386,2,cyt_nuc_ratio_sensor
+G6,3,100 nM TPA,0.57461,2,cyt_nuc_ratio_sensor
+G6,4,100 nM TPA,0.54994,2,cyt_nuc_ratio_sensor
+G6,5,100 nM TPA,0.55567,2,cyt_nuc_ratio_sensor
+G6,6,100 nM TPA,0.5504100000000001,2,cyt_nuc_ratio_sensor
+G6,7,100 nM TPA,0.5493250000000001,2,cyt_nuc_ratio_sensor
+G6,8,100 nM TPA,0.547,2,cyt_nuc_ratio_sensor
+G6,9,100 nM TPA,0.53648,2,cyt_nuc_ratio_sensor
+G7,0,100 nM TPA,0.565455,2,cyt_nuc_ratio_sensor
+G7,1,100 nM TPA,0.53233,2,cyt_nuc_ratio_sensor
+G7,2,100 nM TPA,0.52779,2,cyt_nuc_ratio_sensor
+G7,3,100 nM TPA,0.55162,2,cyt_nuc_ratio_sensor
+G7,4,100 nM TPA,0.511585,2,cyt_nuc_ratio_sensor
+G7,5,100 nM TPA,0.52996,2,cyt_nuc_ratio_sensor
+G7,6,100 nM TPA,0.52384,2,cyt_nuc_ratio_sensor
+G7,7,100 nM TPA,0.55483,2,cyt_nuc_ratio_sensor
+G7,8,100 nM TPA,0.5114799999999999,2,cyt_nuc_ratio_sensor
+G7,9,100 nM TPA,0.575875,2,cyt_nuc_ratio_sensor
+G8,0,100 nM TPA,0.5654,2,cyt_nuc_ratio_sensor
+G8,1,100 nM TPA,0.439995,2,cyt_nuc_ratio_sensor
+G8,2,100 nM TPA,0.465875,2,cyt_nuc_ratio_sensor
+G8,3,100 nM TPA,0.57416,2,cyt_nuc_ratio_sensor
+G8,4,100 nM TPA,0.53135,2,cyt_nuc_ratio_sensor
+G8,5,100 nM TPA,0.53909,2,cyt_nuc_ratio_sensor
+G8,6,100 nM TPA,0.58374,2,cyt_nuc_ratio_sensor
+G8,7,100 nM TPA,0.5590299999999999,2,cyt_nuc_ratio_sensor
+G8,8,100 nM TPA,0.5439449999999999,2,cyt_nuc_ratio_sensor
+G8,9,100 nM TPA,0.53384,2,cyt_nuc_ratio_sensor
+B5,0,DMSO,0.495705,3,cyt_nuc_ratio_sensor
+B5,1,DMSO,0.5119750000000001,3,cyt_nuc_ratio_sensor
+B5,2,DMSO,0.51213,3,cyt_nuc_ratio_sensor
+B5,3,DMSO,0.47839,3,cyt_nuc_ratio_sensor
+B5,4,DMSO,0.5176000000000001,3,cyt_nuc_ratio_sensor
+B5,5,DMSO,0.471035,3,cyt_nuc_ratio_sensor
+B5,6,DMSO,0.50077,3,cyt_nuc_ratio_sensor
+B5,7,DMSO,0.515155,3,cyt_nuc_ratio_sensor
+B5,8,DMSO,0.48287,3,cyt_nuc_ratio_sensor
+B5,9,DMSO,0.46656,3,cyt_nuc_ratio_sensor
+B6,0,DMSO,0.4598,3,cyt_nuc_ratio_sensor
+B6,1,DMSO,0.453275,3,cyt_nuc_ratio_sensor
+B6,2,DMSO,0.465035,3,cyt_nuc_ratio_sensor
+B6,3,DMSO,0.442025,3,cyt_nuc_ratio_sensor
+B6,4,DMSO,0.45955,3,cyt_nuc_ratio_sensor
+B6,5,DMSO,0.513545,3,cyt_nuc_ratio_sensor
+B6,6,DMSO,0.449265,3,cyt_nuc_ratio_sensor
+B6,7,DMSO,0.50271,3,cyt_nuc_ratio_sensor
+B6,8,DMSO,0.442155,3,cyt_nuc_ratio_sensor
+B6,9,DMSO,0.439165,3,cyt_nuc_ratio_sensor
+B7,0,DMSO,0.47626,3,cyt_nuc_ratio_sensor
+B7,1,DMSO,0.519505,3,cyt_nuc_ratio_sensor
+B7,2,DMSO,0.48355,3,cyt_nuc_ratio_sensor
+B7,3,DMSO,0.487545,3,cyt_nuc_ratio_sensor
+B7,4,DMSO,0.50374,3,cyt_nuc_ratio_sensor
+B7,5,DMSO,0.47809,3,cyt_nuc_ratio_sensor
+B7,6,DMSO,0.51281,3,cyt_nuc_ratio_sensor
+B7,7,DMSO,0.45826,3,cyt_nuc_ratio_sensor
+B7,8,DMSO,0.5305,3,cyt_nuc_ratio_sensor
+B7,9,DMSO,0.45678,3,cyt_nuc_ratio_sensor
+B8,0,DMSO,0.51424,3,cyt_nuc_ratio_sensor
+B8,1,DMSO,0.494215,3,cyt_nuc_ratio_sensor
+B8,2,DMSO,0.48575,3,cyt_nuc_ratio_sensor
+B8,3,DMSO,0.45868,3,cyt_nuc_ratio_sensor
+B8,4,DMSO,0.48256,3,cyt_nuc_ratio_sensor
+B8,5,DMSO,0.47436,3,cyt_nuc_ratio_sensor
+B8,6,DMSO,0.49507,3,cyt_nuc_ratio_sensor
+B8,7,DMSO,0.48732,3,cyt_nuc_ratio_sensor
+B8,8,DMSO,0.455315,3,cyt_nuc_ratio_sensor
+B8,9,DMSO,0.47872000000000003,3,cyt_nuc_ratio_sensor
+C5,0,100 nM TPA,0.5089,3,cyt_nuc_ratio_sensor
+C5,1,100 nM TPA,0.52121,3,cyt_nuc_ratio_sensor
+C5,2,100 nM TPA,0.53316,3,cyt_nuc_ratio_sensor
+C5,3,100 nM TPA,0.5456300000000001,3,cyt_nuc_ratio_sensor
+C5,4,100 nM TPA,0.5265299999999999,3,cyt_nuc_ratio_sensor
+C5,5,100 nM TPA,0.53313,3,cyt_nuc_ratio_sensor
+C5,6,100 nM TPA,0.52707,3,cyt_nuc_ratio_sensor
+C5,7,100 nM TPA,0.5264599999999999,3,cyt_nuc_ratio_sensor
+C5,8,100 nM TPA,0.47949,3,cyt_nuc_ratio_sensor
+C5,9,100 nM TPA,0.5350250000000001,3,cyt_nuc_ratio_sensor
+C6,0,100 nM TPA,0.5483,3,cyt_nuc_ratio_sensor
+C6,1,100 nM TPA,0.51709,3,cyt_nuc_ratio_sensor
+C6,2,100 nM TPA,0.53609,3,cyt_nuc_ratio_sensor
+C6,3,100 nM TPA,0.5371349999999999,3,cyt_nuc_ratio_sensor
+C6,4,100 nM TPA,0.555285,3,cyt_nuc_ratio_sensor
+C6,5,100 nM TPA,0.52606,3,cyt_nuc_ratio_sensor
+C6,6,100 nM TPA,0.550855,3,cyt_nuc_ratio_sensor
+C6,7,100 nM TPA,0.52127,3,cyt_nuc_ratio_sensor
+C6,8,100 nM TPA,0.55314,3,cyt_nuc_ratio_sensor
+C6,9,100 nM TPA,0.53876,3,cyt_nuc_ratio_sensor
+C7,0,100 nM TPA,0.51031,3,cyt_nuc_ratio_sensor
+C7,1,100 nM TPA,0.53805,3,cyt_nuc_ratio_sensor
+C7,2,100 nM TPA,0.52938,3,cyt_nuc_ratio_sensor
+C7,3,100 nM TPA,0.5356650000000001,3,cyt_nuc_ratio_sensor
+C7,4,100 nM TPA,0.53651,3,cyt_nuc_ratio_sensor
+C7,5,100 nM TPA,0.53749,3,cyt_nuc_ratio_sensor
+C7,6,100 nM TPA,0.49649999999999994,3,cyt_nuc_ratio_sensor
+C7,7,100 nM TPA,0.512785,3,cyt_nuc_ratio_sensor
+C7,8,100 nM TPA,0.54463,3,cyt_nuc_ratio_sensor
+C7,9,100 nM TPA,0.468595,3,cyt_nuc_ratio_sensor
+C8,0,100 nM TPA,0.538435,3,cyt_nuc_ratio_sensor
+C8,1,100 nM TPA,0.54453,3,cyt_nuc_ratio_sensor
+C8,2,100 nM TPA,0.5182899999999999,3,cyt_nuc_ratio_sensor
+C8,3,100 nM TPA,0.51579,3,cyt_nuc_ratio_sensor
+C8,4,100 nM TPA,0.53473,3,cyt_nuc_ratio_sensor
+C8,5,100 nM TPA,0.563815,3,cyt_nuc_ratio_sensor
+C8,6,100 nM TPA,0.52556,3,cyt_nuc_ratio_sensor
+C8,7,100 nM TPA,0.54948,3,cyt_nuc_ratio_sensor
+C8,8,100 nM TPA,0.55079,3,cyt_nuc_ratio_sensor
+C8,9,100 nM TPA,0.542165,3,cyt_nuc_ratio_sensor
+D5,0,20 nM Binimetinib,0.4131,3,cyt_nuc_ratio_sensor
+D5,1,20 nM Binimetinib,0.48713,3,cyt_nuc_ratio_sensor
+D5,2,20 nM Binimetinib,0.439665,3,cyt_nuc_ratio_sensor
+D5,3,20 nM Binimetinib,0.43592,3,cyt_nuc_ratio_sensor
+D5,4,20 nM Binimetinib,0.455445,3,cyt_nuc_ratio_sensor
+D5,5,20 nM Binimetinib,0.425475,3,cyt_nuc_ratio_sensor
+D5,6,20 nM Binimetinib,0.462565,3,cyt_nuc_ratio_sensor
+D5,7,20 nM Binimetinib,0.438565,3,cyt_nuc_ratio_sensor
+D5,8,20 nM Binimetinib,0.447485,3,cyt_nuc_ratio_sensor
+D5,9,20 nM Binimetinib,0.45526500000000003,3,cyt_nuc_ratio_sensor
+D6,0,20 nM Binimetinib,0.46152499999999996,3,cyt_nuc_ratio_sensor
+D6,1,20 nM Binimetinib,0.45322,3,cyt_nuc_ratio_sensor
+D6,2,20 nM Binimetinib,0.452615,3,cyt_nuc_ratio_sensor
+D6,3,20 nM Binimetinib,0.45677,3,cyt_nuc_ratio_sensor
+D6,4,20 nM Binimetinib,0.45425,3,cyt_nuc_ratio_sensor
+D6,5,20 nM Binimetinib,0.4671,3,cyt_nuc_ratio_sensor
+D6,6,20 nM Binimetinib,0.4435,3,cyt_nuc_ratio_sensor
+D6,7,20 nM Binimetinib,0.43705,3,cyt_nuc_ratio_sensor
+D6,8,20 nM Binimetinib,0.44771,3,cyt_nuc_ratio_sensor
+D6,9,20 nM Binimetinib,0.45733,3,cyt_nuc_ratio_sensor
+D7,0,20 nM Binimetinib,0.43440999999999996,3,cyt_nuc_ratio_sensor
+D7,1,20 nM Binimetinib,0.428545,3,cyt_nuc_ratio_sensor
+D7,2,20 nM Binimetinib,0.43503,3,cyt_nuc_ratio_sensor
+D7,3,20 nM Binimetinib,0.46962000000000004,3,cyt_nuc_ratio_sensor
+D7,4,20 nM Binimetinib,0.460685,3,cyt_nuc_ratio_sensor
+D7,5,20 nM Binimetinib,0.42349,3,cyt_nuc_ratio_sensor
+D7,6,20 nM Binimetinib,0.46230000000000004,3,cyt_nuc_ratio_sensor
+D7,7,20 nM Binimetinib,0.45291,3,cyt_nuc_ratio_sensor
+D7,8,20 nM Binimetinib,0.42685,3,cyt_nuc_ratio_sensor
+D7,9,20 nM Binimetinib,0.47168,3,cyt_nuc_ratio_sensor
+D8,0,20 nM Binimetinib,0.484595,3,cyt_nuc_ratio_sensor
+D8,1,20 nM Binimetinib,0.46647,3,cyt_nuc_ratio_sensor
+D8,2,20 nM Binimetinib,0.427465,3,cyt_nuc_ratio_sensor
+D8,3,20 nM Binimetinib,0.4421,3,cyt_nuc_ratio_sensor
+D8,4,20 nM Binimetinib,0.478995,3,cyt_nuc_ratio_sensor
+D8,5,20 nM Binimetinib,0.46221,3,cyt_nuc_ratio_sensor
+D8,6,20 nM Binimetinib,0.4628,3,cyt_nuc_ratio_sensor
+D8,7,20 nM Binimetinib,0.43582,3,cyt_nuc_ratio_sensor
+D8,8,20 nM Binimetinib,0.47806000000000004,3,cyt_nuc_ratio_sensor
+D8,9,20 nM Binimetinib,0.47941,3,cyt_nuc_ratio_sensor
+E5,0,60 nM Binimetinib,0.453395,3,cyt_nuc_ratio_sensor
+E5,1,60 nM Binimetinib,0.4565,3,cyt_nuc_ratio_sensor
+E5,2,60 nM Binimetinib,0.43158,3,cyt_nuc_ratio_sensor
+E5,3,60 nM Binimetinib,0.40110500000000004,3,cyt_nuc_ratio_sensor
+E5,4,60 nM Binimetinib,0.40333,3,cyt_nuc_ratio_sensor
+E5,5,60 nM Binimetinib,0.4365,3,cyt_nuc_ratio_sensor
+E5,6,60 nM Binimetinib,0.429715,3,cyt_nuc_ratio_sensor
+E5,7,60 nM Binimetinib,0.42621,3,cyt_nuc_ratio_sensor
+E5,8,60 nM Binimetinib,0.411025,3,cyt_nuc_ratio_sensor
+E5,9,60 nM Binimetinib,0.44122,3,cyt_nuc_ratio_sensor
+E6,0,60 nM Binimetinib,0.43879,3,cyt_nuc_ratio_sensor
+E6,1,60 nM Binimetinib,0.38963000000000003,3,cyt_nuc_ratio_sensor
+E6,2,60 nM Binimetinib,0.41643,3,cyt_nuc_ratio_sensor
+E6,3,60 nM Binimetinib,0.43420000000000003,3,cyt_nuc_ratio_sensor
+E6,4,60 nM Binimetinib,0.41681,3,cyt_nuc_ratio_sensor
+E6,5,60 nM Binimetinib,0.41366,3,cyt_nuc_ratio_sensor
+E6,6,60 nM Binimetinib,0.454455,3,cyt_nuc_ratio_sensor
+E6,7,60 nM Binimetinib,0.41363,3,cyt_nuc_ratio_sensor
+E6,8,60 nM Binimetinib,0.41549,3,cyt_nuc_ratio_sensor
+E6,9,60 nM Binimetinib,0.39875,3,cyt_nuc_ratio_sensor
+E7,0,60 nM Binimetinib,0.41534,3,cyt_nuc_ratio_sensor
+E7,1,60 nM Binimetinib,0.41317000000000004,3,cyt_nuc_ratio_sensor
+E7,2,60 nM Binimetinib,0.442795,3,cyt_nuc_ratio_sensor
+E7,3,60 nM Binimetinib,0.44347,3,cyt_nuc_ratio_sensor
+E7,4,60 nM Binimetinib,0.40339,3,cyt_nuc_ratio_sensor
+E7,5,60 nM Binimetinib,0.425735,3,cyt_nuc_ratio_sensor
+E7,6,60 nM Binimetinib,0.44171,3,cyt_nuc_ratio_sensor
+E7,7,60 nM Binimetinib,0.45666,3,cyt_nuc_ratio_sensor
+E7,8,60 nM Binimetinib,0.39531499999999997,3,cyt_nuc_ratio_sensor
+E7,9,60 nM Binimetinib,0.40093,3,cyt_nuc_ratio_sensor
+E8,0,60 nM Binimetinib,0.410725,3,cyt_nuc_ratio_sensor
+E8,1,60 nM Binimetinib,0.44809,3,cyt_nuc_ratio_sensor
+E8,2,60 nM Binimetinib,0.42705,3,cyt_nuc_ratio_sensor
+E8,3,60 nM Binimetinib,0.40357,3,cyt_nuc_ratio_sensor
+E8,4,60 nM Binimetinib,0.39715,3,cyt_nuc_ratio_sensor
+E8,5,60 nM Binimetinib,0.43925,3,cyt_nuc_ratio_sensor
+E8,6,60 nM Binimetinib,0.4369,3,cyt_nuc_ratio_sensor
+E8,7,60 nM Binimetinib,0.387,3,cyt_nuc_ratio_sensor
+E8,8,60 nM Binimetinib,0.41596,3,cyt_nuc_ratio_sensor
+E8,9,60 nM Binimetinib,0.39398,3,cyt_nuc_ratio_sensor
+F5,0,200 nM Binimetinib,0.38998,3,cyt_nuc_ratio_sensor
+F5,1,200 nM Binimetinib,0.36889,3,cyt_nuc_ratio_sensor
+F5,2,200 nM Binimetinib,0.36863,3,cyt_nuc_ratio_sensor
+F5,3,200 nM Binimetinib,0.40472,3,cyt_nuc_ratio_sensor
+F5,4,200 nM Binimetinib,0.40625,3,cyt_nuc_ratio_sensor
+F5,5,200 nM Binimetinib,0.406115,3,cyt_nuc_ratio_sensor
+F5,6,200 nM Binimetinib,0.36866,3,cyt_nuc_ratio_sensor
+F5,7,200 nM Binimetinib,0.37964,3,cyt_nuc_ratio_sensor
+F5,8,200 nM Binimetinib,0.47364,3,cyt_nuc_ratio_sensor
+F5,9,200 nM Binimetinib,0.373375,3,cyt_nuc_ratio_sensor
+F6,0,200 nM Binimetinib,0.379135,3,cyt_nuc_ratio_sensor
+F6,1,200 nM Binimetinib,0.366645,3,cyt_nuc_ratio_sensor
+F6,2,200 nM Binimetinib,0.39462,3,cyt_nuc_ratio_sensor
+F6,3,200 nM Binimetinib,0.39597,3,cyt_nuc_ratio_sensor
+F6,4,200 nM Binimetinib,0.38993,3,cyt_nuc_ratio_sensor
+F6,5,200 nM Binimetinib,0.368185,3,cyt_nuc_ratio_sensor
+F6,6,200 nM Binimetinib,0.39894,3,cyt_nuc_ratio_sensor
+F6,7,200 nM Binimetinib,0.3852,3,cyt_nuc_ratio_sensor
+F6,8,200 nM Binimetinib,0.37523,3,cyt_nuc_ratio_sensor
+F6,9,200 nM Binimetinib,0.34673,3,cyt_nuc_ratio_sensor
+F7,0,200 nM Binimetinib,0.38531,3,cyt_nuc_ratio_sensor
+F7,1,200 nM Binimetinib,0.40601,3,cyt_nuc_ratio_sensor
+F7,2,200 nM Binimetinib,0.38408,3,cyt_nuc_ratio_sensor
+F7,3,200 nM Binimetinib,0.370755,3,cyt_nuc_ratio_sensor
+F7,4,200 nM Binimetinib,0.415905,3,cyt_nuc_ratio_sensor
+F7,5,200 nM Binimetinib,0.38822,3,cyt_nuc_ratio_sensor
+F7,6,200 nM Binimetinib,0.39765,3,cyt_nuc_ratio_sensor
+F7,7,200 nM Binimetinib,0.377715,3,cyt_nuc_ratio_sensor
+F7,8,200 nM Binimetinib,0.368145,3,cyt_nuc_ratio_sensor
+F7,9,200 nM Binimetinib,0.39585000000000004,3,cyt_nuc_ratio_sensor
+F8,0,200 nM Binimetinib,0.39705,3,cyt_nuc_ratio_sensor
+F8,1,200 nM Binimetinib,0.382365,3,cyt_nuc_ratio_sensor
+F8,2,200 nM Binimetinib,0.40843,3,cyt_nuc_ratio_sensor
+F8,3,200 nM Binimetinib,0.381255,3,cyt_nuc_ratio_sensor
+F8,4,200 nM Binimetinib,0.42462,3,cyt_nuc_ratio_sensor
+F8,5,200 nM Binimetinib,0.40116,3,cyt_nuc_ratio_sensor
+F8,6,200 nM Binimetinib,0.39789,3,cyt_nuc_ratio_sensor
+F8,7,200 nM Binimetinib,0.40604,3,cyt_nuc_ratio_sensor
+F8,8,200 nM Binimetinib,0.386285,3,cyt_nuc_ratio_sensor
+F8,9,200 nM Binimetinib,0.40739,3,cyt_nuc_ratio_sensor
+G5,0,3.5 µM Binimetinib,0.34273,3,cyt_nuc_ratio_sensor
+G5,1,3.5 µM Binimetinib,0.327535,3,cyt_nuc_ratio_sensor
+G5,2,3.5 µM Binimetinib,0.35037,3,cyt_nuc_ratio_sensor
+G5,3,3.5 µM Binimetinib,0.3713,3,cyt_nuc_ratio_sensor
+G5,4,3.5 µM Binimetinib,0.36367,3,cyt_nuc_ratio_sensor
+G5,5,3.5 µM Binimetinib,0.35236,3,cyt_nuc_ratio_sensor
+G5,6,3.5 µM Binimetinib,0.36381,3,cyt_nuc_ratio_sensor
+G5,7,3.5 µM Binimetinib,0.39035,3,cyt_nuc_ratio_sensor
+G5,8,3.5 µM Binimetinib,0.40434,3,cyt_nuc_ratio_sensor
+G5,9,3.5 µM Binimetinib,0.34732,3,cyt_nuc_ratio_sensor
+G6,0,3.5 µM Binimetinib,0.33906000000000003,3,cyt_nuc_ratio_sensor
+G6,1,3.5 µM Binimetinib,0.33764,3,cyt_nuc_ratio_sensor
+G6,2,3.5 µM Binimetinib,0.36537,3,cyt_nuc_ratio_sensor
+G6,3,3.5 µM Binimetinib,0.36476,3,cyt_nuc_ratio_sensor
+G6,4,3.5 µM Binimetinib,0.35544,3,cyt_nuc_ratio_sensor
+G6,5,3.5 µM Binimetinib,0.356515,3,cyt_nuc_ratio_sensor
+G6,6,3.5 µM Binimetinib,0.35081,3,cyt_nuc_ratio_sensor
+G6,7,3.5 µM Binimetinib,0.36353,3,cyt_nuc_ratio_sensor
+G6,8,3.5 µM Binimetinib,0.34564,3,cyt_nuc_ratio_sensor
+G6,9,3.5 µM Binimetinib,0.35021,3,cyt_nuc_ratio_sensor
+G7,0,3.5 µM Binimetinib,0.36086,3,cyt_nuc_ratio_sensor
+G7,1,3.5 µM Binimetinib,0.33591,3,cyt_nuc_ratio_sensor
+G7,2,3.5 µM Binimetinib,0.39321,3,cyt_nuc_ratio_sensor
+G7,3,3.5 µM Binimetinib,0.37298,3,cyt_nuc_ratio_sensor
+G7,4,3.5 µM Binimetinib,0.33623,3,cyt_nuc_ratio_sensor
+G7,5,3.5 µM Binimetinib,0.30783,3,cyt_nuc_ratio_sensor
+G7,6,3.5 µM Binimetinib,0.374745,3,cyt_nuc_ratio_sensor
+G7,7,3.5 µM Binimetinib,0.37316,3,cyt_nuc_ratio_sensor
+G7,8,3.5 µM Binimetinib,0.3398,3,cyt_nuc_ratio_sensor
+G7,9,3.5 µM Binimetinib,0.339515,3,cyt_nuc_ratio_sensor
+G8,0,3.5 µM Binimetinib,0.35656,3,cyt_nuc_ratio_sensor
+G8,1,3.5 µM Binimetinib,0.34189,3,cyt_nuc_ratio_sensor
+G8,2,3.5 µM Binimetinib,0.36186,3,cyt_nuc_ratio_sensor
+G8,3,3.5 µM Binimetinib,0.36721,3,cyt_nuc_ratio_sensor
+G8,4,3.5 µM Binimetinib,0.3504,3,cyt_nuc_ratio_sensor
+G8,5,3.5 µM Binimetinib,0.37645,3,cyt_nuc_ratio_sensor
+G8,6,3.5 µM Binimetinib,0.35946,3,cyt_nuc_ratio_sensor
+G8,7,3.5 µM Binimetinib,0.34425,3,cyt_nuc_ratio_sensor
+G8,8,3.5 µM Binimetinib,0.37004499999999996,3,cyt_nuc_ratio_sensor
+G8,9,3.5 µM Binimetinib,0.35024999999999995,3,cyt_nuc_ratio_sensor
+B5,0,DMSO,0.5189699999999999,4,cyt_nuc_ratio_sensor
+B5,1,DMSO,0.53325,4,cyt_nuc_ratio_sensor
+B5,2,DMSO,0.49707500000000004,4,cyt_nuc_ratio_sensor
+B5,3,DMSO,0.51206,4,cyt_nuc_ratio_sensor
+B5,4,DMSO,0.52473,4,cyt_nuc_ratio_sensor
+B5,5,DMSO,0.5339700000000001,4,cyt_nuc_ratio_sensor
+B5,6,DMSO,0.4722,4,cyt_nuc_ratio_sensor
+B5,7,DMSO,0.449045,4,cyt_nuc_ratio_sensor
+B5,8,DMSO,0.51883,4,cyt_nuc_ratio_sensor
+B5,9,DMSO,0.520155,4,cyt_nuc_ratio_sensor
+B6,0,DMSO,0.534965,4,cyt_nuc_ratio_sensor
+B6,1,DMSO,0.43615499999999996,4,cyt_nuc_ratio_sensor
+B6,2,DMSO,0.52301,4,cyt_nuc_ratio_sensor
+B6,3,DMSO,0.55101,4,cyt_nuc_ratio_sensor
+B6,4,DMSO,0.48678,4,cyt_nuc_ratio_sensor
+B6,5,DMSO,0.4911,4,cyt_nuc_ratio_sensor
+B6,6,DMSO,0.5019899999999999,4,cyt_nuc_ratio_sensor
+B6,7,DMSO,0.51139,4,cyt_nuc_ratio_sensor
+B6,8,DMSO,0.52685,4,cyt_nuc_ratio_sensor
+B6,9,DMSO,0.50056,4,cyt_nuc_ratio_sensor
+B7,0,DMSO,0.52114,4,cyt_nuc_ratio_sensor
+B7,1,DMSO,0.50246,4,cyt_nuc_ratio_sensor
+B7,2,DMSO,0.52985,4,cyt_nuc_ratio_sensor
+B7,3,DMSO,0.53653,4,cyt_nuc_ratio_sensor
+B7,4,DMSO,0.5285,4,cyt_nuc_ratio_sensor
+B7,5,DMSO,0.4735,4,cyt_nuc_ratio_sensor
+B7,6,DMSO,0.48178,4,cyt_nuc_ratio_sensor
+B7,7,DMSO,0.489785,4,cyt_nuc_ratio_sensor
+B7,8,DMSO,0.53554,4,cyt_nuc_ratio_sensor
+B7,9,DMSO,0.4931,4,cyt_nuc_ratio_sensor
+B8,0,DMSO,0.4775,4,cyt_nuc_ratio_sensor
+B8,1,DMSO,0.48632,4,cyt_nuc_ratio_sensor
+B8,3,DMSO,0.5104850000000001,4,cyt_nuc_ratio_sensor
+B8,4,DMSO,0.46587,4,cyt_nuc_ratio_sensor
+B8,5,DMSO,0.48424500000000004,4,cyt_nuc_ratio_sensor
+B8,6,DMSO,0.48102999999999996,4,cyt_nuc_ratio_sensor
+B8,7,DMSO,0.45546,4,cyt_nuc_ratio_sensor
+B8,8,DMSO,0.47731,4,cyt_nuc_ratio_sensor
+B8,9,DMSO,0.505,4,cyt_nuc_ratio_sensor
+C5,0,100 nM TPA,0.58267,4,cyt_nuc_ratio_sensor
+C5,1,100 nM TPA,0.488305,4,cyt_nuc_ratio_sensor
+C5,2,100 nM TPA,0.55063,4,cyt_nuc_ratio_sensor
+C5,3,100 nM TPA,0.537175,4,cyt_nuc_ratio_sensor
+C5,4,100 nM TPA,0.54314,4,cyt_nuc_ratio_sensor
+C5,5,100 nM TPA,0.53824,4,cyt_nuc_ratio_sensor
+C5,6,100 nM TPA,0.558045,4,cyt_nuc_ratio_sensor
+C5,7,100 nM TPA,0.5199,4,cyt_nuc_ratio_sensor
+C5,8,100 nM TPA,0.5631200000000001,4,cyt_nuc_ratio_sensor
+C5,9,100 nM TPA,0.5424899999999999,4,cyt_nuc_ratio_sensor
+C6,0,100 nM TPA,0.56402,4,cyt_nuc_ratio_sensor
+C6,1,100 nM TPA,0.56055,4,cyt_nuc_ratio_sensor
+C6,2,100 nM TPA,0.5798099999999999,4,cyt_nuc_ratio_sensor
+C6,3,100 nM TPA,0.551065,4,cyt_nuc_ratio_sensor
+C6,4,100 nM TPA,0.53718,4,cyt_nuc_ratio_sensor
+C6,5,100 nM TPA,0.56657,4,cyt_nuc_ratio_sensor
+C6,6,100 nM TPA,0.565475,4,cyt_nuc_ratio_sensor
+C6,7,100 nM TPA,0.572145,4,cyt_nuc_ratio_sensor
+C6,8,100 nM TPA,0.55228,4,cyt_nuc_ratio_sensor
+C6,9,100 nM TPA,0.52514,4,cyt_nuc_ratio_sensor
+C7,0,100 nM TPA,0.55915,4,cyt_nuc_ratio_sensor
+C7,1,100 nM TPA,0.525485,4,cyt_nuc_ratio_sensor
+C7,2,100 nM TPA,0.5612999999999999,4,cyt_nuc_ratio_sensor
+C7,3,100 nM TPA,0.54141,4,cyt_nuc_ratio_sensor
+C7,4,100 nM TPA,0.567195,4,cyt_nuc_ratio_sensor
+C7,5,100 nM TPA,0.52887,4,cyt_nuc_ratio_sensor
+C7,6,100 nM TPA,0.499795,4,cyt_nuc_ratio_sensor
+C7,7,100 nM TPA,0.5382,4,cyt_nuc_ratio_sensor
+C7,8,100 nM TPA,0.538835,4,cyt_nuc_ratio_sensor
+C8,0,100 nM TPA,0.53154,4,cyt_nuc_ratio_sensor
+C8,1,100 nM TPA,0.54917,4,cyt_nuc_ratio_sensor
+C8,2,100 nM TPA,0.55721,4,cyt_nuc_ratio_sensor
+C8,4,100 nM TPA,0.50071,4,cyt_nuc_ratio_sensor
+C8,5,100 nM TPA,0.539555,4,cyt_nuc_ratio_sensor
+C8,6,100 nM TPA,0.54089,4,cyt_nuc_ratio_sensor
+C8,7,100 nM TPA,0.517775,4,cyt_nuc_ratio_sensor
+C8,8,100 nM TPA,0.5547599999999999,4,cyt_nuc_ratio_sensor
+C8,9,100 nM TPA,0.5409,4,cyt_nuc_ratio_sensor
+D5,0,20 nM Binimetinib,0.49272,4,cyt_nuc_ratio_sensor
+D5,1,20 nM Binimetinib,0.474125,4,cyt_nuc_ratio_sensor
+D5,2,20 nM Binimetinib,0.44602,4,cyt_nuc_ratio_sensor
+D5,3,20 nM Binimetinib,0.44472,4,cyt_nuc_ratio_sensor
+D5,4,20 nM Binimetinib,0.46555,4,cyt_nuc_ratio_sensor
+D5,5,20 nM Binimetinib,0.45320499999999997,4,cyt_nuc_ratio_sensor
+D5,6,20 nM Binimetinib,0.46174,4,cyt_nuc_ratio_sensor
+D5,7,20 nM Binimetinib,0.44712,4,cyt_nuc_ratio_sensor
+D5,8,20 nM Binimetinib,0.50097,4,cyt_nuc_ratio_sensor
+D5,9,20 nM Binimetinib,0.46005,4,cyt_nuc_ratio_sensor
+D6,0,20 nM Binimetinib,0.489505,4,cyt_nuc_ratio_sensor
+D6,1,20 nM Binimetinib,0.47480500000000003,4,cyt_nuc_ratio_sensor
+D6,2,20 nM Binimetinib,0.50085,4,cyt_nuc_ratio_sensor
+D6,3,20 nM Binimetinib,0.48146500000000003,4,cyt_nuc_ratio_sensor
+D6,4,20 nM Binimetinib,0.46026,4,cyt_nuc_ratio_sensor
+D6,5,20 nM Binimetinib,0.469735,4,cyt_nuc_ratio_sensor
+D6,6,20 nM Binimetinib,0.452635,4,cyt_nuc_ratio_sensor
+D6,7,20 nM Binimetinib,0.48816,4,cyt_nuc_ratio_sensor
+D6,9,20 nM Binimetinib,0.47416,4,cyt_nuc_ratio_sensor
+D7,0,20 nM Binimetinib,0.48028,4,cyt_nuc_ratio_sensor
+D7,1,20 nM Binimetinib,0.44801,4,cyt_nuc_ratio_sensor
+D7,2,20 nM Binimetinib,0.39924,4,cyt_nuc_ratio_sensor
+D7,3,20 nM Binimetinib,0.496625,4,cyt_nuc_ratio_sensor
+D7,4,20 nM Binimetinib,0.52343,4,cyt_nuc_ratio_sensor
+D7,5,20 nM Binimetinib,0.38306,4,cyt_nuc_ratio_sensor
+D7,6,20 nM Binimetinib,0.46982,4,cyt_nuc_ratio_sensor
+D7,7,20 nM Binimetinib,0.47646,4,cyt_nuc_ratio_sensor
+D7,8,20 nM Binimetinib,0.46092,4,cyt_nuc_ratio_sensor
+D7,9,20 nM Binimetinib,0.49223,4,cyt_nuc_ratio_sensor
+D8,0,20 nM Binimetinib,0.45714,4,cyt_nuc_ratio_sensor
+D8,1,20 nM Binimetinib,0.513605,4,cyt_nuc_ratio_sensor
+D8,2,20 nM Binimetinib,0.43936,4,cyt_nuc_ratio_sensor
+D8,3,20 nM Binimetinib,0.49026,4,cyt_nuc_ratio_sensor
+D8,4,20 nM Binimetinib,0.45045999999999997,4,cyt_nuc_ratio_sensor
+D8,5,20 nM Binimetinib,0.49112,4,cyt_nuc_ratio_sensor
+D8,6,20 nM Binimetinib,0.49533499999999997,4,cyt_nuc_ratio_sensor
+D8,7,20 nM Binimetinib,0.46153,4,cyt_nuc_ratio_sensor
+D8,8,20 nM Binimetinib,0.41179,4,cyt_nuc_ratio_sensor
+D8,9,20 nM Binimetinib,0.46549,4,cyt_nuc_ratio_sensor
+E5,1,60 nM Binimetinib,0.41406,4,cyt_nuc_ratio_sensor
+E5,2,60 nM Binimetinib,0.40763499999999997,4,cyt_nuc_ratio_sensor
+E5,3,60 nM Binimetinib,0.45017,4,cyt_nuc_ratio_sensor
+E5,4,60 nM Binimetinib,0.44703,4,cyt_nuc_ratio_sensor
+E5,5,60 nM Binimetinib,0.42785,4,cyt_nuc_ratio_sensor
+E5,6,60 nM Binimetinib,0.39436,4,cyt_nuc_ratio_sensor
+E5,7,60 nM Binimetinib,0.426655,4,cyt_nuc_ratio_sensor
+E5,8,60 nM Binimetinib,0.42186,4,cyt_nuc_ratio_sensor
+E5,9,60 nM Binimetinib,0.40474,4,cyt_nuc_ratio_sensor
+E6,0,60 nM Binimetinib,0.40959,4,cyt_nuc_ratio_sensor
+E6,1,60 nM Binimetinib,0.47214,4,cyt_nuc_ratio_sensor
+E6,2,60 nM Binimetinib,0.45783,4,cyt_nuc_ratio_sensor
+E6,3,60 nM Binimetinib,0.41741,4,cyt_nuc_ratio_sensor
+E6,5,60 nM Binimetinib,0.41717,4,cyt_nuc_ratio_sensor
+E6,6,60 nM Binimetinib,0.45817,4,cyt_nuc_ratio_sensor
+E6,7,60 nM Binimetinib,0.43327,4,cyt_nuc_ratio_sensor
+E6,8,60 nM Binimetinib,0.37415,4,cyt_nuc_ratio_sensor
+E6,9,60 nM Binimetinib,0.422175,4,cyt_nuc_ratio_sensor
+E7,0,60 nM Binimetinib,0.440585,4,cyt_nuc_ratio_sensor
+E7,1,60 nM Binimetinib,0.44225499999999995,4,cyt_nuc_ratio_sensor
+E7,2,60 nM Binimetinib,0.44156,4,cyt_nuc_ratio_sensor
+E7,3,60 nM Binimetinib,0.42955,4,cyt_nuc_ratio_sensor
+E7,4,60 nM Binimetinib,0.39322,4,cyt_nuc_ratio_sensor
+E7,6,60 nM Binimetinib,0.45392,4,cyt_nuc_ratio_sensor
+E7,7,60 nM Binimetinib,0.41259,4,cyt_nuc_ratio_sensor
+E7,8,60 nM Binimetinib,0.506265,4,cyt_nuc_ratio_sensor
+E7,9,60 nM Binimetinib,0.44233,4,cyt_nuc_ratio_sensor
+E8,0,60 nM Binimetinib,0.457405,4,cyt_nuc_ratio_sensor
+E8,1,60 nM Binimetinib,0.42442,4,cyt_nuc_ratio_sensor
+E8,2,60 nM Binimetinib,0.44755999999999996,4,cyt_nuc_ratio_sensor
+E8,3,60 nM Binimetinib,0.422895,4,cyt_nuc_ratio_sensor
+E8,4,60 nM Binimetinib,0.416255,4,cyt_nuc_ratio_sensor
+E8,5,60 nM Binimetinib,0.471885,4,cyt_nuc_ratio_sensor
+E8,6,60 nM Binimetinib,0.46025,4,cyt_nuc_ratio_sensor
+E8,7,60 nM Binimetinib,0.48051,4,cyt_nuc_ratio_sensor
+E8,8,60 nM Binimetinib,0.43783,4,cyt_nuc_ratio_sensor
+E8,9,60 nM Binimetinib,0.43776,4,cyt_nuc_ratio_sensor
+F5,0,200 nM Binimetinib,0.416465,4,cyt_nuc_ratio_sensor
+F5,1,200 nM Binimetinib,0.371305,4,cyt_nuc_ratio_sensor
+F5,2,200 nM Binimetinib,0.40785,4,cyt_nuc_ratio_sensor
+F5,3,200 nM Binimetinib,0.45360500000000004,4,cyt_nuc_ratio_sensor
+F5,4,200 nM Binimetinib,0.39148,4,cyt_nuc_ratio_sensor
+F5,5,200 nM Binimetinib,0.429305,4,cyt_nuc_ratio_sensor
+F5,6,200 nM Binimetinib,0.36749,4,cyt_nuc_ratio_sensor
+F5,7,200 nM Binimetinib,0.39616,4,cyt_nuc_ratio_sensor
+F5,8,200 nM Binimetinib,0.40125,4,cyt_nuc_ratio_sensor
+F5,9,200 nM Binimetinib,0.36143000000000003,4,cyt_nuc_ratio_sensor
+F6,0,200 nM Binimetinib,0.38025,4,cyt_nuc_ratio_sensor
+F6,1,200 nM Binimetinib,0.390125,4,cyt_nuc_ratio_sensor
+F6,2,200 nM Binimetinib,0.40094,4,cyt_nuc_ratio_sensor
+F6,3,200 nM Binimetinib,0.38310500000000003,4,cyt_nuc_ratio_sensor
+F6,4,200 nM Binimetinib,0.36845,4,cyt_nuc_ratio_sensor
+F6,5,200 nM Binimetinib,0.35187500000000005,4,cyt_nuc_ratio_sensor
+F6,6,200 nM Binimetinib,0.39016,4,cyt_nuc_ratio_sensor
+F6,7,200 nM Binimetinib,0.37596,4,cyt_nuc_ratio_sensor
+F6,8,200 nM Binimetinib,0.431395,4,cyt_nuc_ratio_sensor
+F6,9,200 nM Binimetinib,0.41018,4,cyt_nuc_ratio_sensor
+F7,0,200 nM Binimetinib,0.42471499999999995,4,cyt_nuc_ratio_sensor
+F7,1,200 nM Binimetinib,0.45630000000000004,4,cyt_nuc_ratio_sensor
+F7,2,200 nM Binimetinib,0.38680000000000003,4,cyt_nuc_ratio_sensor
+F7,3,200 nM Binimetinib,0.44625,4,cyt_nuc_ratio_sensor
+F7,4,200 nM Binimetinib,0.37573999999999996,4,cyt_nuc_ratio_sensor
+F7,5,200 nM Binimetinib,0.37716,4,cyt_nuc_ratio_sensor
+F7,6,200 nM Binimetinib,0.377905,4,cyt_nuc_ratio_sensor
+F7,7,200 nM Binimetinib,0.44286499999999995,4,cyt_nuc_ratio_sensor
+F7,8,200 nM Binimetinib,0.40563000000000005,4,cyt_nuc_ratio_sensor
+F7,9,200 nM Binimetinib,0.448645,4,cyt_nuc_ratio_sensor
+F8,0,200 nM Binimetinib,0.42757,4,cyt_nuc_ratio_sensor
+F8,1,200 nM Binimetinib,0.40959,4,cyt_nuc_ratio_sensor
+F8,2,200 nM Binimetinib,0.38043,4,cyt_nuc_ratio_sensor
+F8,3,200 nM Binimetinib,0.38765,4,cyt_nuc_ratio_sensor
+F8,4,200 nM Binimetinib,0.41582,4,cyt_nuc_ratio_sensor
+F8,5,200 nM Binimetinib,0.34835,4,cyt_nuc_ratio_sensor
+F8,6,200 nM Binimetinib,0.42878,4,cyt_nuc_ratio_sensor
+F8,8,200 nM Binimetinib,0.45881,4,cyt_nuc_ratio_sensor
+F8,9,200 nM Binimetinib,0.382975,4,cyt_nuc_ratio_sensor
+G5,0,3.5 µM Binimetinib,0.36879,4,cyt_nuc_ratio_sensor
+G5,1,3.5 µM Binimetinib,0.37409,4,cyt_nuc_ratio_sensor
+G5,2,3.5 µM Binimetinib,0.37716,4,cyt_nuc_ratio_sensor
+G5,3,3.5 µM Binimetinib,0.379355,4,cyt_nuc_ratio_sensor
+G5,4,3.5 µM Binimetinib,0.39113,4,cyt_nuc_ratio_sensor
+G5,5,3.5 µM Binimetinib,0.402235,4,cyt_nuc_ratio_sensor
+G5,6,3.5 µM Binimetinib,0.377355,4,cyt_nuc_ratio_sensor
+G5,7,3.5 µM Binimetinib,0.38324,4,cyt_nuc_ratio_sensor
+G5,8,3.5 µM Binimetinib,0.354645,4,cyt_nuc_ratio_sensor
+G5,9,3.5 µM Binimetinib,0.36524,4,cyt_nuc_ratio_sensor
+G6,0,3.5 µM Binimetinib,0.41071,4,cyt_nuc_ratio_sensor
+G6,1,3.5 µM Binimetinib,0.36079,4,cyt_nuc_ratio_sensor
+G6,2,3.5 µM Binimetinib,0.344325,4,cyt_nuc_ratio_sensor
+G6,3,3.5 µM Binimetinib,0.37172,4,cyt_nuc_ratio_sensor
+G6,4,3.5 µM Binimetinib,0.367585,4,cyt_nuc_ratio_sensor
+G6,5,3.5 µM Binimetinib,0.390415,4,cyt_nuc_ratio_sensor
+G6,6,3.5 µM Binimetinib,0.38571,4,cyt_nuc_ratio_sensor
+G6,7,3.5 µM Binimetinib,0.369705,4,cyt_nuc_ratio_sensor
+G6,8,3.5 µM Binimetinib,0.38294,4,cyt_nuc_ratio_sensor
+G6,9,3.5 µM Binimetinib,0.39453499999999997,4,cyt_nuc_ratio_sensor
+G7,0,3.5 µM Binimetinib,0.40023,4,cyt_nuc_ratio_sensor
+G7,1,3.5 µM Binimetinib,0.37998,4,cyt_nuc_ratio_sensor
+G7,2,3.5 µM Binimetinib,0.39035,4,cyt_nuc_ratio_sensor
+G7,3,3.5 µM Binimetinib,0.3613,4,cyt_nuc_ratio_sensor
+G7,4,3.5 µM Binimetinib,0.365305,4,cyt_nuc_ratio_sensor
+G7,5,3.5 µM Binimetinib,0.41395,4,cyt_nuc_ratio_sensor
+G7,6,3.5 µM Binimetinib,0.329925,4,cyt_nuc_ratio_sensor
+G7,7,3.5 µM Binimetinib,0.37183,4,cyt_nuc_ratio_sensor
+G7,8,3.5 µM Binimetinib,0.38442,4,cyt_nuc_ratio_sensor
+G7,9,3.5 µM Binimetinib,0.35405,4,cyt_nuc_ratio_sensor
+G8,0,3.5 µM Binimetinib,0.37848,4,cyt_nuc_ratio_sensor
+G8,1,3.5 µM Binimetinib,0.396755,4,cyt_nuc_ratio_sensor
+G8,2,3.5 µM Binimetinib,0.393,4,cyt_nuc_ratio_sensor
+G8,3,3.5 µM Binimetinib,0.364135,4,cyt_nuc_ratio_sensor
+G8,4,3.5 µM Binimetinib,0.36902999999999997,4,cyt_nuc_ratio_sensor
+G8,5,3.5 µM Binimetinib,0.37888,4,cyt_nuc_ratio_sensor
+G8,6,3.5 µM Binimetinib,0.356275,4,cyt_nuc_ratio_sensor
+G8,7,3.5 µM Binimetinib,0.362795,4,cyt_nuc_ratio_sensor
+G8,8,3.5 µM Binimetinib,0.33749,4,cyt_nuc_ratio_sensor
