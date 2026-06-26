@@ -804,7 +804,7 @@ summary(m_fixed)</code></pre>
 ## Condition200 nM Binimetinib             -0.076989   0.004749 94.106554 -16.211
 ## Condition100 nM TPA +ve control          0.047466   0.004752 94.318481   9.989
 ## Condition3.5 µM Binimetinib -ve control -0.091295   0.004749 94.106554 -19.224
-## Site4                                  0.015063   0.003887 94.977741   3.876
+## SiteICR                                  0.015063   0.003887 94.977741   3.876
 ## Site2                                  0.009950   0.003873 93.688165   2.569
 ## Site1                                 -0.020130   0.003911 96.519571  -5.147
 ##                                         Pr(&gt;|t|)    
@@ -814,7 +814,7 @@ summary(m_fixed)</code></pre>
 ## Condition200 nM Binimetinib              &lt; 2e-16 ***
 ## Condition100 nM TPA +ve control          &lt; 2e-16 ***
 ## Condition3.5 µM Binimetinib -ve control  &lt; 2e-16 ***
-## Site4                                 0.000196 ***
+## SiteICR                                 0.000196 ***
 ## Site2                                 0.011777 *  
 ## Site1                                 1.39e-06 ***
 ## ---
@@ -829,7 +829,7 @@ summary(m_fixed)</code></pre>
 ## Cndtn200nMB -0.577  0.494  0.498                                   
 ## C100nMTPA+c -0.577  0.494  0.498  0.500                            
 ## Cndt35µMB-c -0.577  0.494  0.498  0.500  0.500                     
-## Site4     -0.470  0.000  0.002  0.000  0.001  0.000              
+## SiteICR     -0.470  0.000  0.002  0.000  0.001  0.000              
 ## Site2     -0.471  0.000  0.000  0.000  0.000  0.000  0.498       
 ## Site1     -0.471  0.019  0.004  0.000  0.000  0.000  0.493  0.495</code></pre>
 <pre class="r"><code class="hljs">icc(m_fixed)</code></pre>
@@ -842,7 +842,7 @@ tidy(m_fixed, effects = <span class="hljs-string">"fixed"</span>) %&gt;% filter(
 <pre><code class="hljs">## # A tibble: 3 × 7
 ##   effect term    estimate std.error statistic    df    p.value
 ##   &lt;chr&gt;  &lt;chr&gt;      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;
-## 1 fixed  Site4  0.0151    0.00389      3.88  95.0 0.000196  
+## 1 fixed  SiteICR  0.0151    0.00389      3.88  95.0 0.000196  
 ## 2 fixed  Site2  0.00995   0.00387      2.57  93.7 0.0118    
 ## 3 fixed  Site1 -0.0201    0.00391     -5.15  96.5 0.00000139</code></pre>
 <pre class="r"><code class="hljs">qqnorm(resid(m_fixed))
@@ -894,14 +894,14 @@ summary(m_full)</code></pre>
 ## Condition200 nM Binimetinib                     -0.089216   0.006512 69.436067
 ## Condition100 nM TPA +ve control                  0.044900   0.006512 69.436067
 ## Condition3.5 µM Binimetinib -ve control         -0.121512   0.006512 69.436067
-## Site4                                          0.017389   0.006543 70.693144
+## SiteICR                                          0.017389   0.006543 70.693144
 ## Site2                                         -0.004263   0.006512 69.436067
 ## Site1                                         -0.042057   0.006512 69.436067
-## Condition20 nM Binimetinib:Site4              -0.002209   0.009254 70.693144
-## Condition60 nM Binimetinib:Site4              -0.006927   0.009300 72.115346
-## Condition200 nM Binimetinib:Site4             -0.005048   0.009254 70.693144
-## Condition100 nM TPA +ve control:Site4         -0.003250   0.009277 71.375244
-## Condition3.5 µM Binimetinib -ve control:Site4  0.003888   0.009254 70.693144
+## Condition20 nM Binimetinib:SiteICR              -0.002209   0.009254 70.693144
+## Condition60 nM Binimetinib:SiteICR              -0.006927   0.009300 72.115346
+## Condition200 nM Binimetinib:SiteICR             -0.005048   0.009254 70.693144
+## Condition100 nM TPA +ve control:SiteICR         -0.003250   0.009277 71.375244
+## Condition3.5 µM Binimetinib -ve control:SiteICR  0.003888   0.009254 70.693144
 ## Condition20 nM Binimetinib:Site2               0.002526   0.009210 69.436067
 ## Condition60 nM Binimetinib:Site2               0.012739   0.009210 69.436067
 ## Condition200 nM Binimetinib:Site2              0.016648   0.009210 69.436067
@@ -919,14 +919,14 @@ summary(m_full)</code></pre>
 ## Condition200 nM Binimetinib                     -13.699  &lt; 2e-16 ***
 ## Condition100 nM TPA +ve control                   6.894 2.01e-09 ***
 ## Condition3.5 µM Binimetinib -ve control         -18.658  &lt; 2e-16 ***
-## Site4                                           2.657 0.009729 ** 
+## SiteICR                                           2.657 0.009729 ** 
 ## Site2                                          -0.655 0.514897    
 ## Site1                                          -6.458 1.23e-08 ***
-## Condition20 nM Binimetinib:Site4               -0.239 0.812057    
-## Condition60 nM Binimetinib:Site4               -0.745 0.458792    
-## Condition200 nM Binimetinib:Site4              -0.546 0.587120    
-## Condition100 nM TPA +ve control:Site4          -0.350 0.727100    
-## Condition3.5 µM Binimetinib -ve control:Site4   0.420 0.675676    
+## Condition20 nM Binimetinib:SiteICR               -0.239 0.812057    
+## Condition60 nM Binimetinib:SiteICR               -0.745 0.458792    
+## Condition200 nM Binimetinib:SiteICR              -0.546 0.587120    
+## Condition100 nM TPA +ve control:SiteICR          -0.350 0.727100    
+## Condition3.5 µM Binimetinib -ve control:SiteICR   0.420 0.675676    
 ## Condition20 nM Binimetinib:Site2                0.274 0.784699    
 ## Condition60 nM Binimetinib:Site2                1.383 0.171040    
 ## Condition200 nM Binimetinib:Site2               1.808 0.075001 .  
@@ -966,21 +966,21 @@ summary(m_full)</code></pre>
 ##                                        0.044900  
 ##         Condition3.5 µM Binimetinib -ve control  
 ##                                       -0.121512  
-##                                         Site4  
+##                                         SiteICR  
 ##                                        0.017389  
 ##                                         Site2  
 ##                                       -0.004263  
 ##                                         Site1  
 ##                                       -0.042057  
-##              Condition20 nM Binimetinib:Site4  
+##              Condition20 nM Binimetinib:SiteICR  
 ##                                       -0.002209  
-##              Condition60 nM Binimetinib:Site4  
+##              Condition60 nM Binimetinib:SiteICR  
 ##                                       -0.006927  
-##             Condition200 nM Binimetinib:Site4  
+##             Condition200 nM Binimetinib:SiteICR  
 ##                                       -0.005048  
-##         Condition100 nM TPA +ve control:Site4  
+##         Condition100 nM TPA +ve control:SiteICR  
 ##                                       -0.003250  
-## Condition3.5 µM Binimetinib -ve control:Site4  
+## Condition3.5 µM Binimetinib -ve control:SiteICR  
 ##                                        0.003888  
 ##              Condition20 nM Binimetinib:Site2  
 ##                                        0.002526  
