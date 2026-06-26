@@ -8,7 +8,7 @@ This file contains all measurements from the Cross-Partner assay combined into o
 ## How to read the key columns
 
 Site
-The partner lab that produced the data (IRB, IGC, Crick, ICR).
+The partner site that produced the data anonymised to: 1, 2, 3, 4
 
 Condition
 The treatment applied in that well. This is the main field to use for biological comparisons.

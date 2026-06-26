@@ -9,19 +9,19 @@ The raw dOPM image data are not included in this repository. These CSV files are
 Each site folder contains two processed CSV files:
 
 ```text
-Crick/
+1/
     main_quantification.csv
     spatial_quantification.csv
 
-ICR/
+2/
     main_quantification.csv
     spatial_quantification.csv
 
-IGC/
+3/
     main_quantification.csv
     spatial_quantification.csv
 
-IRB/
+4/
     main_quantification.csv
     spatial_quantification.csv
 ```

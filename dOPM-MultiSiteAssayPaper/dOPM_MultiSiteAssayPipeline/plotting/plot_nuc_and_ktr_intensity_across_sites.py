@@ -7,7 +7,7 @@ from matplotlib.lines import Line2D
 # --- File paths and condition mappings ---
 files_with_mappings = [
     {
-        "file_path": '.data/IRB/main_quantification.csv',
+        "file_path": '.data/1/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO', 'C': '100 nM TPA', 'D': '20 nM Binimetinib',
             'E': '60 nM Binimetinib', 'F': '200 nM Binimetinib', 'G': '3.5 µM Binimetinib'
@@ -15,7 +15,7 @@ files_with_mappings = [
         "label_anon": "1"
     },
     {
-        "file_path": '.data/IGC/main_quantification.csv',
+        "file_path": '.data/2/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO', 'G': '100 nM TPA', 'F': '20 nM Binimetinib',
             'E': '60 nM Binimetinib', 'D': '200 nM Binimetinib', 'C': '3.5 µM Binimetinib'
@@ -23,7 +23,7 @@ files_with_mappings = [
         "label_anon": "2"
     },
     {
-        "file_path": '.data/Crick/main_quantification.csv',
+        "file_path": '.data/3/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO', 'C': '100 nM TPA', 'D': '20 nM Binimetinib',
             'E': '60 nM Binimetinib', 'F': '200 nM Binimetinib', 'G': '3.5 µM Binimetinib'
@@ -31,7 +31,7 @@ files_with_mappings = [
         "label_anon": "3"
     },
     {
-        "file_path": '.data/ICR/main_quantification.csv',
+        "file_path": '.data/4/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO', 'C': '100 nM TPA', 'D': '20 nM Binimetinib',
             'E': '60 nM Binimetinib', 'F': '200 nM Binimetinib', 'G': '3.5 µM Binimetinib'

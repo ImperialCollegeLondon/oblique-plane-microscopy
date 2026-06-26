@@ -7,7 +7,7 @@ import re
 
 files_with_mappings = [
     {
-        "file_path": '.data/IRB/main_quantification.csv',
+        "file_path": '.data/1/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO',
             'C': '100 nM TPA +ve control',
@@ -19,7 +19,7 @@ files_with_mappings = [
         "Site": "IRB"
     },
     {
-        "file_path": '.data/IGC/main_quantification.csv',
+        "file_path": '.data/2/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO',
             'G': '100 nM TPA +ve control',
@@ -31,7 +31,7 @@ files_with_mappings = [
         "Site": "IGC"
     },
     {
-        "file_path": '.data/Crick/main_quantification.csv',
+        "file_path": '.data/3/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO',
             'C': '100 nM TPA +ve control',
@@ -43,7 +43,7 @@ files_with_mappings = [
         "Site": "Crick"
     },
     {
-        "file_path": '.data/ICR/main_quantification.csv',
+        "file_path": '.data/4/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO',
             'C': '100 nM TPA +ve control',

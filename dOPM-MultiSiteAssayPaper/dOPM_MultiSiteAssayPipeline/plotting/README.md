@@ -33,14 +33,7 @@ These files are derived from the processed site-level CSVs in `../data/`.
 
 ## Site labels
 
-The plotting scripts use anonymised site labels:
-
-| Label | Site |
-|---:|---|
-| 1 | IRB |
-| 2 | IGC |
-| 3 | Crick |
-| 4 | ICR |
+Anonymous 1,2,3,4
 
 Site 3 is used as the reference site in the downstream statistical analysis.
 

@@ -31,7 +31,7 @@ from matplotlib.patches import Patch
 # ---------------------------------------------------------------------
 files_with_mappings = [
     {
-        "file_path": r'./data/IRB/main_quantification.csv',
+        "file_path": r'./data/1/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO',
             'C': '100 nM TPA',
@@ -43,7 +43,7 @@ files_with_mappings = [
         "label_anon": "1"
     },
     {
-        "file_path": r'./data/IGC/main_quantification.csv',
+        "file_path": r'./data/2/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO',
             'G': '100 nM TPA',
@@ -55,7 +55,7 @@ files_with_mappings = [
         "label_anon": "2"
     },
     {
-        "file_path": r'./data/Crick/main_quantification.csv',
+        "file_path": r'./data/3/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO',
             'C': '100 nM TPA',
@@ -67,7 +67,7 @@ files_with_mappings = [
         "label_anon": "3"
     },
     {
-        "file_path": r'./data/ICR/main_quantification.csv',
+        "file_path": r'./data/4/main_quantification.csv',
         "row_to_condition_mapping": {
             'B': 'DMSO',
             'C': '100 nM TPA',

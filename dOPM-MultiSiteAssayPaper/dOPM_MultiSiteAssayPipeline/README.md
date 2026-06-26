@@ -73,10 +73,10 @@ These are intended as lightweight guides rather than full user manuals.
 The `data/` folder contains processed CSV outputs from the image-analysis pipeline, organised by site:
 
 ```text
-data/Crick/
-data/ICR/
-data/IGC/
-data/IRB/
+data/1/
+data/2/
+data/3/
+data/4/
 ```
 
 Each site folder contains:
