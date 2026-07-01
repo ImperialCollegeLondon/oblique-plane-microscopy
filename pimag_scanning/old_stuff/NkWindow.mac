@@ -1,0 +1,85 @@
+// NkWindow.mac
+// declares functions exported by NkWindow.dll
+// author: Kees van der Oord <oord@nikonbv.nl>
+// version: 5.42.03.53
+// example: ~nis\Examples\NkWindowDemo.mac
+
+import("NkWindow.dll");
+
+////////////
+// NkWindow 
+
+import long NkWindow_GetMainWindow     (char * szMainWindowTitle, char * szMainWindowClass, long * phMainWindow);
+import long NkWindow_GetMainWindowNext (char * szMainWindowTitle, char * szMainWindowClass, long * phNextMainWindow);
+import long NkWindow_FindWindow        (long hParentWnd, char * szChildWindowClass, char * szChildWindowTitle, long * phChildWindow);
+import long NkWindow_FindWindowDeep    (long hParentWnd, char * szChildTitleOrClass, long * phChildWindow);
+import long NkWindow_FindWindowByText  (long hParentWnd, char * szChildTitle, long * phChildWindow);
+import long NkWindow_GetWindow         (long hWnd, long uGetWindowCmd, long * phWnd);
+import long NkWindow_GetParent         (long hWnd, long * phParentWnd);
+import long NkWindow_GetWindowLong     (long hWnd, long uGetWindowLongIndex);
+import long NkWindow_SetWindowLong     (long hWnd, long uSetWindowLongIndex, long uSetWindowLongValue);
+import long NkWindow_DestroyWindow     (long hWnd);
+import long NkWindow_ShowWindow        (long hWnd, long nShowCmd);
+import long NkWindow_SendMessage       (long hWnd, long uMsg, long wParam, long lParam);
+import long NkWindow_SendMessageString (long hWnd, long uMsg, long wParam, char * szlParam);
+import long NkWindow_SendMessagePointer(long hWnd, long uMsg, long wParam, byte * pblParam);
+import long NkWindow_PostMessage       (long hWnd, long uMsg, long wParam, long lParam);
+import long NkWindow_GetWindowRect     (long hWnd, long * left, long * top, long * right, long * bottom);
+import long NkWindow_SetWindowRect     (long hWnd, long left, long top, long right, long bottom);
+import long NkWindow_SetWindowPos      (long hWnd, long left, long top);
+import long NkWindow_GetWindowPos      (long hWnd, long * left, long * top);
+import long NkWindow_GetWindowSize     (long hWnd, long *width, long * height);
+import long NkWindow_SetWindowSize     (long hWnd, long width, long height);
+import long NkWindow_SetForeground     (long hWnd);
+import long NkWindow_SendMouseInput    (long x, long y, long uSendMouseInputData, long uSendMouseInputFlags);
+import long NkWindow_SendKeyboardInput (long uVirtualKey, long uScanCode, long uSendKeyboardInputFlags);
+
+///////////
+// NkDialog
+
+#define NKD_AUTONEXTROW 1 
+
+import long NkDialog_Create                (long hDialogParent, char * title, long * phDlg);
+import long NkDialog_AddRemoveOptions      (long hDlg, dword dwDialogOptionsToAdd, dword dwDialogOptionsToRemove);
+import long NkDialog_AddRow                (long hDlg);
+import long NkDialog_AddColumn             (long hDlg);
+import long NkDialog_AddControl            (long hDlg, char * szControlID, char * szControlClass, long uControlStyle, long lControlLeftOrHeight, long lControlWidth, long * phCtrl);
+import long NkDialog_AddControlEx          (long hDlg, char * szControlID, char * szControlClass, long uControlStyle, long uControlStyleEx, long lControlLeftOrHeight, long lControlWidth, long * phCtrl);
+import long NkDialog_AddMacroMessageHandler(long hDlg, char * szControlID, long uMsg, long wParam, long wParamMask, long lParam, long lParamMask, char * macro);
+import long NkDialog_FindControl           (long hDlg, char * szControlID, long * phCtrl);
+
+///////////
+// NkLsEdit
+
+#define NKSLE_REVERSE_FLAG      1
+#define NKSLE_LOGARITHMIC_FLAG  2
+#define NKSLE_NODRAGNOTIFY_FLAG 4
+#define NKSLE_NOAUTOSTEP_FLAG   8
+#define NKSLE_NODRAG_FLAG      16
+
+import long   NkLsEdit_SetRange (long hCtrl, double lower, double higher, double increment);
+import long   NkLsEdit_SetScale (long hCtrl, double scale, double offset);
+import long   NkLsEdit_SetFormat(long hCtrl, char * format);
+import long   NkLsEdit_SetUnit  (long hCtrl, char * unit);
+import long   NkLsEdit_SetValue (long hCtrl, double value);
+import double NkLsEdit_GetValue (long hCtrl);
+import dword  NkLsEdit_SetFlags (long hCtrl, dword uNkLsEditFlags);
+import dword  NkLsEdit_GetFlags (long hCtrl);
+
+import dword  NkPMTGainEdit_IsNkPMTGainEditWindow(long hCtrl);
+import dword  NkPMTGainEdit_SetCalibration(long hCtrl, double a, double b);
+import dword  NkPMTGainEdit_AttachToHighVoltage(long hCtrl, long hWndHighVoltage);
+
+import dword  NkProgressBar_SetCompletionText(long hWnd, long hEdit, char * szCompletionText);
+
+//////////////////
+// file functions
+
+import long NkFile_Write(char * file, char * text, int bConvertToAscii);
+import long NkFile_Append(char * file, char * text, int bConvertToAscii);
+import long NkFile_FindFirstFile(int64 * find_data, char * pattern, char * szFoundFile);
+import long NkFile_FindNextFile(int64 * find_data, char * szFoundFile);
+import long NkFile_FindClose(int64 * find_data);
+
+import long NkFile_GetOpenFileName(char * folder, char * name, long name_size, char * filter, long filter_index, char* title, long ofn_flags);
+import long NkFile_BrowseForFolder(char * folder, char * title);

@@ -1,0 +1,7 @@
+// Legacy wavetable test example
+WTR 1 2 0
+WAV 1 X LIN 2000 0.2 0 2000 0 200
+WSL 1 1
+WGC 1 10
+WOS 1 0.6846
+WGO 1 1

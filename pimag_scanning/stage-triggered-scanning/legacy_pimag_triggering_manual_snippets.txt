@@ -1,0 +1,220 @@
+pimag_scanning
+
+basic recipe 
+-----------
+
+- open and close com port
+- make a wavetable on pikromove
+- activate the wavetable in nis elements
+- set the camera into external trigger mode
+
+make two wavetables:
+
+- NIS units to real units of pimag +/- 10V mapped to +/- 1.078 mm mapped to +/-2.5mm
+
+- view one ramp
+  - amplitude - 100 um (refocus space, so 231.91 real space)
+  - offset - 1008.7 (refocus space, so 2339.28 real space)
+    - 2339.28 - (231.91/2) = 2223.325 low of scan
+	- 2339.28 + (231.91/2) = 2455.235 top of scan
+  
+- view two ramp
+  - amplitude - 100 um (refocus space, so 231.91 real space)
+  - offset - 295.2 um (refocus space, so 684.6 real space)
+    - 684.6 - (231.91/2)  = 568.645 low of scan
+	- 684.6 + (231.91/2)  = 800.555  top of scan
+	
+- trigger distance for 1um in refocus space
+  - 2.319
+	
+rough idea of comport commands to setup the triggering for 100um scan with 1um steps
+
+****code for preping triggering for view 1
+
+CTO<DI><param>
+
+CTO 2 1 0.02319
+CTO 2 2 1
+CTO 2 3 0
+CTO 2 3 0
+CTO 2 7 1
+CTO 2 8 2223.325
+CTO 2 9 2455.235
+
+****code for preping triggering for view 2
+
+CTO 2 1 0.02319
+CTO 2 2 1
+CTO 2 3 0
+CTO 2 3 0
+CTO 2 7 1
+CTO 2 8 568.645
+CTO 2 9 800.555
+
+****code for preping wavetable (need a little delay)
+
+The wave tables of the C-413 have a total of 4096 points
+- therefor do a run over 300 microns with all the points about dOPM offsets
+
+Output Duration = Servo Cycle Time * WTR Value * Number of Points
+where
+the servo cycle time for the C-413 is given by the parameter 0x0E000200 (in seconds)
+
+Read the servo cycle time of the C-413.
+SPA? 1 0x0E000200
+The default setting for the servo cycle time of the C-413 is 200 μs
+
+Cycle time is entered in seconds i.e. 0.0002 s
+
+more servo cycles per wavelength point, longer acquisition
+
+For "LIN":
+<SegLength> <Amp> <Offset> <WaveLength> <StartPoint> <SpeedUpDown>
+
+Command: WAV 1 X LIN 1500 30 15 1500 0 370
+<WaveTableID> = 1
+<AppendWave> = X
+<WaveType> = LIN
+<SegLength> = 1500
+<Amp> = 30
+<Offset> = 15
+<WaveLength> = 1500
+<StartPoint> = 0
+<SpeedUpDown> = 370
+
+maths for context
+
+stick to 100 frames per second target
+
+we want 1 um steps in refocus space
+
+we want the stage to go 300 um with its full 4096 points and we want to have an offset added for each view and we scan in same direction*
+
+so we do LIN of 300um amplitude and do 4096 points ideally 
+
+1/rate = 5000 points per more than second (but 4096 is max), sweep across 300 um, 
+
+We therefor need to do lower rate to span entire range at 100 Hz, 100 um etc and want room to adjust this
+
+If we aim for two seconds and half base rate we then have 4096 at 400us rate so about 2000 for the scan window, lets make it 200 um total window instead of 300 um and keep the shape but trigger of different range of the linear region
+
+Command: WAV 1 X LIN 4000 0.2 0 4000 0 200
+<WaveTableID> = 1
+<AppendWave> = X
+<WaveType> = LIN
+<SegLength> = 4000
+<Amp> = 0.2
+<Offset> = 15
+<WaveLength> = 4000
+<StartPoint> = 0
+<SpeedUpDown> = 200
+
+WCL {<WaveTableID>} Deletes the wave table content.
+
+WAV <WaveTableID> <AppendWave> <WaveType> <WaveTypeParameters> Defines the waveform.
+
+WGC? [{<WaveGenID>}] Gets the number of output cycles.
+
+WOS {<WaveGenID> <Offset>} Writes the offset that is to be added to the wave generator output to the volatile memory.
+
+WTR {<WaveGenID> <WaveTableRate> <InterpolationType>} Sets the wave generator table rate (thus influencing the duration of an output cycle).
+
+"""
+WTR 1 2 0 // set rate to fastest / divided by 2 because 
+WAV 1 X LIN 2000 0.2 0 2000 0 200 //set lin curve with empirical max
+WSL 1 1 (connect wave gen with wavetable)
+WGO 1 1 (256 start at end point of last cycle for scanning )
+WGC 1 1 (Sets the number of output cycles.)
+WOS 1 0.6846 (offset for each view)
+"""
+
+Working example - 10 cycles
+WTR 1 2 0 
+WAV 1 X LIN 2000 0.2 0 2000 0 200
+WSL 1 1 
+WGC 1 10
+WOS 1 0.6846
+WGO 1 1
+
+C413 commands
+
+***********
+8.2.6 Setting Signal Polarity
+The polarity of the signal at the digital output which is used for triggering can be selected with the Polarity CTO parameter. The polarity can have the following values:
+ active high = 1 (default setting)
+ active low = 0
+ Configure the digital output line (<TrigOutID>) to be used as the trigger output:
+− Send CTO <TrigOutID> 7 P, where P indicates the polarity.
+Example:
+The signal polarity for digital output line 1 is to be set to active low.
+ Send:
+
+
+***********
+
+CTO (Set Configuration Of Trigger Output)
+Description:
+Configures the trigger output conditions for the given digital output line.
+Format:
+CTO {<TrigOutID> <CTOPam> <Value>}
+Arguments:
+<TrigOutID> is one digital output line of the controller, see below for details.
+<CTOPam> is the CTO parameter ID in decimal format, see below for the available IDs.
+<Value> is the value to which the CTO parameter is set, see below.
+Response:
+None
+Notes:
+The trigger output conditions will become active when enabled with TRO (p. 227). Do not use DIO (p. 186) on digital output lines for which the trigger output is enabled with TRO.
+The trigger output takes place independently of the selected control mode (see CMO (p. 174)).
+The CTO settings are lost when the C-413 is switched off or rebooted.
+
+9 GCS Commands
+C-413 PIMag® Controller MS224E Version: 1.2.0 181
+Output lines and trigger conditions available:
+<TrigOutID> corresponds to digital output lines 1 to 5, IDs = 1 to 5; see "I/O" (p. 303).
+<CTOPam> parameter IDs available for the C-413:
+1 = TriggerStep
+2 = Axis 
+3 = TriggerMode 
+5 = MinThreshold 
+6 = MaxThreshold 
+7 = Polarity 
+8 = StartThreshold 
+9 = StopThreshold
+
+<Value> available for the appropriate <CTOPam> ID:
+for TriggerStep: Distance
+for Axis: The identifier of the axis to be connected to the digital output line.
+for TriggerMode:
+ 0 = PositionDistance; a trigger pulse is written whenever the axis has covered the TriggerStep distance (<CTOPam> ID 1). Optionally, values for StartThreshold and StopThreshold (<CTOPam> IDs 8 and 9) can be defined to activate the trigger output for a limited position range and a certain direction of motion only (negative or positive; Note: If the motion direction is reversed before the axis position has reached the stop threshold, trigger pulses will continue to be generated). When StartThreshold and StopThreshold are set to the same value, they will not be used.
+ 2 = OnTarget; the on-target state of the selected axis is transferred to the selected digital output line (this state can also be read with the ONT? command).
+ 3 = MinMaxThreshold; when the position of the selected axis is within the band that is defined by MinThreshold and MaxThreshold (<CTOPam> IDs 5 and 6), the selected digital output line is active.
+ 6 = InMotion; the selected digital output line is active as long as the selected axis is in motion (the motion state can also be read with commands, e.g. SRG? or #5).
+for MinThreshold/MaxThreshold: Position value; used for the MinMaxThreshold trigger mode; both values must be set to form a band
+
+9 GCS Commands
+182 Version: 1.2.0 MS224E C-413 PIMag® Controller
+for Polarity: Sets the signal polarity for the digital output line 0 = Active Low 1 = Active High
+for StartThreshold/StopThreshold: Position value; can be used for the PositionDistance trigger mode; both thresholds must be set to determine the position range and the direction of motion for the trigger output
+Application examples and further details see "Digital Output Signals" (p. 97) and the lines below.
+Example 1:
+A pulse is to be generated on digital output line 1 (ID 1) whenever axis 1 has covered a distance of 0.05 μm. The following parameters must be set:
+TrigOutID = 1
+Axis = 1
+TriggerMode = 0
+TriggerStep = 0.05
+Send: CTO 1 2 1
+Send: CTO 1 3 0
+Send: CTO 1 1 0.00005
+Example 2:
+In this example, digital output line 1 is to be set from low to high when axis 2 starts to move. The following parameters must be set:
+TrigOutID = 1
+Axis = 2
+TriggerMode = 6
+Polarity = Active High
+So you have to send:
+CTO 1 2 2
+CTO 1 3 6
+CTO 1 7 1
+  
+  

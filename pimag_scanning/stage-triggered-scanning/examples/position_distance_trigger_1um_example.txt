@@ -1,0 +1,16 @@
+// Example only: C-413 position-distance trigger setup
+// Assumes controller units are mm and axis 1 is the PIMag refocus axis.
+// Trigger every 1 um during a positive scan from 0.200 mm to 0.300 mm.
+
+TRO 1 0
+DIO 1 0
+
+CTO 1 2 1
+CTO 1 3 0
+CTO 1 1 0.001
+CTO 1 7 1
+CTO 1 8 0.200
+CTO 1 9 0.300
+
+TRO 1 1
+MOV 1 0.300
